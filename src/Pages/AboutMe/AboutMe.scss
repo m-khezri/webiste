@@ -1,0 +1,80 @@
+.AboutMeContainer{
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+
+  background-image: url('../../image//aboutbg.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.imgHolder{
+  max-width: 50%;
+}
+
+.bioHolder{
+  margin: auto;
+  max-width: 50%;
+
+}
+
+.bioContainer{
+  margin-right: 20%;
+}
+
+.my-pic{
+  margin-right: 15%;
+  max-width: 50%;
+  border-radius: 50%;
+   
+}
+
+// div{
+//   border: 2px solid gray;
+// }
+
+.bio{
+  margin: 3% 10%;
+  text-align: justify;
+}
+
+.title {
+  color: #a4b0be;
+  
+}
+
+.myName{
+  color: #5352ed;
+  margin-top: 2%;
+}
+
+.resume:link, .resume:visited {
+  background-color: #70a1ff;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.resume:hover, .resume:active {
+  background-color: #1e90ff;
+}
+
+.iconsHolder{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.icon{
+  max-width: 70%;
+  opacity: 0.2;
+}
+
+.icon:hover{
+  opacity: 0.7;
+}
