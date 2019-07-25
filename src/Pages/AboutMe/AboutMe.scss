@@ -10,6 +10,12 @@
   position: relative;
 }
 
+.navbar{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .imgHolder{
   max-width: 50%;
 }
@@ -31,9 +37,6 @@
    
 }
 
-// div{
-//   border: 2px solid gray;
-// }
 
 .bio{
   margin: 3% 10%;
@@ -51,17 +54,17 @@
 }
 
 .resume:link, .resume:visited {
-  background-color: #70a1ff;
-  color: white;
-  border-radius: 10px;
-  padding: 10px 20px;
+  color:#fff;
+  padding: 5px 0px;
+  margin: 0 2%;
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  font-size: 1.2em;
 }
 
 .resume:hover, .resume:active {
-  background-color: #1e90ff;
+  color: darkblue;
 }
 
 .iconsHolder{
@@ -77,4 +80,13 @@
 
 .icon:hover{
   opacity: 0.7;
+}
+
+.linkHolder{
+  height: 5%;
+  width: 30%;
+  position: absolute;
+  top: 0;
+  right: 0;
+
 }

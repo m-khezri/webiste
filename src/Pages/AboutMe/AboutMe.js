@@ -1,5 +1,7 @@
 import React from 'react';
 import './AboutMe.scss';
+import { Link } from 'react-router-dom';
+
 import me from '../../image/me.jpg';
 import git from '../../image/git.png';
 import linkedin from '../../image/linkedin.png';
@@ -29,22 +31,21 @@ class AboutMe extends React.Component {
             </div>
             <div className="iconsHolder">
               <div className="mx-1">
-                <a href="https://github.com/m-khezri" target="_blank"> <img className="icon" src={git} alt='image'></img></a>
+                <a href="https://github.com/m-khezri"> <img className="icon" src={git} alt='image'></img></a>
               </div>
               <div className="mx-1">
-                <a href="https://www.linkedin.com/in/mohammad-khezri/" target="_blank"> <img className="icon" src={linkedin} alt='image'></img></a>
+                <a href="https://www.linkedin.com/in/mohammad-khezri/"> <img className="icon" src={linkedin} alt='image'></img></a>
               </div>
               <div className="mx-1">
                 <a href="mailto:khezri@outlook.com"><img className="icon" src={mail} alt='image'></img></a>
               </div>
             </div>
-            <div className="mt-5">
-              <a className="resume" href={resume} target="_blank">Download Resume</a>
-            </div>
           </div>
         </div>
 
-        <div className="bioHolder">
+        <div className="linkHolder mt-5 d-flex justify-content-center">
+          <a className="resume" href={resume}><i className="fas fa-file-download mr-2"></i>Download Resume</a>
+          <Link className="resume nav-link" to="/projects"><i className="fas fa-project-diagram mr-2"></i>Projects</Link>
         </div>
       </div>
     );
