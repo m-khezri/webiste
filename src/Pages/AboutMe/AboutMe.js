@@ -6,6 +6,7 @@ import me from '../../image/me.jpg';
 import git from '../../image/git.png';
 import linkedin from '../../image/linkedin.png';
 import mail from '../../image/mail.png';
+import illus from '../../image/illus.svg';
 import resume from '../../image/resume.pdf';
 
 class AboutMe extends React.Component {
@@ -42,9 +43,12 @@ class AboutMe extends React.Component {
             </div>
           </div>
         </div>
+        <div className="bioHolder">
+          <img className="illus" src={illus} alt="image"></img>
+        </div>
 
         <div className="linkHolder mt-5 d-flex justify-content-center">
-          <a className="resume" href={resume}><i className="fas fa-file-download mr-2"></i>Download Resume</a>
+          <a className="resume" href={resume}><i className="fas fa-file-download mr-2"></i>Get Resume</a>
           <Link className="resume nav-link" to="/projects"><i className="fas fa-project-diagram mr-2"></i>Projects</Link>
         </div>
       </div>
