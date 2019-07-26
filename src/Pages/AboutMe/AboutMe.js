@@ -43,7 +43,7 @@ class AboutMe extends React.Component {
             </div>
           </div>
         </div>
-        <div className="bioHolder">
+        <div className="bioHolder p-0">
           <img className="illus" src={illus} alt="image"></img>
         </div>
 
