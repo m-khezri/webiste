@@ -1,7 +1,6 @@
 import React from 'react';
 import './AboutMe.scss';
 import { Link } from 'react-router-dom';
-
 import me from '../../image/me.jpg';
 import git from '../../image/git.png';
 import linkedin from '../../image/linkedin.png';

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Projects.scss';
 import git from '../../image/git.png';
 import web from '../../image/web.png';
@@ -9,7 +10,7 @@ class Projects extends React.Component {
     return (
       <div className="project-container">
         <div className="front-end-container">
-          <div><h1 className="proj-title mt-2">Projects</h1></div>
+          <div><h2 className="proj-title mt-3">Projects</h2></div>
           <div className="projects m-4">
             <div className="project1">
               <div className="card">
@@ -143,7 +144,7 @@ class Projects extends React.Component {
                 </div>
                 <div className="card-footer">
                   <a className="mx-5" data-toggle="tooltip" title="Video Demo" href="https://www.linkedin.com/posts/mohammad-khezri_uxuidesign-uxui-nashvillejobs-activity-6531753891426557952-xJqW"> <img className="git-proj" src={web} alt=''></img></a>
-                  <a className="mx-5" data-toggle="tooltip" title="How did I do? Read more..." href="">Read more...</a>
+                  <Link className="" to="Projects/RhinoCaseStudy">Read more...</Link>
                 </div>
               </div>
             </div>
