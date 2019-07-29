@@ -1,21 +1,18 @@
 .project-container{
-  width: 100%;
-  height: 100vh;
-  margin: 0;
-  padding: 0;
   display: flex;
   flex-wrap: wrap;
+  background-color: #e8eaf6;
+  color: #455a64  ;
 }
 
 .front-end-container{
-width: 100%;
+  width: 80%;
+  margin: 0% 10%;
 height: 100vh;
-background-color: #cfd8dc;
 }
 
 .xu-container{
   height: 100vh;
-background-color: #b0bec5;
 }
 
 .projects {
@@ -23,8 +20,25 @@ background-color: #b0bec5;
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
+
 .project1,.project2,.project3,.project4 {
+  background-color: #fff;
   width: 24%;
+  height: 80vh;
+  min-width: 300px;
+  margin-top: 10px;
+  position: relative;
+}
+.project4{
+  background-color: #fff3e0;
+}
+
+.bg-proj{
+  background-color: #d1c4e9;
+}
+.bg-projux{
+  background-color: #ffb74d;
 }
 
 .rhino-pic{
@@ -41,6 +55,22 @@ background-color: #b0bec5;
 }
 
 .proj-title{
-  font-size: 2em;
+  font-size: 1.2em;
   font-family: Helvetica;
+  text-align: left;
+  padding: 20px;
 }
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left:0;
+  padding: 2%;
+}
+
+// @media screen and (max-width: 1000px) {
+//   .projects {
+// flex-wrap: wrap;
+//   }
+// }

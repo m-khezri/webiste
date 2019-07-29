@@ -16,8 +16,8 @@ class AboutMe extends React.Component {
           <img className="my-pic" src={me} alt=''></img>
           <div className="bioContainer">
             <div>
-              <h1 className="myName display-3">Mohammad Khezri</h1>
-              <h5 className="title">Front-End UX/UI Web Developer | Graphic Designer | Photographer</h5>
+              <h1 className="myName display-4">Mohammad Khezri</h1>
+              <h5 className="title">Front-End UX/UI Web Developer</h5>
             </div>
             <div>
               <p className="bio">
