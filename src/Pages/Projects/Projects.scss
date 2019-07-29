@@ -10,12 +10,28 @@
 
 .front-end-container{
 width: 50%;
-height: 100vh;
 background-color: lightgreen;
 }
 
 .xu-container{
   width: 50%;
-height: 100vh;
 background-color: lightpink;
+}
+
+.projects {
+  justify-content: space-around;
+}
+
+.git-proj{
+  max-width: 5%;
+  opacity: 0.2;
+}
+
+.git-proj:hover{
+  opacity: 0.7;
+}
+
+.proj-title{
+  font-size: 2em;
+  font-family: Helvetica;
 }
