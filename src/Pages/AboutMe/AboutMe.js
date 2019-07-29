@@ -14,7 +14,7 @@ class AboutMe extends React.Component {
     return (
       <div className="AboutMeContainer">
         <div className="imgHolder">
-          <img className="my-pic" src={me} alt='image'></img>
+          <img className="my-pic" src={me} alt=''></img>
           <div className="bioContainer">
             <div>
               <h1 className="myName display-3">Mohammad Khezri</h1>
@@ -32,19 +32,19 @@ class AboutMe extends React.Component {
             </div>
             <div className="iconsHolder">
               <div className="mx-1">
-                <a href="https://github.com/m-khezri"> <img className="icon" src={git} alt='image'></img></a>
+                <a href="https://github.com/m-khezri"> <img className="icon" src={git} alt=''></img></a>
               </div>
               <div className="mx-1">
-                <a href="https://www.linkedin.com/in/mohammad-khezri/"> <img className="icon" src={linkedin} alt='image'></img></a>
+                <a href="https://www.linkedin.com/in/mohammad-khezri/"> <img className="icon" src={linkedin} alt=''></img></a>
               </div>
               <div className="mx-1">
-                <a href="mailto:khezri@outlook.com"><img className="icon" src={mail} alt='image'></img></a>
+                <a href="mailto:khezri@outlook.com"><img className="icon" src={mail} alt=''></img></a>
               </div>
             </div>
           </div>
         </div>
         <div className="bioHolder p-0">
-          <img className="illus" src={illus} alt="image"></img>
+          <img className="illus" src={illus} alt=""></img>
         </div>
 
         <div className="linkHolder mt-5 d-flex justify-content-center">
