@@ -9,6 +9,9 @@
   background-size: cover;
   position: relative;
 }
+.imgHolder{
+  padding-top: 5%;
+}
 
 .navbar{
   position: absolute;
@@ -32,7 +35,8 @@
 .my-pic{
   margin-right: 15%;
   max-width: 50%;
-  border-radius: 50%;
+  // border-radius: 50%;
+  border-bottom: 10px solid black;
    
 }
 

@@ -69,6 +69,19 @@ height: 100vh;
   padding: 2%;
 }
 
+.readMore:link{
+  background: linear-gradient(45deg,#f50057,#d500f9   );
+  padding: 10px;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: 0.3s ease-in;
+}
+
+.readMore:hover{
+ -webkit-box-shadow: 0 10px 10px -6px #4a148c ;
+  -moz-box-shadow: 0 10px 10px -6px #4a148c ;
+       box-shadow: 0 10px 10px -6px #4a148c ;
+      }
 // @media screen and (max-width: 1000px) {
 //   .projects {
 // flex-wrap: wrap;
