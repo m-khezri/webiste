@@ -144,7 +144,9 @@ class Projects extends React.Component {
                   <li>Sketch / Wireframing / Prototype</li>
                   <li>Adobe XD / Photoshop / Illustrator</li>
                 </ul>
-                <Link className="" to="Projects/RhinoCaseStudy">Continue and read more about this project ...</Link>
+                <div className="text-center mt-5">
+                  <Link className="readMore text-light" to="Projects/RhinoCaseStudy">Read more about this project</Link>
+                </div>
               </div>
               <div className="footer">
                 <a className="mx-5" data-toggle="tooltip" title="Video Demo" href="https://www.linkedin.com/posts/mohammad-khezri_uxuidesign-uxui-nashvillejobs-activity-6531753891426557952-xJqW"> <img className="git-proj" src={web} alt=''></img></a>
