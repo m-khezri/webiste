@@ -2,7 +2,15 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './RhinoCaseStudy.scss';
 import intropic from '../../image/UX/intropic.jpg';
-import logo from '../../image/UX/logo.svg'
+import logo from '../../image/UX/logo.svg';
+import persona from '../../image/UX/persona.png';
+import journey from '../../image/UX/journey.png';
+import sketch from '../../image/UX/sketch.jpg';
+import wireframe from '../../image/UX/wireframe.jpg';
+import prototype from '../../image/UX/prototype.jpg';
+import shell from '../../image/UX/shell.png';
+
+
 
 class RhinoCaseStudy extends React.Component {
   render() {
@@ -27,12 +35,15 @@ class RhinoCaseStudy extends React.Component {
           <section className="MyRoleSection">
             <h5 className="display-4">My role</h5>
             <p className="mx-5">
-              In this case study, I was responsible to create a mobile application for easy payments among friends.
-              In this project, I started by a research plan and interview with people to find out how do they usually make a payment
-              in different situations, where do they usually go for fun, how do they make an agreement for payments and
-              do they prefer to pay in cash, using debit/credit cards or through mobile and web applictions.
-              In the next steps, I researched about competitors and researched each advantage and disadvantages.
-              In the next step, I created user persona, user journey and eventually, I worked on the sketching, wireframing,
+              In this case study, I was responsible to create a mobile application for
+              easy payments among friends. In this project, I started by a research
+              plan and interview with people to find out how do they usually make
+              a payment in different situations, where do they usually go for fun,
+              how do they make an agreement for payments and do they prefer to pay
+              in cash, using debit/credit cards or through mobile and web applictions.
+              In the next steps, I researched about competitors and researched each
+              advantage and disadvantages. In the next step, I created user persona,
+              user journey and eventually, I worked on the sketching, wireframing,
               prototyping and low and high-fidelity design.
             </p>
           </section>
@@ -47,6 +58,162 @@ class RhinoCaseStudy extends React.Component {
               <li><span className="display-4 text-primary">U</span><strong>sers:</strong> People who are familiar with e-payments through apps or websites</li>
             </ui>
           </section>
+
+          <section className="CompareSection text-center">
+            <h5 className="display-4">The Competitiors</h5>
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th>Services</th>
+                  <th>Advantages</th>
+                  <th>Disadvantages</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Zelle</td>
+                  <td>
+                    <ul className="text-left">
+                      <li>Person to person payment</li>
+                    </ul>
+                  </td>
+                  <td>
+                    <ul className="text-left">
+                      <li> In-Store payments</li>
+                      <li>Pay on online stores</li>
+                      <li>Web interface</li>
+                      <li>International payments</li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Venmo</td>
+                  <td>
+                    <ul className="text-left">
+                      <li>Pay on online stores</li>
+                      <li>Web interface</li>
+                      <li>International payments</li>
+                    </ul>
+                  </td>
+                  <td>
+                    <ul className="text-left">
+                      <li> In-Store payments</li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Apple Pay</td>
+                  <td>
+                    <ul className="text-left">
+                      <li>Person to person payment</li>
+                      <li> In-Store payments</li>
+                      <li>Pay on online stores</li>
+                    </ul>
+                  </td>
+                  <td>
+                    <ul className="text-left">
+                      <li>Web interface</li>
+                      <li>International payments</li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Samsung Pay</td>
+                  <td>
+                    <ul className="text-left">
+                      <li> In-Store payments</li>
+                      <li>International payments</li>
+                    </ul>
+                  </td>
+                  <td>
+                    <ul className="text-left">
+                      <li>Web interface</li>
+                      <li>Person to person payment</li>
+                      <li>Pay on online stores</li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Google Pay</td>
+                  <td>
+                    <ul className="text-left">
+                      <li> In-Store payments</li>
+                      <li>Pay on online stores</li>
+                    </ul>
+                  </td>
+                  <td>
+                    <ul className="text-left">
+                      <li>Web interface</li>
+                      <li>Person to person payment</li>
+                      <li>International payments</li>
+                    </ul>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+
+          <section className="PersonaSection">
+            <h5 className="display-4">Persona</h5>
+            <div className="mx-5">
+              <img className="introPic w-75" src={persona} alt=''></img>
+            </div>
+          </section>
+
+          <section className="JourneySection">
+            <h5 className="display-4">User Journey</h5>
+            <div className="mx-5">
+              <img className="introPic w-75" src={journey} alt=''></img>
+            </div>
+          </section>
+
+          <section className="SketchSection">
+            <h5 className="display-4">Sketch</h5>
+            <div className="mx-5">
+              <img className="introPic w-75" src={sketch} alt=''></img>
+            </div>
+          </section>
+
+          <section className="WireframingSection">
+            <h5 className="display-4">Wireframing</h5>
+            <div className="mx-5">
+              <img className="introPic w-75" src={wireframe} alt=''></img>
+            </div>
+          </section>
+
+          <section className="PrototypeSection">
+            <h5 className="display-4">Prototyping</h5>
+            <div className="mx-5">
+              <img className="introPic w-75" src={prototype} alt=''></img>
+            </div>
+          </section>
+
+          <section className="LiveDemoSection">
+            <h5 className="display-4">Test the Live Demo</h5>
+            <div className="liveContainer">
+              <iframe className="mt-3" title='livedemo' width="275" height="712" src="https://xd.adobe.com/embed/1a4fd035-4f8c-4251-4cdc-acb5ee19d833-6c7e/" frameborder="0" allowfullscreen>
+              </iframe>
+              {/* <img className="shellPic" draggable="false" src={shell} alt=''></img> */}
+            </div>
+          </section>
+        
+          <section className="LearnedSection">
+          <h5 className="display-4">What I learned</h5>
+          <p>
+            This case study was all learning for me in every step.
+            A very nice practice that made me think and research
+            then design an app from scratch.
+          </p>
+            <p>
+          In the past I thought a nice design is mostly means
+          nice UI and feeling but now I learned that a neat and
+          nice UI is worthless if you don’t understand the user needs.
+          A good design is understanding users problems accurately
+          then document the problem then come up with some solutions
+          to solve and test it.
+          </p>
+          </section>
+  
 
         </section >
       </div >
