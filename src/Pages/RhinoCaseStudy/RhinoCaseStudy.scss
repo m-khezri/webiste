@@ -24,6 +24,56 @@ padding: 5%;
 
 .ResearchPlanSection{
   background-color: #b2dfdb ;
+  padding: 5%;   
+}
+
+.CompareSection{
+  background-color: lightseagreen;
   padding: 5%;
-   
+}
+
+.PersonaSection{
+  background-color: #f1f8e9;
+  padding: 5%;
+}
+
+.JourneySection{
+  background-color: lightpink;
+  padding: 5%;
+}
+
+.SketchSection{
+  background-color: lightseagreen;
+  padding: 5%;
+}
+
+.WireframingSection{
+  background-color: #b2dfdb ;
+  padding: 5%;
+}
+
+.LiveDemoSection{
+  background-color: #000;
+  color: #fff;
+
+}
+
+.liveContainer{
+position: relative;
+margin: 0;
+padding:0;  
+}
+
+.shellPic{
+position: absolute;
+top: 53%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 300px;
+height: 648px;
+}
+
+.LearnedSection{
+  background-color: lightseagreen;
+  padding: 5%;
 }
