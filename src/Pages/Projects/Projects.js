@@ -15,7 +15,7 @@ class Projects extends React.Component {
             <Link className="proj-link nav-link" to="/"><i className="fas fa-home mr-2"></i>Home</Link>
           </div>
 
-          <div className="projects m-4">
+          <div className="projects">
             <div className="project1 shadow-sm">
               <div className="bg-proj">
                 <h6 className="p-2">Rhino splits</h6>
@@ -144,12 +144,9 @@ class Projects extends React.Component {
                   <li>Sketch / Wireframing / Prototype</li>
                   <li>Adobe XD / Photoshop / Illustrator</li>
                 </ul>
-                <div className="text-center mt-5">
+                <div className="text-center my-5">
                   <Link className="readMore text-light" to="Projects/RhinoCaseStudy">Read more about this project</Link>
                 </div>
-              </div>
-              <div className="footer">
-                <a className="mx-5" data-toggle="tooltip" title="Video Demo" href="https://www.linkedin.com/posts/mohammad-khezri_uxuidesign-uxui-nashvillejobs-activity-6531753891426557952-xJqW"> <img className="git-proj" src={web} alt=''></img></a>
               </div>
             </div>
           </div >
