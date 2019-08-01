@@ -11,6 +11,10 @@
   padding: 5%;
 }
 
+.LearnedSection{
+  color:#fff;
+}
+
 .PersonaSection{
   background-color: #fdd835;
   padding: 5%;
@@ -38,11 +42,11 @@ margin: 0;
 padding:0;  
 }
 
-.demo{
-  position: absolute;
-  top: -9999em;
-  visibility: hidden;
-}
+// .demo{
+//   position: absolute;
+//   top: -9999em;
+//   visibility: hidden;
+// }
 
 
 .shellPic{
@@ -93,6 +97,10 @@ margin: 0;
     flex-direction: column;
   }
 
+  .LearnedSection{
+    color:#fff;
+    padding: 0 5%;
+  }
 
   .ResearchPlanSection{
     padding: 1%;

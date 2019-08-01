@@ -218,14 +218,14 @@ class RhinoCaseStudy extends React.Component {
           <section className="LiveDemoSection">
             <h5 className="display-4 pt-5">Test the Live Demo</h5>
             <div className="liveContainer">
-              <iframe className="demo mt-3" title='livedemo' width="325" height="762" src="https://xd.adobe.com/embed/1a4fd035-4f8c-4251-4cdc-acb5ee19d833-6c7e/" frameborder="0" allowfullscreen>
+              <iframe className="demo mt-3" title='livedemo' width="300" height="737" src="https://xd.adobe.com/embed/1a4fd035-4f8c-4251-4cdc-acb5ee19d833-6c7e/" frameborder="0" allowfullscreen>
               </iframe>
               {/* <img className="shellPic" draggable="false" src={shell} alt=''></img> */}
             </div>
           </section>
 
-          <section className="LearnedSection text-light text-justify">
-            <h5 className="display-4">What I learned</h5>
+          <section className="LearnedSection text-justify">
+            <h5 className="display-4 text-light">What I learned</h5>
             <p>
               This case study was all learning for me in every step.
               A very nice practice that made me think and research
