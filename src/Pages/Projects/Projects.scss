@@ -1,17 +1,7 @@
+
 .project-container{
-  display: flex;
-  flex-wrap: wrap;
-  background-color: #e8eaf6;
-  color: #455a64  ;
-}
-
-.front-end-container{
-  width: 80%;
-  margin: 0% 10%;
-height: 100vh;
-}
-
-.xu-container{
+  color: #455a64;
+  padding: 2% 5%;
   height: 100vh;
 }
 
@@ -23,10 +13,10 @@ height: 100vh;
 
 
 .project1,.project2,.project3,.project4 {
-  background-color: #fff;
+  background-color: #ede7f6;
   width: 24%;
-  height: 80vh;
-  min-width: 300px;
+  // height: 80vh;
+  min-width: 350px;
   margin-top: 10px;
   position: relative;
 }
@@ -35,7 +25,7 @@ height: 100vh;
 }
 
 .bg-proj{
-  background-color: #d1c4e9;
+  background-color: #b39ddb;
 }
 .bg-projux{
   background-color: #ffb74d;
@@ -64,7 +54,7 @@ height: 100vh;
 .footer{
   position: absolute;
   bottom: 0;
-  right: 0;
+  right:0;
   left:0;
   padding: 2%;
 }
@@ -82,3 +72,46 @@ height: 100vh;
   -moz-box-shadow: 0 10px 10px -6px #4a148c ;
        box-shadow: 0 10px 10px -6px #4a148c ;
       }
+
+
+@media screen and (max-width: 1024px) {
+  .front-end-container{
+    width: 100%;
+    margin: 0%;
+  }
+
+  .project-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    // background-color: #e8eaf6;
+    color: #455a64;
+  }
+
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  
+  .project1,.project2,.project3,.project4 {
+    background-color: #ede7f6;
+    width: 40%;
+    height: auto;
+    margin: 3%;
+  }
+
+  .bg-proj{
+    background-color: #b39ddb;
+  }
+  
+.footer{
+  bottom: 0;
+  right: 0;
+  left:0;
+  padding: 2%;
+}
+
+}
