@@ -34,139 +34,145 @@ class RhinoCaseStudy extends React.Component {
           </section>
 
           <section className="MyRoleSection d-flex flex-wrap justify-content-between">
-            <div className="w-50">
+            <div className="sm-view">
               <h5 className="display-4 text-danger mb-5">My role</h5>
-              <p className="mx-5 text-justify">
-                In this case study, I was responsible to create a mobile application for
-                easy payments among friends. In this project, I started by a research
-                plan and interview with people to find out how do they usually make
-                a payment in different situations, where do they usually go for fun,
-                how do they make an agreement for payments and do they prefer to pay
-                in cash, using debit/credit cards or through mobile and web applictions.
-                In the next steps, I researched about competitors and researched each
-                advantage and disadvantages. In the next step, I created user persona,
-                user journey and eventually, I worked on the sketching, wireframing,
-                prototyping and low and high-fidelity design.
+              <div className="bullets">
+                <p className=" text-justify">
+                  In this case study, I was responsible to create a mobile application for
+                  easy payments among friends. In this project, I started by a research
+                  plan and interview with people to find out how do they usually make
+                  a payment in different situations, where do they usually go for fun,
+                  how do they make an agreement for payments and do they prefer to pay
+                  in cash, using debit/credit cards or through mobile and web applictions.
+                  In the next steps, I researched about competitors and researched each
+                  advantage and disadvantages. In the next step, I created user persona,
+                  user journey and eventually, I worked on the sketching, wireframing,
+                  prototyping and low and high-fidelity design.
             </p>
+              </div>
             </div>
             <div>
-              <img src="https://image.freepik.com/free-vector/agile-team-working-together_25147-26.jpg" alt=''></img>
+              <img className='w-100' src="https://image.freepik.com/free-vector/agile-team-working-together_25147-26.jpg" alt=''></img>
             </div>
           </section>
 
           <section className="ResearchPlanSection d-flex flex-wrap justify-content-between">
-            <div>
-              <img src="https://image.freepik.com/free-vector/people-interacting-with-charts_94753-600.jpg" alt=''></img>
+            <div className="sm-view">
+              <img className="w-100" src="https://image.freepik.com/free-vector/people-interacting-with-charts_94753-600.jpg" alt=''></img>
             </div>
             <div>
               <h5 className="display-4 text-warning">Research Plan</h5>
-              <ui className="mx-5 text-left">
-                <li><span className="display-4 text-primary">A</span><strong>ctivities:</strong> How do they pay for their activities? Credit cards? Debits? Checks or Cash?</li>
-                <li><span className="display-4 text-primary">E</span><strong>nvironment:</strong> Restaurants, Gyms, Stadiums, etc.</li>
-                <li><span className="display-4 text-primary">I</span><strong>nteraction:</strong> How do they make an agreement for payments or how do they ask for it.</li>
-                <li><span className="display-4 text-primary">O</span><strong>bjects:</strong> Using cell-phones, online payment</li>
-                <li><span className="display-4 text-primary">U</span><strong>sers:</strong> People who are familiar with e-payments through apps or websites</li>
-              </ui>
+              <div className='bullets'>
+                <ui className="list-group text-left">
+                  <li className='list-group-item'><span className="display-4 text-primary">A</span><strong>ctivities:</strong> How do they pay for their activities? Credit cards? Debits? Checks or Cash?</li>
+                  <li className='list-group-item'><span className="display-4 text-primary">E</span><strong>nvironment:</strong> Restaurants, Gyms, Stadiums, etc.</li>
+                  <li className='list-group-item'><span className="display-4 text-primary">I</span><strong>nteraction:</strong> How do they make an agreement for payments or how do they ask for it.</li>
+                  <li className='list-group-item'><span className="display-4 text-primary">O</span><strong>bjects:</strong> Using cell-phones, online payment</li>
+                  <li className='list-group-item'><span className="display-4 text-primary">U</span><strong>sers:</strong> People who are familiar with e-payments through apps or websites</li>
+                </ui>
+              </div>
             </div>
 
           </section>
 
           <section className="CompareSection d-flex flex-wrap justify-content-between">
-            <div className="w-50">
+            <div className="sm-view">
               <h5 className="display-4 text-info mb-5">The Competitiors</h5>
-              <table class="table table-bordered">
-                <thead>
-                  <tr>
-                    <th>Services</th>
-                    <th>Advantages</th>
-                    <th>Disadvantages</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Zelle</td>
-                    <td>
-                      <ul className="text-left">
-                        <li>Person to person payment</li>
-                      </ul>
-                    </td>
-                    <td>
-                      <ul className="text-left">
-                        <li> In-Store payments</li>
-                        <li>Pay on online stores</li>
-                        <li>Web interface</li>
-                        <li>International payments</li>
-                      </ul>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Venmo</td>
-                    <td>
-                      <ul className="text-left">
-                        <li>Pay on online stores</li>
-                        <li>Web interface</li>
-                        <li>International payments</li>
-                      </ul>
-                    </td>
-                    <td>
-                      <ul className="text-left">
-                        <li> In-Store payments</li>
-                      </ul>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Apple Pay</td>
-                    <td>
-                      <ul className="text-left">
-                        <li>Person to person payment</li>
-                        <li> In-Store payments</li>
-                        <li>Pay on online stores</li>
-                      </ul>
-                    </td>
-                    <td>
-                      <ul className="text-left">
-                        <li>Web interface</li>
-                        <li>International payments</li>
-                      </ul>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Samsung Pay</td>
-                    <td>
-                      <ul className="text-left">
-                        <li> In-Store payments</li>
-                        <li>International payments</li>
-                      </ul>
-                    </td>
-                    <td>
-                      <ul className="text-left">
-                        <li>Web interface</li>
-                        <li>Person to person payment</li>
-                        <li>Pay on online stores</li>
-                      </ul>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Google Pay</td>
-                    <td>
-                      <ul className="text-left">
-                        <li> In-Store payments</li>
-                        <li>Pay on online stores</li>
-                      </ul>
-                    </td>
-                    <td>
-                      <ul className="text-left">
-                        <li>Web interface</li>
-                        <li>Person to person payment</li>
-                        <li>International payments</li>
-                      </ul>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
+              <div className='bullets'>
+                <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                      <th>Services</th>
+                      <th>Advantages</th>
+                      <th>Disadvantages</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Zelle</td>
+                      <td>
+                        <ul className="text-left">
+                          <li>Person to person payment</li>
+                        </ul>
+                      </td>
+                      <td>
+                        <ul className="text-left">
+                          <li> In-Store payments</li>
+                          <li>Pay on online stores</li>
+                          <li>Web interface</li>
+                          <li>International payments</li>
+                        </ul>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Venmo</td>
+                      <td>
+                        <ul className="text-left">
+                          <li>Pay on online stores</li>
+                          <li>Web interface</li>
+                          <li>International payments</li>
+                        </ul>
+                      </td>
+                      <td>
+                        <ul className="text-left">
+                          <li> In-Store payments</li>
+                        </ul>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Apple Pay</td>
+                      <td>
+                        <ul className="text-left">
+                          <li>Person to person payment</li>
+                          <li> In-Store payments</li>
+                          <li>Pay on online stores</li>
+                        </ul>
+                      </td>
+                      <td>
+                        <ul className="text-left">
+                          <li>Web interface</li>
+                          <li>International payments</li>
+                        </ul>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Samsung Pay</td>
+                      <td>
+                        <ul className="text-left">
+                          <li> In-Store payments</li>
+                          <li>International payments</li>
+                        </ul>
+                      </td>
+                      <td>
+                        <ul className="text-left">
+                          <li>Web interface</li>
+                          <li>Person to person payment</li>
+                          <li>Pay on online stores</li>
+                        </ul>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Google Pay</td>
+                      <td>
+                        <ul className="text-left">
+                          <li> In-Store payments</li>
+                          <li>Pay on online stores</li>
+                        </ul>
+                      </td>
+                      <td>
+                        <ul className="text-left">
+                          <li>Web interface</li>
+                          <li>Person to person payment</li>
+                          <li>International payments</li>
+                        </ul>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
             <div>
-              <img src="https://image.freepik.com/free-vector/business-people-competitors-celebrating-success_3446-701.jpg" alt=''></img>
+              <img className='w-100' src="https://image.freepik.com/free-vector/business-people-competitors-celebrating-success_3446-701.jpg" alt=''></img>
               <p>
                 I researched to find out how other online payment services<br />
                 work and what is the advantage and disadvantages of each one.
