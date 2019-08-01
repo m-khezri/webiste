@@ -71,7 +71,6 @@ width: 50%;
   width:100%;
 }
 
-
 @media screen and (max-width: 1024px) {
  
 .rhino-main-container{
@@ -95,6 +94,9 @@ margin: 0;
     width: 100%;
     display: flex;
     flex-direction: column;
+  }
+  .MyRoleSection{
+    padding: 0 !important;
   }
 
   .LearnedSection{
