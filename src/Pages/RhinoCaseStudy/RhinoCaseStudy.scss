@@ -2,32 +2,12 @@
   margin: 0;
   padding: 0;
 }
-
-.introSection{
-}
-
-.rhino-holder{
-  margin: 0;
-  padding: 0;
-}
-
-.introSection{
-padding: 5%;
-}
-
 .RhinoLogo{
   max-width: 10%;
 }
 
-.MyRoleSection{
-  padding: 5%;
-}
 
-.ResearchPlanSection{
-  padding: 5%;   
-}
-
-.CompareSection{
+.CompareSection,.SketchSection,.ResearchPlanSection,.MyRoleSection,.introSection{
   padding: 5%;
 }
 
@@ -38,10 +18,6 @@ padding: 5%;
 
 .JourneySection{
   background-color: #4a148c  ;
-  padding: 5%;
-}
-
-.SketchSection{
   padding: 5%;
 }
 
@@ -63,9 +39,9 @@ padding:0;
 }
 
 .demo{
-  // position: absolute;
-  // top: -9999em;
-  // visibility: hidden;
+  position: absolute;
+  top: -9999em;
+  visibility: hidden;
 }
 
 
@@ -81,4 +57,59 @@ height: 648px;
 .LearnedSection{
   background-color: #455a64;
   padding: 5%;
+}
+
+.sm-view{
+width: 50%;
+}
+
+.compic,.introPic {
+  width:100%;
+}
+
+
+@media screen and (max-width: 1024px) {
+ 
+.rhino-main-container{
+width: 100%;
+margin: 0;
+  }
+
+  .RhinoLogo{
+    max-width: 30%;
+  }
+
+  .CompareSection,
+  .SketchSection,
+  .MyRoleSection,
+  .LiveDemoSection,
+  .WireframingSection,
+  .PrototypeSection,
+  .LearnedSection{
+    padding: 1%;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .ResearchPlanSection{
+    padding: 1%;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .sm-view,.w-50{
+    width: 100% !important;
+
+  }
+
+  .bullets{
+    padding: 0 2%;
+    margin: 0 3%;
+    text-justify: justify;
+  }
+
 }
