@@ -1,9 +1,11 @@
 import React from 'react';
 import './AboutMe.scss';
+import { Link } from 'react-router-dom';
 import me from '../../image/me.jpg';
 import git from '../../image/git.png';
 import linkedin from '../../image/linkedin.png';
 import mail from '../../image/mail.png';
+import illus from '../../image/illus.svg';
 import resume from '../../image/resume.pdf';
 
 class AboutMe extends React.Component {
@@ -11,11 +13,11 @@ class AboutMe extends React.Component {
     return (
       <div className="AboutMeContainer">
         <div className="imgHolder">
-          <img className="my-pic" src={me} alt='image'></img>
+          <img className="my-pic" src={me} alt=''></img>
           <div className="bioContainer">
             <div>
-              <h1 className="myName display-3">Mohammad Khezri</h1>
-              <h5 className="title">Front-End UX/UI Web Developer | Graphic Designer | Photographer</h5>
+              <h1 className="myName display-4">Mohammad Khezri</h1>
+              <h5 className="title">Front-End UX/UI Web Developer</h5>
             </div>
             <div>
               <p className="bio">
@@ -29,22 +31,24 @@ class AboutMe extends React.Component {
             </div>
             <div className="iconsHolder">
               <div className="mx-1">
-                <a href="https://github.com/m-khezri" target="_blank"> <img className="icon" src={git} alt='image'></img></a>
+                <a href="https://github.com/m-khezri"> <img className="icon" src={git} alt=''></img></a>
               </div>
               <div className="mx-1">
-                <a href="https://www.linkedin.com/in/mohammad-khezri/" target="_blank"> <img className="icon" src={linkedin} alt='image'></img></a>
+                <a href="https://www.linkedin.com/in/mohammad-khezri/"> <img className="icon" src={linkedin} alt=''></img></a>
               </div>
               <div className="mx-1">
-                <a href="mailto:khezri@outlook.com"><img className="icon" src={mail} alt='image'></img></a>
+                <a href="mailto:khezri@outlook.com"><img className="icon" src={mail} alt=''></img></a>
               </div>
-            </div>
-            <div className="mt-5">
-              <a className="resume" href={resume} target="_blank">Download Resume</a>
             </div>
           </div>
         </div>
+        <div className="bioHolder p-0">
+          <img className="illus" src={illus} alt=""></img>
+        </div>
 
-        <div className="bioHolder">
+        <div className="linkHolder mt-5 d-flex justify-content-center">
+          <a className="resume" href={resume}><i className="fas fa-file-download mr-2"></i>Get Resume</a>
+          <Link className="resume nav-link" to="/projects"><i className="fas fa-project-diagram mr-2"></i>Projects</Link>
         </div>
       </div>
     );

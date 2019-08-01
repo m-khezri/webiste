@@ -3,11 +3,20 @@
   display: flex;
   flex-direction: row;
 
-  background-image: url('../../image//aboutbg.svg');
+  background-image: url('../../image/aboutbg2.svg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+.imgHolder{
+  padding-top: 5%;
+}
+
+.navbar{
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .imgHolder{
@@ -16,8 +25,7 @@
 
 .bioHolder{
   margin: auto;
-  max-width: 50%;
-
+  width: 100%;
 }
 
 .bioContainer{
@@ -27,13 +35,11 @@
 .my-pic{
   margin-right: 15%;
   max-width: 50%;
-  border-radius: 50%;
+  // border-radius: 50%;
+  border-bottom: 10px solid black;
    
 }
 
-// div{
-//   border: 2px solid gray;
-// }
 
 .bio{
   margin: 3% 10%;
@@ -42,7 +48,8 @@
 
 .title {
   color: #a4b0be;
-  
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 100;
 }
 
 .myName{
@@ -51,17 +58,17 @@
 }
 
 .resume:link, .resume:visited {
-  background-color: #70a1ff;
-  color: white;
-  border-radius: 10px;
-  padding: 10px 20px;
+  color:#fff;
+  padding: 5px 0px;
+  margin: 0 2%;
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  font-size: 1.2em;
 }
 
 .resume:hover, .resume:active {
-  background-color: #1e90ff;
+  color: darkblue;
 }
 
 .iconsHolder{
@@ -78,3 +85,12 @@
 .icon:hover{
   opacity: 0.7;
 }
+
+.linkHolder{
+  height: 5%;
+  width: 30%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
