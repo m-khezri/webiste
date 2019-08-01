@@ -77,7 +77,7 @@ class RhinoCaseStudy extends React.Component {
           <section className="CompareSection d-flex flex-wrap justify-content-between">
             <div className="sm-view">
               <h5 className="display-4 text-info mb-5">The Competitiors</h5>
-              <div className='bullets'>
+              <div className='bullets-tb'>
                 <table class="table table-bordered">
                   <thead>
                     <tr className='bg-dark text-light'>

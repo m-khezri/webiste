@@ -95,6 +95,11 @@ margin: 0;
     display: flex;
     flex-direction: column;
   }
+
+  .bullets-tb{
+font-size: 1.3vh;
+  }
+
   .MyRoleSection{
     padding: 0 !important;
   }
@@ -113,8 +118,6 @@ margin: 0;
   }
   .sm-view,.w-50{
     width: 100% !important;
-    padding: 0;
-    margin: 0;
   }
 
   .bullets{
