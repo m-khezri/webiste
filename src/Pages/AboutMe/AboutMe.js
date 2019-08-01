@@ -46,7 +46,7 @@ class AboutMe extends React.Component {
           <img className="illus" src={illus} alt=""></img>
         </div>
 
-        <div className="linkHolder mt-5 d-flex justify-content-center">
+        <div className="linkHolder mt-5 d-flex flex-row justify-content-center">
           <a className="resume" href={resume}><i className="fas fa-file-download mr-2"></i>Get Resume</a>
           <Link className="resume nav-link" to="/projects"><i className="fas fa-project-diagram mr-2"></i>Projects</Link>
         </div>
