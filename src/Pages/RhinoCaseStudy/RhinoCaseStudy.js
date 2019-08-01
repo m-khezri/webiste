@@ -72,7 +72,6 @@ class RhinoCaseStudy extends React.Component {
                 </ui>
               </div>
             </div>
-
           </section>
 
           <section className="CompareSection d-flex flex-wrap justify-content-between">
@@ -81,7 +80,7 @@ class RhinoCaseStudy extends React.Component {
               <div className='bullets'>
                 <table class="table table-bordered">
                   <thead>
-                    <tr>
+                    <tr className='bg-dark text-light'>
                       <th>Services</th>
                       <th>Advantages</th>
                       <th>Disadvantages</th>
@@ -89,81 +88,81 @@ class RhinoCaseStudy extends React.Component {
                   </thead>
                   <tbody>
                     <tr>
-                      <td>Zelle</td>
+                      <td className='text-light align-middle font-weight-bold bg-warning'>Zelle</td>
                       <td>
-                        <ul className="text-left">
-                          <li>Person to person payment</li>
+                        <ul className="list-group text-left">
+                          <li className='list-group-item'>Person to person payment</li>
                         </ul>
                       </td>
                       <td>
-                        <ul className="text-left">
-                          <li> In-Store payments</li>
-                          <li>Pay on online stores</li>
-                          <li>Web interface</li>
-                          <li>International payments</li>
-                        </ul>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>Venmo</td>
-                      <td>
-                        <ul className="text-left">
-                          <li>Pay on online stores</li>
-                          <li>Web interface</li>
-                          <li>International payments</li>
-                        </ul>
-                      </td>
-                      <td>
-                        <ul className="text-left">
-                          <li> In-Store payments</li>
+                        <ul className="list-group text-left">
+                          <li className='list-group-item'>In-Store payments</li>
+                          <li className='list-group-item'>Pay on online stores</li>
+                          <li className='list-group-item'>Web interface</li>
+                          <li className='list-group-item'>International payments</li>
                         </ul>
                       </td>
                     </tr>
                     <tr>
-                      <td>Apple Pay</td>
+                      <td className='text-light align-middle font-weight-bold bg-warning'>Venmo</td>
                       <td>
-                        <ul className="text-left">
-                          <li>Person to person payment</li>
-                          <li> In-Store payments</li>
-                          <li>Pay on online stores</li>
+                        <ul className="list-group text-left">
+                          <li className='list-group-item'>Pay on online stores</li>
+                          <li className='list-group-item'>Web interface</li>
+                          <li className='list-group-item'>International payments</li>
                         </ul>
                       </td>
                       <td>
-                        <ul className="text-left">
-                          <li>Web interface</li>
-                          <li>International payments</li>
-                        </ul>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>Samsung Pay</td>
-                      <td>
-                        <ul className="text-left">
-                          <li> In-Store payments</li>
-                          <li>International payments</li>
-                        </ul>
-                      </td>
-                      <td>
-                        <ul className="text-left">
-                          <li>Web interface</li>
-                          <li>Person to person payment</li>
-                          <li>Pay on online stores</li>
+                        <ul className="list-group text-left">
+                          <li className='list-group-item'> In-Store payments</li>
                         </ul>
                       </td>
                     </tr>
                     <tr>
-                      <td>Google Pay</td>
+                      <td className='text-light align-middle font-weight-bold bg-warning'>Apple Pay</td>
                       <td>
-                        <ul className="text-left">
-                          <li> In-Store payments</li>
-                          <li>Pay on online stores</li>
+                        <ul className="list-group text-left">
+                          <li className='list-group-item'>Person to person payment</li>
+                          <li className='list-group-item'> In-Store payments</li>
+                          <li className='list-group-item'>Pay on online stores</li>
                         </ul>
                       </td>
                       <td>
-                        <ul className="text-left">
-                          <li>Web interface</li>
-                          <li>Person to person payment</li>
-                          <li>International payments</li>
+                        <ul className="list-group text-left">
+                          <li className='list-group-item'>Web interface</li>
+                          <li className='list-group-item'>International payments</li>
+                        </ul>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className='text-light align-middle font-weight-bold bg-warning'>Samsung Pay</td>
+                      <td>
+                        <ul className="list-group text-left">
+                          <li className='list-group-item'> In-Store payments</li>
+                          <li className='list-group-item'>International payments</li>
+                        </ul>
+                      </td>
+                      <td>
+                        <ul className="list-group text-left">
+                          <li className='list-group-item'>Web interface</li>
+                          <li className='list-group-item'>Person to person payment</li>
+                          <li className='list-group-item'>Pay on online stores</li>
+                        </ul>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className='text-light align-middle font-weight-bold bg-warning'>Google Pay</td>
+                      <td>
+                        <ul className="list-group text-left">
+                          <li className='list-group-item'> In-Store payments</li>
+                          <li className='list-group-item'>Pay on online stores</li>
+                        </ul>
+                      </td>
+                      <td>
+                        <ul className="list-group text-left">
+                          <li className='list-group-item'>Web interface</li>
+                          <li className='list-group-item'>Person to person payment</li>
+                          <li className='list-group-item'>International payments</li>
                         </ul>
                       </td>
                     </tr>
