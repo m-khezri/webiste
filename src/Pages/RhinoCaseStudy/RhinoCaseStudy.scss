@@ -3,13 +3,16 @@
   padding: 0;
 }
 
+.introSection{
+height: 100vh;
+}
+
 .rhino-holder{
   margin: 0;
   padding: 0;
 }
 
 .introSection{
-background-color: lightpink;
 padding: 5%;
 }
 
@@ -18,37 +21,33 @@ padding: 5%;
 }
 
 .MyRoleSection{
-  background-color: #e3f2fd ;
   padding: 5%;
 }
 
 .ResearchPlanSection{
-  background-color: #b2dfdb ;
   padding: 5%;   
 }
 
 .CompareSection{
-  background-color: lightseagreen;
   padding: 5%;
 }
 
 .PersonaSection{
-  background-color: #f1f8e9;
+  background-color: #fdd835;
   padding: 5%;
 }
 
 .JourneySection{
-  background-color: lightpink;
+  background-color: #4a148c  ;
   padding: 5%;
 }
 
 .SketchSection{
-  background-color: lightseagreen;
   padding: 5%;
 }
 
-.WireframingSection{
-  background-color: #b2dfdb ;
+.WireframingSection,.PrototypeSection{
+  background-color: #e4e4e4 ;
   padding: 5%;
 }
 
@@ -64,6 +63,13 @@ margin: 0;
 padding:0;  
 }
 
+.demo{
+  // position: absolute;
+  // top: -9999em;
+  // visibility: hidden;
+}
+
+
 .shellPic{
 position: absolute;
 top: 53%;
@@ -74,6 +80,6 @@ height: 648px;
 }
 
 .LearnedSection{
-  background-color: lightseagreen;
+  background-color: #455a64;
   padding: 5%;
 }
