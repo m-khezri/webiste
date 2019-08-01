@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './RhinoCaseStudy.scss';
-import intropic from '../../image/UX/intropic.jpg';
+import intropic from '../../image/UX/intropic.png';
 import logo from '../../image/UX/logo.svg';
 import persona from '../../image/UX/persona.png';
 import journey from '../../image/UX/journey.png';
@@ -13,6 +13,8 @@ import prototype from '../../image/UX/prototype.jpg';
 
 class RhinoCaseStudy extends React.Component {
   render() {
+
+
     return (
       <div className="rhino-main-container">
         <div className="d-flex mt-5 ml-1 justify-content-center">
@@ -20,7 +22,7 @@ class RhinoCaseStudy extends React.Component {
           <Link className="proj-link nav-link" to="/projects"><i className="fas fa-project-diagram mr-2"></i>Projects</Link>
         </div>
 
-        <section className="introSection">
+        <section className="introSection mt-5">
           <img className="RhinoLogo my-3" src={logo} alt=''></img>
           <h5 className="display-4 my-3">Simplifying payments among friends</h5>
           <p>UX/UI Case Study</p>
@@ -208,9 +210,9 @@ class RhinoCaseStudy extends React.Component {
           </section>
 
           <section className="LiveDemoSection">
-            <h5 className="display-4">Test the Live Demo</h5>
+            <h5 className="display-4 pt-5">Test the Live Demo</h5>
             <div className="liveContainer">
-              <iframe className="demo mt-3" title='livedemo' width="275" height="712" src="https://xd.adobe.com/embed/1a4fd035-4f8c-4251-4cdc-acb5ee19d833-6c7e/" frameborder="0" allowfullscreen>
+              <iframe className="demo mt-3" title='livedemo' width="325" height="762" src="https://xd.adobe.com/embed/1a4fd035-4f8c-4251-4cdc-acb5ee19d833-6c7e/" frameborder="0" allowfullscreen>
               </iframe>
               {/* <img className="shellPic" draggable="false" src={shell} alt=''></img> */}
             </div>

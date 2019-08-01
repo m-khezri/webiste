@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+.introSection{
+height: 100vh;
+}
+
 .rhino-holder{
   margin: 0;
   padding: 0;
@@ -29,12 +33,12 @@ padding: 5%;
 }
 
 .PersonaSection{
-  background-color: #f1f8e9;
+  background-color: #fdd835;
   padding: 5%;
 }
 
 .JourneySection{
-  background-color: #e8eaf6    ;
+  background-color: #4a148c  ;
   padding: 5%;
 }
 
@@ -60,9 +64,9 @@ padding:0;
 }
 
 .demo{
-  position: absolute;
-  top: -9999em;
-  visibility: hidden;
+  // position: absolute;
+  // top: -9999em;
+  // visibility: hidden;
 }
 
 
