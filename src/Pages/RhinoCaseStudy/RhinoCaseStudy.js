@@ -1,5 +1,6 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
+import Pulse from 'react-reveal/Pulse';
 import { Link } from 'react-router-dom';
 import './RhinoCaseStudy.scss';
 import intropic from '../../image/UX/intropic.png';
@@ -22,9 +23,15 @@ class RhinoCaseStudy extends React.Component {
         </div>
 
         <section className="introSection mt-5">
-          <img className="RhinoLogo my-3" src={logo} alt=''></img>
-          <h5 className="display-4 my-3">Simplifying payments among friends</h5>
-          <p>UX/UI Case Study</p>
+          <Fade bottom delay='200'>
+            <img className="RhinoLogo my-3" src={logo} alt=''></img>
+          </Fade>
+          <Fade bottom delay='400'>
+            <h5 className="display-4 my-3">Simplifying payments among friends</h5>
+          </Fade>
+          <Fade bottom delay='600'>
+            <p>UX/UI Case Study</p>
+          </Fade>
         </section>
 
         <section className="rhino-holder">
@@ -229,14 +236,13 @@ class RhinoCaseStudy extends React.Component {
             </section>
           </Fade>
 
-          <Fade bottom>
-            <section className="LiveDemoSection">
-              <h5 className="display-4 pt-5">Test the Live Demo</h5>
-              <div className="liveContainer">
-                <iframe className="demo mt-3" title='livedemo' width="300" height="737" src="https://xd.adobe.com/embed/1a4fd035-4f8c-4251-4cdc-acb5ee19d833-6c7e/" frameborder="0" allowfullscreen>
-                </iframe>
-                {/* <img className="shellPic" draggable="false" src={shell} alt=''></img> */}
-              </div>
+          <Fade bottom delay='1000'>
+            <section className="LiveDemoSection bg-dark py-3 m-0">
+              <Pulse forever='true'>
+                <div className='w-25 mx-auto'>
+                  <Link className="display-4 text-decoration-none" to="/projects/RhinoCaseStudy/demo">Live Demo</Link>
+                </div>
+              </Pulse>
             </section>
           </Fade>
 
