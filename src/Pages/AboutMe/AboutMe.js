@@ -1,4 +1,5 @@
 import React from 'react';
+import Pulse from 'react-reveal/Pulse';
 import './AboutMe.scss';
 import { Link } from 'react-router-dom';
 import me from '../../image/me.jpg';
@@ -43,7 +44,9 @@ class AboutMe extends React.Component {
           </div>
         </div>
         <div className="bioHolder p-0">
-          <img className="illus" src={illus} alt=""></img>
+          <Pulse forever='true'>
+            <img className="illus" src={illus} alt=""></img>
+          </Pulse>
         </div>
 
         <div className="linkHolder mt-5 d-flex flex-row justify-content-center">
