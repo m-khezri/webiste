@@ -240,7 +240,7 @@ class RhinoCaseStudy extends React.Component {
             <section className="LiveDemoSection bg-dark py-3 m-0">
               <Pulse forever='true'>
                 <div className='w-25 mx-auto'>
-                  <Link className="display-4 text-decoration-none" to="/projects/RhinoCaseStudy/demo">Live Demo</Link>
+                  <Link className="display-4 text-decoration-none" target='_blank' to="/projects/RhinoCaseStudy/demo">Live Demo</Link>
                 </div>
               </Pulse>
             </section>
