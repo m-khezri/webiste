@@ -27,7 +27,20 @@ class RhinoCaseStudy extends React.Component {
             <img className="RhinoLogo my-3" src={logo} alt=''></img>
           </Fade>
           <Fade bottom delay='400'>
-            <h5 className="display-4 my-3">Simplifying payments among friends</h5>
+            <h5 className="display-4 my-3">"Digital wallet” a mobile payment service</h5>
+            <div className='exp-par text-center'>
+              <p className='text-justify'>
+                Rhino Splits is a "digital wallet,” a mobile
+                payment service. Users will be able to transfer money
+                to other people using a mobile phone app or web interface.
+            </p>
+              <p className='text-justify'>
+                Users will sign up and create an account by providing
+                basic personal information and bank account information.
+                Paying with a bank account or debit card is free, but credit
+                cards have a 3% fee for each transaction.
+            </p>
+            </div>
           </Fade>
           <Fade bottom delay='600'>
             <p>UX/UI Case Study</p>
@@ -71,6 +84,9 @@ class RhinoCaseStudy extends React.Component {
               </div>
               <div>
                 <h5 className="display-4 text-warning">Research Plan</h5>
+                <p>In this step I researchd based on AEIOU roles to to better understand user and customer behaviors
+                   and frustrations
+                </p>
                 <div className='bullets'>
                   <ui className="list-group text-left">
                     <li className='list-group-item'><span className="display-4 text-primary">A</span><strong>ctivities:</strong> How do they pay for their activities? Credit cards? Debits? Checks or Cash?</li>
