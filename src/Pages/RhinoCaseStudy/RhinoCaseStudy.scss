@@ -2,37 +2,21 @@
   margin: 0;
   padding: 0;
 }
-
-.introSection{
-}
-
-.rhino-holder{
-  margin: 0;
-  padding: 0;
-}
-
-.introSection{
-padding: 5%;
-}
-
 .RhinoLogo{
   max-width: 10%;
 }
 
-.MyRoleSection{
+
+.CompareSection,.SketchSection,.ResearchPlanSection,.MyRoleSection,.introSection{
   padding: 5%;
 }
 
-.ResearchPlanSection{
-  padding: 5%;   
-}
-
-.CompareSection{
-  padding: 5%;
+.LearnedSection{
+  color:#fff;
 }
 
 .PersonaSection{
-  background-color: #fdd835;
+  background-color: #ccff90 ;
   padding: 5%;
 }
 
@@ -41,33 +25,19 @@ padding: 5%;
   padding: 5%;
 }
 
-.SketchSection{
-  padding: 5%;
-}
-
 .WireframingSection,.PrototypeSection{
   background-color: #e4e4e4 ;
   padding: 5%;
 }
 
-.LiveDemoSection{
-  background-color: #000;
-  color: #fff;
-
+// .demo{
+//   position: absolute;
+//   top: -9999em;
+//   visibility: hidden;
+// }
+.exp-par{
+  margin: 0 33%;
 }
-
-.liveContainer{
-position: relative;
-margin: 0;
-padding:0;  
-}
-
-.demo{
-  // position: absolute;
-  // top: -9999em;
-  // visibility: hidden;
-}
-
 
 .shellPic{
 position: absolute;
@@ -81,4 +51,72 @@ height: 648px;
 .LearnedSection{
   background-color: #455a64;
   padding: 5%;
+}
+
+.sm-view{
+width: 50%;
+}
+
+.compic,.introPic {
+  width:100%;
+}
+
+@media screen and (max-width: 1024px) {
+
+  .exp-par{
+    margin: 1%;
+  }
+ 
+.rhino-main-container{
+width: 100%;
+margin: 0;
+  }
+
+  .RhinoLogo{
+    max-width: 30%;
+  }
+
+  .CompareSection,
+  .SketchSection,
+  .MyRoleSection,
+  .LiveDemoSection,
+  .WireframingSection,
+  .PrototypeSection,
+  .LearnedSection{
+    padding: 1%;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bullets-tb{
+font-size: 1.3vh;
+  }
+
+  .MyRoleSection{
+    padding: 0 !important;
+  }
+
+  .LearnedSection{
+    color:#fff;
+    padding: 0 5%;
+  }
+
+  .ResearchPlanSection{
+    padding: 1%;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .sm-view,.w-50{
+    width: 100% !important;
+  }
+
+  .bullets{
+    padding: 0 2%;
+    margin: 0 3%;
+    text-justify: justify;
+  }
 }

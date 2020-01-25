@@ -10,7 +10,7 @@
   position: relative;
 }
 .imgHolder{
-  padding-top: 5%;
+  padding-top: 2%;
 }
 
 .navbar{
@@ -23,6 +23,11 @@
   max-width: 50%;
 }
 
+.illus{
+max-width: 90%;
+animation-duration: 3000ms !important;
+}
+ 
 .bioHolder{
   margin: auto;
   width: 100%;
@@ -37,7 +42,6 @@
   max-width: 50%;
   // border-radius: 50%;
   border-bottom: 10px solid black;
-   
 }
 
 
@@ -145,4 +149,7 @@ font-size: 2.6em !important;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 100;
 }
+}
+
+@media screen and (max-width: 500px) {
 }

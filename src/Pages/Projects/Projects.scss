@@ -8,27 +8,27 @@
 .projects {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 
 .project1,.project2,.project3,.project4 {
-  background-color: #ede7f6;
-  width: 24%;
-  // height: 80vh;
+  background-color: #fff;
+  width: 20%;
   min-width: 350px;
-  margin-top: 10px;
+  margin-top: 5px;
   position: relative;
 }
 .project4{
-  background-color: #fff3e0;
+  background-color: #fff;
 }
 
 .bg-proj{
-  background-color: #b39ddb;
+  background-color: #fff;
+  
 }
 .bg-projux{
-  background-color: #ffb74d;
+  background-color: #fff;
 }
 
 .rhino-pic{
@@ -60,17 +60,17 @@
 }
 
 .readMore:link{
-  background: linear-gradient(45deg,#f50057,#d500f9   );
+  background: #c7ecee;
   padding: 10px;
-  border-radius: 20px;
+  border-radius: 5px;
   text-decoration: none;
   transition: 0.3s ease-in;
 }
 
 .readMore:hover{
- -webkit-box-shadow: 0 10px 10px -6px #4a148c ;
-  -moz-box-shadow: 0 10px 10px -6px #4a148c ;
-       box-shadow: 0 10px 10px -6px #4a148c ;
+ -webkit-box-shadow: 0 10px 10px -6px #8888 ;
+  -moz-box-shadow: 0 10px 10px -6px #8888 ;
+       box-shadow: 0 10px 10px -6px #8888 ;
       }
 
 
