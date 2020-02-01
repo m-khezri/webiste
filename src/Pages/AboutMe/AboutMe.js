@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 import RubberBand from 'react-reveal/RubberBand';
 import './AboutMe.scss';
 import { Link } from 'react-router-dom';
-import me from '../../image/me.jpg';
+import me from '../../image/me.png';
 import git from '../../image/git.png';
 import linkedin from '../../image/linkedin.png';
 import mail from '../../image/mail.png';
@@ -23,7 +23,7 @@ class AboutMe extends React.Component {
             <Fade bottom delay='800'>
               <div>
                 <h1 className="myName display-4">Mohammad Khezri</h1>
-                <h5 className="title">Front-End UX/UI Web Developer</h5>
+                <h5 className="title">UX/UI Designer / Front-End Developer</h5>
               </div>
             </Fade>
             <Fade bottom delay='400'>
