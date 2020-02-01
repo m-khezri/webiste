@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import './Projects.scss';
 import git from '../../image/git.png';
 import web from '../../image/web.png';
+import affcars_header from '../../image/affcars/affcars_header.JPG';
 
 
 class Projects extends React.Component {
@@ -95,7 +96,9 @@ class Projects extends React.Component {
             </div>
             <div className="text-left p-3">
               <div className="img-holder">
-                <img className="rhino-pic w-100" src="https://github.com/m-khezri/rhino-splits/raw/master/src/images/01.JPG" alt=""></img>
+                {/* <img className="rhino-pic w-100" src="https://github.com/m-khezri/rhino-splits/raw/master/src/images/01.JPG" alt=""></img> */}
+                <img className="rhino-pic w-100" src={affcars_header} alt=''></img>
+
               </div>
               <h6 className="mt-5">Affcars is my personal project to
                 simplify selling and buying cars that incorporates the following features:</h6>
