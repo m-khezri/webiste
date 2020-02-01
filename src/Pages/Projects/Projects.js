@@ -96,7 +96,6 @@ class Projects extends React.Component {
             </div>
             <div className="text-left p-3">
               <div className="img-holder">
-                {/* <img className="rhino-pic w-100" src="https://github.com/m-khezri/rhino-splits/raw/master/src/images/01.JPG" alt=""></img> */}
                 <img className="rhino-pic w-100" src={affcars_header} alt=''></img>
 
               </div>
@@ -122,7 +121,7 @@ class Projects extends React.Component {
                 </ul>
               </div>
               <div className="text-center my-3">
-                <Link className="readMore text-dark" to="Projects/RhinoCaseStudy">Read more about this project</Link>
+                <Link className="readMore text-dark" to="Projects/AffcarsCaseStudy">Read more about this project</Link>
               </div>
             </div>
           </div>
