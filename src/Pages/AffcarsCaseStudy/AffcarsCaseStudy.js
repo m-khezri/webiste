@@ -27,7 +27,7 @@ class AffcarsCaseStudy extends React.Component {
                 In this project, dealers can add their inventory and assign discounts for each car then customers will be able to find the cars with the best price and discount.
               The goal is increasing traffic to car lots to boost their sales and help buyers to get a more affordable and reliable car.</p>
               <div>
-                <img className="ml-3 img-fluid mx-auto" src="https://image.freepik.com/free-photo/young-family-buying-car-car-showroom_1303-16339.jpg" alt=""></img>
+                <img className="ml-3 img-fluid rounded" src="https://image.freepik.com/free-photo/young-family-buying-car-car-showroom_1303-16339.jpg" alt=""></img>
               </div>
             </div>
             <hr />
@@ -52,7 +52,7 @@ class AffcarsCaseStudy extends React.Component {
                 <li>Coding</li>
                 <li>Again testing, improving, testing, testing...</li>
               </ul>
-              <img className="m-1 img-fluid" src="https://image.freepik.com/free-photo/creative-web-designer-planning-application-developing-template-layout-framework-mobile-phone_1418-2315.jpg" alt=""></img>
+              <img className="m-1 img-fluid rounded" src="https://image.freepik.com/free-photo/creative-web-designer-planning-application-developing-template-layout-framework-mobile-phone_1418-2315.jpg" alt=""></img>
             </div>
             <hr />
           </section>
@@ -66,7 +66,7 @@ class AffcarsCaseStudy extends React.Component {
                 The real problem is a lack of buyers' awareness. I’m trying to solve this problem by giving more awareness to these people by providing the right tools to help them buy a car through awareness.
 
               </p>
-              <img className="m-1 img-fluid" src="https://image.freepik.com/free-photo/man-solving-rubik-s-cube_23-2147711117.jpg" alt=""></img>
+              <img className="m-1 img-fluid rounded" src="https://image.freepik.com/free-photo/man-solving-rubik-s-cube_23-2147711117.jpg" alt=""></img>
             </div>
             <hr />
           </section>
@@ -89,45 +89,45 @@ class AffcarsCaseStudy extends React.Component {
             <p>
               For the beginning, I started to ask some key questions to challenge myself and trying to find an answer for them. I asked several questions and I gave it a lot of thought. These questions are vital to clarify the next steps.
             </p>
-            <div className="d-flex justify-content-center flex-wrap">
+            <div className="d-flex flex-column justify-content-center flex-wrap">
               <ul className="list-group">
-                <li className='list-group-item active'>What’s worth doing?</li>
+                <li className='list-group-item bg-light font-weight-bold'>What’s worth doing?</li>
                 <li className='Answer list-group-item'>Help car dealers sell more cars and help customers to find more affordable cars</li>
               </ul>
               <ul className="list-group">
-                <li className='list-group-item active'>What are we creating?</li>
+                <li className='list-group-item bg-light font-weight-bold'>What are we creating?</li>
                 <li className='Answer list-group-item'> We are creating a website that dealers can add their inventory and specify a discount for each car then we will do online marketing to connect customers to dealers. Customers can download a voucher and take it to the dealer and get a discount.</li>
               </ul>
               <ul className="list-group">
-                <li className='list-group-item active'>What value does it provide?</li>
+                <li className='list-group-item bg-light font-weight-bold'>What value does it provide?</li>
                 <li className='Answer list-group-item'> The value is that it makes an easier way for customers to find a car and it will help them to cover part of their down payment or tax; on the other hand, it helps dealers to boost their sales.</li>
               </ul>
               <ul className="list-group">
-                <li className='list-group-item active'>Who are our users?</li>
+                <li className='list-group-item bg-light font-weight-bold'>Who are our users?</li>
                 <li className='Answer list-group-item'> People who have poor or fair credit or individuals who have a hard time paying down payment for cars or finding a reliable car or anyone who is interested in discounts. Dealers, on the hand, can boost their sales</li>
               </ul>
               <ul className="list-group">
-                <li className='list-group-item active'>What do they expect?</li>
+                <li className='list-group-item bg-light font-weight-bold'>What do they expect?</li>
                 <li className='Answer list-group-item'> They expect to get help for part of down payment and find a reliable car</li>
               </ul>
               <ul className="list-group">
-                <li className='list-group-item active'>Why do these things matter to them?</li>
+                <li className='list-group-item bg-light font-weight-bold'>Why do these things matter to them?</li>
                 <li className='Answer list-group-item'> Because most of them have trouble for paying down payment, on the other hand, dealers never pay a penny unless they sale a car.</li>
               </ul>
               <ul className="list-group">
-                <li className='list-group-item active'>Why will people visit/use/buy from us?</li>
+                <li className='list-group-item bg-light font-weight-bold'>Why will people visit/use/buy from us?</li>
                 <li className='Answer list-group-item'>We show all the car lots inventory with great filtering and best discount so they have a chance to buy a less expensive car rather than walk-in car lots</li>
               </ul>
               <ul className="list-group">
-                <li className='list-group-item active'>How will we measure success?</li>
+                <li className='list-group-item bg-light font-weight-bold'>How will we measure success?</li>
                 <li className='Answer list-group-item'> We will try to drive more traffic to the website by online marketing so we will create powerful tools to measure the number of sold cars through the website. We will design great tools for dealers to monitor their sales through our website.</li>
               </ul>
               <ul className="list-group">
-                <li className='list-group-item active'>How does this website fit into your overall strategy?</li>
+                <li className='list-group-item bg-light font-weight-bold'>How does this website fit into your overall strategy?</li>
                 <li className='Answer list-group-item'>Everything depends on the number of our visitors and how many people are interested to buy a car through this website. We will work hard to contract with more dealers to enrich our inventory then visitors will have tons of options. Our strategy is getting the best discount and provide it for buyers. We want to make it easier for individuals who have trouble paying for a car for any reason.</li>
               </ul>
               <ul className="list-group">
-                <li className='list-group-item active'>What technology is in place or what decision has already made?</li>
+                <li className='list-group-item bg-light font-weight-bold'>What technology is in place or what decision has already made?</li>
                 <li className='Answer list-group-item'>Well, in the first step it will be a web-based but mobile-friendly application so we need to use a variety of technologists in Front-End and Back-End.</li>
               </ul>
             </div>
@@ -135,11 +135,12 @@ class AffcarsCaseStudy extends React.Component {
           </section>
 
           <section className="text-left">
-            <h1 className="display-4 mt-5">Interview and opinion polling</h1>
+            <h1 className="display-4 mt-5">Interview and opinion polling with customers</h1>
             <div className="d-flex justify-content-between flex-wrap">
               <div className='interview'>
+
                 <ul className="list-group">
-                  <li className='list-group-item active'>I had an interview with 20 customers who already bought a car, here is the result:</li>
+                  <li className='list-group-item active'>Here is the result:</li>
                   <li className='list-group-item'>%45 Change their car between 2-5 years</li>
                   <li className='list-group-item'>%57 find their car through family/friends %26 walk-in car lots and less than %5 looked for online</li>
                   <li className='list-group-item'>%61 Had fair credit and average financial status</li>
@@ -156,9 +157,265 @@ class AffcarsCaseStudy extends React.Component {
                 </ul>
               </div>
               <div className='w-50'>
-                <img className="img-fluid" src="https://media-exp1.licdn.com/dms/image/C4E22AQEN54VKmv1QlQ/feedshare-shrink_1280/0?e=1583366400&v=beta&t=rmtsMGjKJAouFhHfnuXA_sZrjajFNUAMIvC_xzTVeEo" alt=""></img>
+                <img className="img-fluid rounded" src="https://image.freepik.com/free-photo/hands-with-blue-pen-application-form-students-taking-exams-writing-examination_4236-1679.jpg" alt=""></img>
+                <p>
+                  I did opinion polling with a couple of customers who already bought a used car from dealers, I also discuss about their creteria, concerns and expectations when they need a new used car.
+                  They were a combination of Hispanic people, African Americans, Asians and White Americans.
+                </p>
               </div>
+            </div>
+            <hr />
+          </section>
 
+          <section className="text-left">
+            <h1 className="display-4 mt-5">Interview with dealership owners</h1>
+            <div className="d-flex justify-content-between flex-wrap">
+              <div className='interview'>
+
+                <ul className="list-group">
+                  <li className='list-group-item active'>Here is the result:</li>
+                  <li className='list-group-item font-weight-bold'>The first person:</li>
+                  <li className='list-group-item '>It’s a good idea but I don’t think our customers really need $100 - $500 discount for buying a car, Your website has few visitors so the chance of selling cars through your website is not a lot; however, it could be a chance for us to get more customers. Moreover, we are not going to pay anything to you unless you refer to a customer. Regarding the discount, we prefer to determine the discount amount based on the down payment, not the total price.</li>
+                  <li className='list-group-item font-weight-bold'>The second person:</li>
+                  <li className='list-group-item'>We usually pay $200 for a referral. You should do great online marketing to send customers; however, we have our own customers and most of them are Hispanic who usually don’t use the internet for buying a car.</li>
+                  <li className='list-group-item font-weight-bold'>The third person:</li>
+                  <li className='list-group-item'>Well, I think you should work with big dealers who sell a lot of cars every day, in this case, this online business will make sense. I think it’s too hard to work with some used dealers because they have a lot of hidden fees and they will change an item in a time of contract to cover the discount they paid, besides, used cars, in particular, don’t have a stable price </li>
+                  <li className='list-group-item font-weight-bold'>The forth person</li>
+                  <li className='list-group-item'>I believe there are some big websites in this industry that work very well and you’ll have to invest millions of dollars to grow this online business, I believe all the games have already been played and you are not solving a real problem. Our type of customers don’t care about $100 - $500 discount, on the contrary, I think richer buyers are more interested in a discount so I think you should work with big and new car dealerships. They also have their own cash-back discount. I believe you can make such a website for a hobby to test the waters not a real business and we can list our inventory on the website and it could be an additional way to get more customers. Currently, we have own network to get customers and it’s working well. In addition, in the used cars industry, there’s always a $1000 to $1300 margin to play with a price.</li>
+
+                </ul>
+              </div>
+              <div className='w-50'>
+                <img className="img-fluid rounded" src="https://image.freepik.com/free-photo/friendly-executive-interviewing-job-candidate_1262-9619.jpg" alt=""></img>
+                <p>
+                  In the next step, I made an appointment with four dealership owners and sales managers. It was very important to have their point of view. the result was interesting.
+                </p>
+                <div className='p-3 bg-dark text-light round shadow'>
+                  <h4>Lesson learned from interviews:</h4>
+                  <p>What I learned from interviews form both sides (buyers and sellers) is that there’s still a chance to make a powerful interface to connect buyers to sellers and make both sides happy. Although there are tough obstacles and challenges on the way I still think there’s enough room to give customers more awareness to have smart shopping. The fourth business owner was very knowledgeable and smart, despite all his negative points, his last words made me hopeful and optimistic.</p>
+                </div>
+                <div className='mt-5'>
+                  <q className='text-muted font-italic'>270 million vehicles are in the U.S, and 40 million used vehicles are sold each year.
+										(Autonews)</q>
+                </div>
+              </div>
+            </div>
+            <hr />
+          </section>
+
+          <section className="text-left">
+            <h1 className="display-4 mt-5">Competitors</h1>
+            <div className="d-flex justify-content-between flex-wrap">
+              <div className='interview'>
+                <p>
+                  The big websites that have been around for a long time are as follow:</p>
+                <ul className="list-group">
+                  <ul className="list-group">
+                    <li className='list-group-item bg-light font-weight-bold'>CarsforSale</li>
+                    <li className='Answer list-group-item'>Carsforsale.com is an online automotive listing platform that connects buyers with sellers of vehicles. The company, headquartered in Sioux Falls, South Dakota, offers a product line to automotive dealers that includes Carsforsale.com vehicle listings, dealership websites, inventory distribution, and lead management.</li>
+                  </ul>
+                  <ul className="list-group">
+                    <li className='list-group-item bg-light font-weight-bold'>Truecar</li>
+                    <li className='Answer list-group-item'>TrueCar, Inc. is an automotive pricing and information website for new and used car buyers and dealers. TrueCar is paid by dealerships so they can obtain potential buyers' contact information.</li>
+                  </ul>
+                  <ul className="list-group">
+                    <li className='list-group-item bg-light font-weight-bold'>Autotrader</li>
+                    <li className='Answer list-group-item'>Autotrader.com, Inc. is an online marketplace founded in 1997, which functions as an online marketplace for car purchasers and sellers. It aggregates new, used, and certified second-hand cars from dealers and private sellers</li>
+                  </ul>
+                  <ul className="list-group">
+                    <li className='list-group-item bg-light font-weight-bold'>CarGurus</li>
+                    <li className='Answer list-group-item'>CarGurus is a Cambridge, Massachusetts-based automotive research and shopping website that assists users in comparing local listings for used and new cars, and contacting sellers. Listing cars are free but they charge dealers $99 per sold car</li>
+                  </ul>
+                  <ul className="list-group">
+                    <li className='list-group-item bg-light font-weight-bold'>Edmunds</li>
+                    <li className='Answer list-group-item'>Edmunds.com Inc. is an American online resource for automotive information. The company is headquartered in Santa Monica, California, and maintains an office in downtown Detroit, Michigan. Edmunds is privately held, with the Steinlauf family holding a majority stake.</li>
+                  </ul>
+                  <ul className="list-group">
+                    <li className='list-group-item bg-light font-weight-bold'>CarsDirect</li>
+                    <li className='Answer list-group-item'>CarsDirect is an American online automotive research portal and car buying service based in El Segundo, California that allows consumers to research, price, purchase, insure and finance a vehicle online. The company also provides lead generation and referral services to auto dealers</li>
+                  </ul>
+                  <ul className="list-group">
+                    <li className='list-group-item bg-light font-weight-bold'>Carvana</li>
+                    <li className='Answer list-group-item'>Carvana is an online used car retailer and technology business based in Tempe, Arizona</li>
+                  </ul>
+                  <ul className="list-group">
+                    <li className='list-group-item bg-light font-weight-bold'>Carsaver</li>
+                    <li className='Answer list-group-item'>Carsaver lists certified dealerships’ inventory and refer customers to dealers. They work with Walmart and provide lifetime warranty for engine, transmission and drivetrain. They charge dealers $350 as success service fee.</li>
+                  </ul>
+                </ul>
+              </div>
+              <div className='w-50'>
+                <img className="img-fluid rounded" src="https://image.freepik.com/free-photo/group-business-people-ready-start-race-track_38335-103.jpg" alt=""></img>
+                <p>
+                  There is a good number of websites that connect users to dealers by providing great tools for users to narrow down the car they like on the website and great tools for sellers to manage and advertise their inventory. However, I haven’t found a big website offering online car affiliates like my project.
+                </p>
+
+              </div>
+              <div className='mt-5 mx-auto'>
+                <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                      <th scope="col info"></th>
+                      <th scope="col">Search Tools</th>
+                      <th scope="col">Dealers Inventory Management</th>
+                      <th scope="col">Evaluate cars</th>
+                      <th scope="col">Connect buyers to sellers</th>
+                      <th scope="col">Cars information</th>
+                      <th scope="col">Affiliate program</th>
+                      <th scope="col">Used and New cars</th>
+                      <th scope="col">Financing</th>
+
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">Carsforsale</th>
+                      <td>&#10004;</td>
+                      <td>&#10004;</td>
+                      <td>&#10006;</td>
+                      <td>&#10004;</td>
+                      <td>&#10004;</td>
+                      <td>&#10006;</td>
+                      <td>&#10004;</td>
+                      <td>&#10004;</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">TrueCars</th>
+                      <td>&#10004;</td>
+                      <td>&#10004;</td>
+                      <td>&#10004;</td>
+                      <td>&#10004;</td>
+                      <td>&#10004;</td>
+                      <td>&#10006;</td>
+                      <td>&#10004;</td>
+                      <td>&#10004;</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">AutoTrader</th>
+                      <td>&#10004;</td>
+                      <td>&#10004;</td>
+                      <td>&#10004;</td>
+                      <td>&#10004;</td>
+                      <td>&#10004;</td>
+                      <td>&#10006;</td>
+                      <td>&#10004;</td>
+                      <td>&#10006;</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">CarGurus</th>
+                      <td>&#10004;</td>
+                      <td>&#10004;</td>
+                      <td>&#10004;</td>
+                      <td>&#10004;</td>
+                      <td>&#10004;</td>
+                      <td>&#10004;</td>
+                      <td>&#10004;</td>
+                      <td>&#10004;</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Edmunds</th>
+                      <td>&#10004;</td>
+                      <td>&#10004;</td>
+                      <td>&#10004;</td>
+                      <td>&#10004;</td>
+                      <td>&#10004;</td>
+                      <td>&#10004;</td>
+                      <td>&#10004;</td>
+                      <td>&#10006;</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">CarsDirect</th>
+                      <td>&#10004;</td>
+                      <td>&#10004;</td>
+                      <td>&#10006;</td>
+                      <td>&#10004;</td>
+                      <td>&#10004;</td>
+                      <td>&#10006;</td>
+                      <td>&#10004;</td>
+                      <td>&#10004;</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Carvana</th>
+                      <td>&#10004;</td>
+                      <td>&#10006;</td>
+                      <td>&#10006;</td>
+                      <td>&#10006;</td>
+                      <td>&#10004;</td>
+                      <td>&#10006;</td>
+                      <td>&#10004;</td>
+                      <td>&#10004;</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Carsaver</th>
+                      <td>&#10004;</td>
+                      <td>&#10004;</td>
+                      <td>&#10004;</td>
+                      <td>&#10004;</td>
+                      <td>&#10004;</td>
+                      <td>&#10004;</td>
+                      <td>&#10004;</td>
+                      <td>&#10004;</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <hr />
+          </section>
+
+          <section className="user-persona text-left">
+            <h1 className="display-4 mt-5">User Persona</h1>
+            <p className="">
+              Through my research, I created an user persona to understand users’ expectations, goals, and frustrations, and maintain a sense of empathy throughout the design process.
+                </p>
+            <p className="">
+              <b>Let’s Meet Jose Ortiz Hernandez </b>
+              From Mexico, Moved to the US 10 years ago. Father of 3 kids, Construction Technician. His oldest son just got DL and need a car. He also needs to change his truck for work.
+                </p>
+            <div className='d-flex flex-row'>
+              <div className='p-3 border border-secondary'>
+                <p><b>Age:</b> 38</p>
+                <p><b>Occupation:</b> Construction Technician</p>
+                <p><b>Status:</b> Married, has 3 kids</p>
+                <p><b>Location:</b> Nashville</p>
+                <img className="img-fluid rounded w-50" src="https://image.freepik.com/free-photo/pointing-sketch_1098-14323.jpg" alt=""></img>
+              </div>
+              <div>
+                <ul className="list-group">
+                  <ul className="list-group mb-5">
+                    <li className='list-group-item bg-light font-weight-bold'>Goals:</li>
+                    <li className='list-group-item'>Find a reliable and affordable car for his son as a birthday present</li>
+                    <li className='list-group-item'>Manage expenses and save more money to make a better life for his kids</li>
+                  </ul>
+                </ul>
+                <ul className="list-group mt-5">
+                  <ul className="list-group">
+                    <li className='list-group-item bg-light font-weight-bold'>Frustrations:</li>
+                    <li className='list-group-item'>Unable to manage life costs as expected</li>
+                    <li className='list-group-item'>Very busy at work and have little time for family</li>
+                  </ul>
+                </ul>
+
+              </div>
+              <div>
+                <ul className="list-group">
+                  <ul className="list-group mb-2">
+                    <li className='list-group-item bg-light font-weight-bold'>He is:</li>
+                    <li className='list-group-item'>Go getter</li>
+                    <li className='list-group-item'>Outdoor activator</li>
+                    <li className='list-group-item'>Kids-first</li>
+                    <li className='list-group-item'>Planner</li>
+                  </ul>
+                </ul>
+                <ul className="list-group mt-2">
+                  <ul className="list-group">
+                    <li className='list-group-item bg-light font-weight-bold'>Techs:</li>
+                    <li className='list-group-item'>Cell phone user</li>
+                    <li className='list-group-item'>New internet user</li>
+                    <li className='list-group-item'>Basic computer knowledge</li>
+                  </ul>
+                </ul>
+              </div>
             </div>
             <hr />
           </section>
