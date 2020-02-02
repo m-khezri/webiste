@@ -5,9 +5,24 @@
 .white-column{
   background-color:#fff;
 margin: 1% 15%;
-padding: 1%;
+padding: 1% 5%;
 }
 
-h4{
-color: #D93D4A;
+h1{
+color: #666;
+font-size: 2em !important;
 }
+
+.key-questions > div > ul {
+  width: 25%;
+  margin: 1%;
+}
+
+.Answer{
+  height: 250px;
+}
+
+.interview{
+width: 48%;
+}
+
