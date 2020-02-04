@@ -420,6 +420,78 @@ class AffcarsCaseStudy extends React.Component {
             <hr />
           </section>
 
+          <section className="text-left">
+            <h1 className="display-4 mt-5">Journey Map</h1>
+            <div>
+              <div>
+                <p>
+                  Customers can get a voucher and take it to the dealer and get discount. After purchasing a car, the buyer will upload the contract detail on the website then we will review the price and charge the dealer and pay a discount to the buyer through an online payment service.                  </p>
+              </div>
+
+              <div className='mt-5 mx-auto'>
+                <table class="table table-bordered">
+                  <thead className='text-center'>
+                    <tr>
+                      <th scope="col info">Activity</th>
+                      <th scope="col">Decide to buy a new car</th>
+                      <th scope="col">Not sure how and where buy the car</th>
+                      <th scope="col">Looking for a car or dealer</th>
+                      <th scope="col">Select the car</th>
+                      <th scope="col">Signing the contract</th>
+                      <th scope="col">Make the down payment and fees</th>
+                      <th scope="col">Delivered the car</th>
+
+                    </tr>
+                  </thead>
+                  <tbody className='text-center'>
+                    <tr>
+                      <th scope="row">Touch points</th>
+                      <td></td>
+                      <td>Affcars website</td>
+                      <td>Affcars website</td>
+                      <td>Affcars website</td>
+                      <td></td>
+                      <td></td>
+                      <td>Receive the cash-back discount</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Emotions</th>
+                      <td className='display-4'><span role="img" aria-label=''>&#128522;</span></td>
+                      <td className='display-4'><span role="img" aria-label=''>&#129300;</span></td>
+                      <td className='display-4'><span role="img" aria-label=''>&#128533;</span></td>
+                      <td className='display-4'><span role="img" aria-label=''>&#128525;</span></td>
+                      <td className='display-4'><span role="img" aria-label=''>&#128522;</span></td>
+                      <td className='display-4'><span role="img" aria-label=''>&#128519;</span></td>
+                      <td className='display-4'><span role="img" aria-label=''>&#129303;</span></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Equipment and Rsources</th>
+                      <td></td>
+                      <td>Laptop / smartphone</td>
+                      <td>Laptop / smartphone</td>
+                      <td>Laptop / smartphone</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+
+                    </tr>
+                    <tr>
+                      <th scope="row">Moment of Truth</th>
+                      <td></td>
+                      <td>Found Affcars website</td>
+                      <td></td>
+                      <td>Found the best discount on the website</td>
+                      <td></td>
+                      <td></td>
+                      <td>Refer the website to friends</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <hr />
+          </section>
+
         </div>
       </div>
 
