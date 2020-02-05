@@ -1,6 +1,7 @@
 import React from 'react';
 import './AffcarsCaseStudy.scss';
 import { Link } from 'react-router-dom';
+import HomePage from '../../image/affcars/Wireframing/HomePage.jpg';
 
 
 class AffcarsCaseStudy extends React.Component {
@@ -491,6 +492,41 @@ class AffcarsCaseStudy extends React.Component {
             </div>
             <hr />
           </section>
+
+
+          <section className="sketching text-left">
+            <h1 className="display-4 mt-5">Sketching and Prototyping</h1>
+            <div className="d-flex flex-wrap">
+              <p>
+                After gathering all the information, I started prototyping and structure the information.
+                I was aware that I should design for people who are not really internet users so it must be very
+                clear, user friendly, well-organized and understanding for users. I really enjoyed this part of my job
+                because I gave it a lot of thought to make it simple and easy to use.
+             </p>
+              <img className="m-1 img-fluid rounded" src="https://media-exp1.licdn.com/dms/image/C4E22AQE0kQV-HJObVg/feedshare-shrink_2048_1536/0?e=1583971200&v=beta&t=G8st7yzJsMEeuKGfcJJmr9uCT4rHpqDoIVCti4IV3IM" alt=""></img>
+            </div>
+            <hr />
+          </section>
+
+          <section className="wireframing text-left">
+            <h1 className="display-4 mt-5">Wireframing</h1>
+            <div className="d-flex flex-wrap">
+              <p>
+                Again like my previews project I used Adobe XD for clickable wireframing.
+                I was almost sure about the user work flow and I designed almost everything to make it applicable for both buyers and sellers. I included product filtering, searching, bookmarking,...
+                I'll break it down every steps in following sections.
+             </p>
+              <h5>Section 1: Home page</h5>
+              <div className='row'>
+                <p className='col-sm'>
+                  This the home page...
+                </p>
+                <img className="col-sm-6 img-fluid" src={HomePage} alt=''></img>
+              </div>
+            </div>
+            <hr />
+          </section>
+
 
         </div>
       </div>
