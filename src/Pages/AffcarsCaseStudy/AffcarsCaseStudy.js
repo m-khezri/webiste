@@ -1,6 +1,9 @@
 import React from 'react';
 import './AffcarsCaseStudy.scss';
 import { Link } from 'react-router-dom';
+import HomePage from '../../image/affcars/Wireframing/HomePage.jpg';
+import SearchResult from '../../image/affcars/Wireframing/SearchResult.jpg';
+
 
 
 class AffcarsCaseStudy extends React.Component {
@@ -251,8 +254,8 @@ class AffcarsCaseStudy extends React.Component {
                 </p>
 
               </div>
-              <div className='mt-5 mx-auto'>
-                <table class="table table-bordered">
+              <div className='mt-5 mx-auto table-responsive'>
+                <table className="table table-bordered">
                   <thead>
                     <tr>
                       <th scope="col info"></th>
@@ -420,77 +423,147 @@ class AffcarsCaseStudy extends React.Component {
             <hr />
           </section>
 
-          <section className="text-left">
-            <h1 className="display-4 mt-5">Journey Map</h1>
+          <section className="row text-left">
+            <h1 className="col-sm display-4 mt-5">Journey Map</h1>
             <div>
-              <div>
-                <p>
-                  Customers can get a voucher and take it to the dealer and get discount. After purchasing a car, the buyer will upload the contract detail on the website then we will review the price and charge the dealer and pay a discount to the buyer through an online payment service.                  </p>
-              </div>
+              <p className='col-sm'>
+                Customers can get a voucher and take it to the dealer and get discount. After purchasing a car, the buyer will upload the contract detail on the website then we will review the price and charge the dealer and pay a discount to the buyer through an online payment service.                  </p>
+            </div>
 
-              <div className='mt-5 mx-auto'>
-                <table class="table table-bordered">
-                  <thead className='text-center'>
-                    <tr>
-                      <th scope="col info">Activity</th>
-                      <th scope="col">Decide to buy a new car</th>
-                      <th scope="col">Not sure how and where buy the car</th>
-                      <th scope="col">Looking for a car or dealer</th>
-                      <th scope="col">Select the car</th>
-                      <th scope="col">Signing the contract</th>
-                      <th scope="col">Make the down payment and fees</th>
-                      <th scope="col">Delivered the car</th>
+            <div className='mt-5 mx-auto table-responsive'>
+              <table className="table table-bordered">
+                <thead>
+                  <tr>
+                    <th scope="col info">Activity</th>
+                    <th scope="col">Decide to buy a new car</th>
+                    <th scope="col">Not sure how and where buy the car</th>
+                    <th scope="col">Looking for a car or dealer</th>
+                    <th scope="col">Select the car</th>
+                    <th scope="col">Signing the contract</th>
+                    <th scope="col">Make the down payment and fees</th>
+                    <th scope="col">Delivered the car</th>
 
-                    </tr>
-                  </thead>
-                  <tbody className='text-center'>
-                    <tr>
-                      <th scope="row">Touch points</th>
-                      <td></td>
-                      <td>Affcars website</td>
-                      <td>Affcars website</td>
-                      <td>Affcars website</td>
-                      <td></td>
-                      <td></td>
-                      <td>Receive the cash-back discount</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">Emotions</th>
-                      <td className='display-4'><span role="img" aria-label=''>&#128522;</span></td>
-                      <td className='display-4'><span role="img" aria-label=''>&#129300;</span></td>
-                      <td className='display-4'><span role="img" aria-label=''>&#128533;</span></td>
-                      <td className='display-4'><span role="img" aria-label=''>&#128525;</span></td>
-                      <td className='display-4'><span role="img" aria-label=''>&#128522;</span></td>
-                      <td className='display-4'><span role="img" aria-label=''>&#128519;</span></td>
-                      <td className='display-4'><span role="img" aria-label=''>&#129303;</span></td>
-                    </tr>
-                    <tr>
-                      <th scope="row">Equipment and Rsources</th>
-                      <td></td>
-                      <td>Laptop / smartphone</td>
-                      <td>Laptop / smartphone</td>
-                      <td>Laptop / smartphone</td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
+                  </tr>
+                </thead>
+                <tbody className='text-center'>
+                  <tr>
+                    <th scope="row">Touch points</th>
+                    <td></td>
+                    <td>Affcars website</td>
+                    <td>Affcars website</td>
+                    <td>Affcars website</td>
+                    <td></td>
+                    <td></td>
+                    <td>Receive the cash-back discount</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Emotions</th>
+                    <td className='display-5'><span role="img" aria-label=''>&#128522;</span></td>
+                    <td className='display-5'><span role="img" aria-label=''>&#129300;</span></td>
+                    <td className='display-5'><span role="img" aria-label=''>&#128533;</span></td>
+                    <td className='display-5'><span role="img" aria-label=''>&#128525;</span></td>
+                    <td className='display-5'><span role="img" aria-label=''>&#128522;</span></td>
+                    <td className='display-5'><span role="img" aria-label=''>&#128519;</span></td>
+                    <td className='display-5'><span role="img" aria-label=''>&#129303;</span></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Equipment and Rsources</th>
+                    <td></td>
+                    <td>Laptop / smartphone</td>
+                    <td>Laptop / smartphone</td>
+                    <td>Laptop / smartphone</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
 
-                    </tr>
-                    <tr>
-                      <th scope="row">Moment of Truth</th>
-                      <td></td>
-                      <td>Found Affcars website</td>
-                      <td></td>
-                      <td>Found the best discount on the website</td>
-                      <td></td>
-                      <td></td>
-                      <td>Refer the website to friends</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
+                  </tr>
+                  <tr>
+                    <th scope="row">Moment of Truth</th>
+                    <td></td>
+                    <td>Found Affcars website</td>
+                    <td></td>
+                    <td>Found the best discount on the website</td>
+                    <td></td>
+                    <td></td>
+                    <td>Refer the website to friends</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
             <hr />
           </section>
+
+
+          <section className="sketching text-left">
+            <h1 className="display-4 mt-5">Sketching and Prototyping</h1>
+            <div className="d-flex flex-wrap">
+              <p>
+                After gathering all the information, I started prototyping and structure the information.
+                I was aware that I should design for people who are not really internet users so it must be very
+                clear, user friendly, well-organized and understanding for users. I really enjoyed this part of my job
+                because I gave it a lot of thought to make it simple and easy to use.
+             </p>
+              <img className="m-1 img-fluid rounded" src="https://media-exp1.licdn.com/dms/image/C4E22AQE0kQV-HJObVg/feedshare-shrink_2048_1536/0?e=1583971200&v=beta&t=G8st7yzJsMEeuKGfcJJmr9uCT4rHpqDoIVCti4IV3IM" alt=""></img>
+            </div>
+            <hr />
+          </section>
+
+          <section className="wireframing row text-light wireframing text-left p-5">
+            <h6 className="display-4 mt-5">Wireframing</h6>
+            <div className="col-sm-12 my-3">
+              <p>
+                Again like my previews project I used Adobe XD for clickable wireframing.
+                I was almost sure about the user work flow and I designed almost everything to make it applicable for both buyers and sellers. I included product filtering, searching, bookmarking,...
+                I'll break it down every steps in following sections.
+             </p>
+            </div>
+            <div className="col-md-6">
+              <h1 className='text-warning display-4'>Home Page</h1>
+              <ul>
+                <li>
+                  This is what I thought about the home page. It's pretty straight forward so users can search a spesific car or choose a desireable make and model. min/max price in their area.
+                </li>
+                <li>
+                  <p>
+                    I was thinking to design a slide show to offer hot deals of the week in a limited time span for buyers. Users can easily bookmark them or go ahead to buy it.
+                </p>
+                  <li>
+                    In lower sections, I provided the possibility to find a car based on cars body style and customers budget. it will help them see varaities of options match with their budget.
+                </li>
+                  <p>In the lowest section, customers can find out most popular brands that have been sold lately, it helps them which brands are hot in the market</p>
+                </li>
+              </ul>
+            </div>
+            <div className="col-md-6">
+              <img className="img-fluid rounded" src={HomePage} alt=''></img>
+            </div>
+            <hr />
+          </section>
+
+          <section className="wireframing row text-light wireframing text-left p-5">
+            <div className="col-md-6">
+              <h1 className='text-warning display-4'>Search Result </h1>
+              <ul>
+                <li>
+                  Here is the search result page. In this page users can see the result of their search; however, on the left section, they are also able to change their search by changing variety of specifications provided on the left.
+                </li>
+                <li>
+                  <p>
+                    In result sections, users see summary information about the cars such as pictures, description, dicount value, retail price as well as some information about number of views, location and the duration of the listed car on the market.
+                </p>
+                  <li>
+                    I added three icons on the picture to compare models, bookmarking, and a special icon like the logo which means if this car is under contract right now or not.
+                </li>
+                  <p>In the lowest section, customers can find out most popular brands that have been sold lately, it helps them which brands are hot in market</p>
+                </li>
+              </ul>
+            </div>
+            <div className="col-md-6">
+              <img className="img-fluid rounded" src={SearchResult} alt=''></img>
+            </div>
+            <hr />
+          </section>
+
 
         </div>
       </div>
