@@ -2,10 +2,9 @@
   background-color:#ECEFF1;
 }
 
-.white-column{
-  background-color:#fff;
-margin: 1% 15%;
-padding: 1% 5%;
+#project-overview{
+  margin: 0;
+  height: 100vh;
 }
 
 h1{
@@ -25,9 +24,9 @@ font-size: 2em !important;
 width: 48%;
 }
 
-// div{
-//   border: 1px dotted green;
-// }
+div{
+  border: 1px dotted green;
+}
 
 .wireframing{
   background-color: #1b262c;

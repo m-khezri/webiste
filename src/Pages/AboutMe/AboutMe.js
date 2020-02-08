@@ -16,12 +16,13 @@ class AboutMe extends React.Component {
     return (
       <div className="AboutMeContainer">
         <div className="imgHolder">
-          <Fade delay='1200'>
-            <img className="my-pic" src={me} alt=''></img>
-          </Fade>
+
           <div className="bioContainer">
+            <Fade delay='1200'>
+              <img className="my-pic shadow-lg" src={me} alt=''></img>
+            </Fade>
             <Fade bottom delay='800'>
-              <div>
+              <div className='text-center'>
                 <h1 className="myName display-4">Mohammad Khezri</h1>
                 <h5 className="title">UX/UI Designer / Front-End Developer</h5>
               </div>

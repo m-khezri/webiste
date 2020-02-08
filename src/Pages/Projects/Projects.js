@@ -14,7 +14,7 @@ class Projects extends React.Component {
           <Link className="proj-link nav-link" to="/"><i className="fas fa-home mr-2"></i>Home</Link>
         </div>
 
-        <div className="projects">
+        <div className="projects mt-5 py-5">
 
           <div className="project1 shadow">
             <div className="bg-proj">
