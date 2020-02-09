@@ -24,6 +24,7 @@ import AddCar2 from '../../image/affcars/Wireframing/AddCar2.jpg';
 import AddCar3 from '../../image/affcars/Wireframing/AddCar3.jpg';
 import AddCar4 from '../../image/affcars/Wireframing/AddCar4.jpg';
 import Mockup from '../../image/affcars/Wireframing/Mockup.jpg';
+import sec1pic from '../../image/affcars/Wireframing/sec1pic.jpg';
 
 
 
@@ -41,74 +42,90 @@ class AffcarsCaseStudy extends React.Component {
         </div>
 
 
-        <section id="project-overview" className='row'>
-          <div className='col-12'>
-            <h3 className="my-5 display-4 text-center"> Online Used Cars Affiliate website. I named it ‘Affcars’</h3>
-          </div>
-          <div className='col-12' text-left>
-            <h1 className="display-4">Project Overview</h1>
-          </div>
+        <section id="section1">
+          <div className='row'>
+            <div className='col-sm-12 my-5'>
+              <h3 className="my-5 font-weight-bolder text-center"> Online Used Cars Affiliate website. I named it ‘Affcars’</h3>
+            </div>
+            <div className='col-sm-12'>
+              <h1 className="sec1-title display-4">Project Overview</h1>
+            </div>
 
-          <div className='col-sm-6'>
-            <p className="w-50">
-              This is my personal UX/UI project focusing on used car affiliate marketing that will help mid or low-income people to buy more reliable cars with the best cash-back discount.
-              In this project, dealers can add their inventory and assign discounts for each car then customers will be able to find the cars with the best price and discount.
-              The goal is increasing traffic to car lots to boost their sales and help buyers to get a more affordable and reliable car.</p>
-            <div className='col-'>
-              <img className="ml-3 img-fluid rounded" src="https://image.freepik.com/free-photo/young-family-buying-car-car-showroom_1303-16339.jpg" alt=""></img>
+            <div className='sec1-par col-sm-6'>
+              <p>
+                This is my personal UX/UI project focusing on used car affiliate marketing helping people to buy more reliable cars with the best cash-back discount.
+                In this project, dealers can add their inventory and assign discounts for each car then customers will be able to find the cars with the best price and discount.
+              The goal is increasing traffic to car dealers to boost their sales and help buyers to get a more affordable and reliable car.</p>
+            </div>
+            <div className='sec1-pic col-sm-6 m-0'>
+              <img className="img-fluid rounded" src={sec1pic} alt=''></img>
             </div>
           </div>
         </section>
 
-        <section className="my-role text-left">
-          <h1 className="display-4 mt-5">My Role</h1>
-          <div className="d-flex flex-wrap">
-            <ul className="ml-3 w-50">I worked on this case study from ground up. I was responsible for:
+        <section id="section2">
+          <div className='row'>
+            <div className='col-sm-12'>
+              <h1 className="sec2-title display-4">My Role</h1>
+            </div>
+
+            <div className="sec2-par col-sm-6">
+              <ul>I worked on this case study from ground up. I was responsible for:
             <li>Defining the problem</li>
-              <li>Researching,</li>
-              <li>Interview with people and polling</li>
-              <li>Analysis the data</li>
-              <li>Research about the market</li>
-              <li>Research about competitors</li>
-              <li>Creating persona</li>
-              <li>User journey</li>
-              <li>Sketching the app</li>
-              <li>Wireframing</li>
-              <li>Prototyping</li>
-              <li>Testing</li>
-              <li>Coding</li>
-              <li>Again testing, improving, testing, testing...</li>
-            </ul>
-            <img className="m-1 img-fluid rounded" src="https://image.freepik.com/free-photo/creative-web-designer-planning-application-developing-template-layout-framework-mobile-phone_1418-2315.jpg" alt=""></img>
+                <li>Researching,</li>
+                <li>Interview with people and polling</li>
+                <li>Analysis the data</li>
+                <li>Research about the market</li>
+                <li>Research about competitors</li>
+                <li>Creating persona</li>
+                <li>User journey</li>
+                <li>Sketching the app</li>
+                <li>Wireframing</li>
+                <li>Prototyping</li>
+                <li>Testing</li>
+                <li>Coding</li>
+                <li>Again testing, improving, testing, testing...</li>
+              </ul>
+            </div>
+            <div className='sec1-pic col-sm-6 mx-auto my-auto'>
+              <img className="m-1 img-fluid rounded" src="https://image.freepik.com/free-photo/creative-web-designer-planning-application-developing-template-layout-framework-mobile-phone_1418-2315.jpg" alt=""></img>
+            </div>
           </div>
-          <hr />
         </section>
 
+        <section id="section3">
+          <div className='row'>
+            <div className='col-sm-12'>
+              <h1 className="sec3-title display-4">Problem Statement</h1>
+            </div>
 
-        <section className="problem-statement text-left">
-          <h1 className="display-4 mt-5">Problem statement</h1>
-          <div className="d-flex flex-wrap">
-            <p className="w-50">
-              How might we create a website that users can easily search, filter and narrow their filtering to reach a car that they need with the best cash-back discount People with bad credit, low budget for down-payment, people who can’t buy a car from main dealers or anyone who in particular looking for a car with real discount have this chance to save some money for part of down payment or tax. As I researched the problem is most of these people really don’t know that they can buy a cheaper car.
-              The real problem is a lack of buyers' awareness. I’m trying to solve this problem by giving more awareness to these people by providing the right tools to help them buy a car through awareness.
-
+            <div className="sec3-par col-sm-6">
+              <p>
+                How might we create a website that users can easily search, filter and narrow their filtering to reach a car that they need with the best cash-back discount People with bad credit, low budget for down-payment, people who can’t buy a car from main dealers or anyone who in particular looking for a car with real discount have this chance to save some money for part of down payment or tax. As I researched the problem is most of these people really don’t know that they can buy a cheaper car.
+                The real problem is a lack of buyers' awareness. I’m trying to solve this problem by giving more awareness to these people by providing the right tools to help them buy a car through awareness.
               </p>
-            <img className="m-1 img-fluid rounded" src="https://image.freepik.com/free-photo/man-solving-rubik-s-cube_23-2147711117.jpg" alt=""></img>
+            </div>
+            <div className='sec1-pic col-sm-6 mx-auto my-auto'>
+              <img className="m-1 img-fluid rounded" src="https://image.freepik.com/free-photo/man-solving-rubik-s-cube_23-2147711117.jpg" alt=""></img>
+            </div>
           </div>
-          <hr />
         </section>
 
-        <section className="big-challenges text-left px-1">
-          <h1 className="display-4 mt-5">Big Challenges</h1>
-          <div className="d-flex flex-wrap">
-            <ul className="ml-3">Buyers:
+        <section id="section4">
+          <div className='row'>
+            <div className='col-sm-12'>
+              <h1 className="sec4-title display-4">Challenges</h1>
+            </div>
+
+            <div className="sec4-par col-sm-12">
+              <ul className="ml-3">Buyers:
                 <li>The target users are not really internet users, some of them really don’t use the internet to buy a car, they prefer to walk in car lots to see the cars and buy a car with shut eyes. Some of them are immigrants that really don’t know English. </li>
-            </ul>
-            <ul className="ml-3">Sellers:
+              </ul>
+              <ul className="ml-3">Sellers:
                 <li>They don’t clarify the real car price, they really don’t like to let the customers know about the (hidden) fees and real final price. They can play with price and fees and change them in the middle of a contract to recover the amount of discount they have already given to the buyer. If we make them clarify the information for customers, they might refuse to list their inventory on the website </li>
-            </ul>
+              </ul>
+            </div>
           </div>
-          <hr />
         </section>
 
         <section className="key-questions text-left">
