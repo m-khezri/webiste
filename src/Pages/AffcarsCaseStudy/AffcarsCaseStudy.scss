@@ -1,14 +1,70 @@
+div{
+  // border: 1px dotted green;
+}
+
 .affcars-main-container{
-  background-color:#ECEFF1;
-}
-
-#project-overview{
   margin: 0;
-  height: 100vh;
 }
 
-h1{
-font-size: 2em !important;
+#section1{
+height: 100vh;
+        h3{
+          font-size: 3em;
+        }
+
+        .sec1-title{
+          padding: 1% 10%;
+        }
+        .sec1-par{
+          padding: 10%;
+          font-size: 1.5em;
+          color:#546e7a;
+        }
+}
+
+#section2{
+  height: 100vh;
+  background-color: #eceff1;
+      .sec2-title{
+        padding: 1% 10%;
+      }
+      .sec2-par{
+        padding: 10%;
+        font-size: 1.5em;
+        color:#546e7a;
+      }
+}
+
+#section3{
+  height: 100vh;
+  background-color: #fff;
+      .sec3-title{
+        padding: 1% 10%;
+      }
+      .sec3-par{
+        padding: 10%;
+        font-size: 1.5em;
+        color:#546e7a;
+      }
+}
+
+#section4{
+  height: 100vh;
+  background-color: #eceff1;
+      .sec4-title{
+        padding: 1% 10%;
+      }
+      .sec4-par{
+        padding: 10%;
+        font-size: 1.5em;
+        color:#546e7a;
+      }
+}
+
+
+
+.project-overview{
+  margin: 0 15%;
 }
 
 .key-questions > div > ul {
@@ -24,9 +80,7 @@ font-size: 2em !important;
 width: 48%;
 }
 
-div{
-  border: 1px dotted green;
-}
+
 
 .wireframing{
   background-color: #1b262c;
