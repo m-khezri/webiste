@@ -2,8 +2,8 @@ div{
   // border: 1px dotted green;
 }
 
-.affcars-main-container{
-  margin: 0;
+h1{
+  color: coral;
 }
 
 #section1{
@@ -17,50 +17,120 @@ height: 100vh;
         }
         .sec1-par{
           padding: 10%;
-          font-size: 1.5em;
+          font-size: 1em;
           color:#546e7a;
         }
 }
 
 #section2{
-  height: 100vh;
   background-color: #eceff1;
       .sec2-title{
         padding: 1% 10%;
       }
       .sec2-par{
         padding: 10%;
-        font-size: 1.5em;
+        font-size: 1em;
         color:#546e7a;
       }
 }
 
 #section3{
-  height: 100vh;
   background-color: #fff;
       .sec3-title{
         padding: 1% 10%;
       }
       .sec3-par{
         padding: 10%;
-        font-size: 1.5em;
+        font-size: 1em;
         color:#546e7a;
       }
 }
 
 #section4{
-  height: 100vh;
   background-color: #eceff1;
       .sec4-title{
         padding: 1% 10%;
       }
       .sec4-par{
-        padding: 10%;
-        font-size: 1.5em;
+        padding: 10% 30%;
+        font-size: 1em;
         color:#546e7a;
       }
 }
 
+#section5{
+  background-color: #fff;
+      .sec5-title{
+        padding: 1% 10%;
+      }
+      .sec5-par{
+        padding: 10%;
+        color:#546e7a;
+      }
+      .Answer{
+        min-height: 160px;
+      }
+}
+
+#section6{
+  background-color: #eceff1;
+          h3{
+            font-size: 3em;
+          }
+  
+          .sec6-title{
+            padding: 1% 10%;
+          }
+          .sec6-par{
+            padding: 10% 0 0 10%;
+            font-size: 1em;
+            color:#546e7a;
+          }
+
+          .sec6-pic{
+            max-width: 600px;
+          }
+  }
+
+  #section7{
+    background-color: #fff;
+            h3{
+              font-size: 3em;
+            }
+    
+            .sec7-title{
+              padding: 1% 10%;
+            }
+            .sec7-par{
+              padding: 2% 0 0 10%;
+              font-size: 1em;
+              color:#546e7a;
+            }
+  
+            .sec7-pic{
+              max-width: 600px;
+            }
+    }
+
+    #section8{
+      background-color: #eceff1;
+      h3{
+                font-size: 3em;
+              }
+      
+              .sec8-title{
+                padding: 1% 10%;
+              }
+              .sec8-par{
+                padding: 5% 0 0 5%;
+                font-size: 1em;
+                color:#546e7a;
+              }
+    
+              .sec8-pic{
+                max-width: 600px;
+              }
+      }
 
 
 .project-overview{
@@ -72,9 +142,7 @@ height: 100vh;
   margin: 5px 0;
 }
 
-.Answer{
-  height: 120px;
-}
+
 
 .interview{
 width: 48%;
