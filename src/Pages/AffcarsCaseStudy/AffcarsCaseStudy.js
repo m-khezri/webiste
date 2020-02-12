@@ -32,7 +32,7 @@ class AffcarsCaseStudy extends React.Component {
   render() {
 
     return (
-      <div className="affcars-main-container">
+      <div className="container affcars-main-container">
         <div>
           <div className="d-flex pt-2 ml-1 justify-content-left">
             <Link className="proj-link nav-link" to="/"><i className="fas fa-home mr-2"></i>Home</Link>
@@ -179,12 +179,12 @@ class AffcarsCaseStudy extends React.Component {
 
         <section id="section6">
           <div className='row'>
-            <div className='col-sm-12'>
+            <div className='col-12'>
               <h1 className="sec6-title display-4">Interview and opinion polling with customers</h1>
             </div>
 
-            <div className="sec6-par col-sm-6">
-              <ul className="list-group ">
+            <div className="sec6-par col-md-6">
+              <ul className="list-group  shadow-lg">
                 <li className='list-group-item text-light bg-dark'>Here is the result:</li>
                 <li className='list-group-item'>%45 Change their car between 2-5 years</li>
                 <li className='list-group-item'>%57 find their car through family/friends %26 walk-in car lots and less than %5 looked for online</li>
@@ -201,7 +201,7 @@ class AffcarsCaseStudy extends React.Component {
                 <li className='list-group-item'>%95 were excited about getting $100 to $500 cash-back discount and only %5 expressed they really don’t need it</li>
               </ul>
             </div>
-            <div className='sec6-pic col-sm-6 mx-auto my-auto'>
+            <div className='sec6-pic col-md-6 mx-auto my-auto'>
               <img className="img-fluid rounded mb-3" src="https://image.freepik.com/free-photo/hands-with-blue-pen-application-form-students-taking-exams-writing-examination_4236-1679.jpg" alt=""></img>
               <p>
                 I did opinion polling with a couple of customers who already bought a used car from dealers, I also discuss about their creteria, concerns and expectations when they need a new used car.
@@ -258,7 +258,7 @@ class AffcarsCaseStudy extends React.Component {
               <h1 className="sec8-title display-4">Competitors</h1>
             </div>
 
-            <div className="sec8-par col-6">
+            <div className="sec8-par col">
               <p>
                 The big websites that have been around for a long time are as follow:</p>
               <div className='row'>
@@ -294,6 +294,115 @@ class AffcarsCaseStudy extends React.Component {
                   <li className='list-group-item bg-light font-weight-bold'>Carsaver</li>
                   <li className='Answer list-group-item'>Carsaver lists certified dealerships’ inventory and refer customers to dealers. They work with Walmart and provide lifetime warranty for engine, transmission and drivetrain. They charge dealers $350 as success service fee.</li>
                 </ul>
+                <div className='sec8-table mt-5 table-responsive'>
+                  <table className="table table-bordered m-auto bg-light">
+                    <thead>
+                      <tr className='text-center'>
+                        <th scope="col info"></th>
+                        <th scope="col">Search Tools</th>
+                        <th scope="col">Dealers Inventory Management</th>
+                        <th scope="col">Evaluate cars</th>
+                        <th scope="col">Connect buyers to sellers</th>
+                        <th scope="col">Cars information</th>
+                        <th scope="col">Affiliate program</th>
+                        <th scope="col">Used and New cars</th>
+                        <th scope="col">Financing</th>
+
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">Carsforsale</th>
+                        <td>&#10004;</td>
+                        <td>&#10004;</td>
+                        <td>&#10006;</td>
+                        <td>&#10004;</td>
+                        <td>&#10004;</td>
+                        <td>&#10006;</td>
+                        <td>&#10004;</td>
+                        <td>&#10004;</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">TrueCars</th>
+                        <td>&#10004;</td>
+                        <td>&#10004;</td>
+                        <td>&#10004;</td>
+                        <td>&#10004;</td>
+                        <td>&#10004;</td>
+                        <td>&#10006;</td>
+                        <td>&#10004;</td>
+                        <td>&#10004;</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">AutoTrader</th>
+                        <td>&#10004;</td>
+                        <td>&#10004;</td>
+                        <td>&#10004;</td>
+                        <td>&#10004;</td>
+                        <td>&#10004;</td>
+                        <td>&#10006;</td>
+                        <td>&#10004;</td>
+                        <td>&#10006;</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">CarGurus</th>
+                        <td>&#10004;</td>
+                        <td>&#10004;</td>
+                        <td>&#10004;</td>
+                        <td>&#10004;</td>
+                        <td>&#10004;</td>
+                        <td>&#10004;</td>
+                        <td>&#10004;</td>
+                        <td>&#10004;</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Edmunds</th>
+                        <td>&#10004;</td>
+                        <td>&#10004;</td>
+                        <td>&#10004;</td>
+                        <td>&#10004;</td>
+                        <td>&#10004;</td>
+                        <td>&#10004;</td>
+                        <td>&#10004;</td>
+                        <td>&#10006;</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">CarsDirect</th>
+                        <td>&#10004;</td>
+                        <td>&#10004;</td>
+                        <td>&#10006;</td>
+                        <td>&#10004;</td>
+                        <td>&#10004;</td>
+                        <td>&#10006;</td>
+                        <td>&#10004;</td>
+                        <td>&#10004;</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Carvana</th>
+                        <td>&#10004;</td>
+                        <td>&#10006;</td>
+                        <td>&#10006;</td>
+                        <td>&#10006;</td>
+                        <td>&#10004;</td>
+                        <td>&#10006;</td>
+                        <td>&#10004;</td>
+                        <td>&#10004;</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Carsaver</th>
+                        <td>&#10004;</td>
+                        <td>&#10004;</td>
+                        <td>&#10004;</td>
+                        <td>&#10004;</td>
+                        <td>&#10004;</td>
+                        <td>&#10004;</td>
+                        <td>&#10004;</td>
+                        <td>&#10004;</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
               </div>
             </div>
             <div className='sec8-pic col-sm-6 mx-auto my-auto'>
@@ -302,176 +411,76 @@ class AffcarsCaseStudy extends React.Component {
                 There is a good number of websites that connect users to dealers by providing great tools for users to narrow down the car they like on the website and great tools for sellers to manage and advertise their inventory. However, I haven’t found a big website offering online car affiliates like my project.
                 </p>
             </div>
-            <div className='mt-5 table-responsive col-sm-12'>
-              <table className="table table-bordered">
-                <thead>
-                  <tr>
-                    <th scope="col info"></th>
-                    <th scope="col">Search Tools</th>
-                    <th scope="col">Dealers Inventory Management</th>
-                    <th scope="col">Evaluate cars</th>
-                    <th scope="col">Connect buyers to sellers</th>
-                    <th scope="col">Cars information</th>
-                    <th scope="col">Affiliate program</th>
-                    <th scope="col">Used and New cars</th>
-                    <th scope="col">Financing</th>
 
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row">Carsforsale</th>
-                    <td>&#10004;</td>
-                    <td>&#10004;</td>
-                    <td>&#10006;</td>
-                    <td>&#10004;</td>
-                    <td>&#10004;</td>
-                    <td>&#10006;</td>
-                    <td>&#10004;</td>
-                    <td>&#10004;</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">TrueCars</th>
-                    <td>&#10004;</td>
-                    <td>&#10004;</td>
-                    <td>&#10004;</td>
-                    <td>&#10004;</td>
-                    <td>&#10004;</td>
-                    <td>&#10006;</td>
-                    <td>&#10004;</td>
-                    <td>&#10004;</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">AutoTrader</th>
-                    <td>&#10004;</td>
-                    <td>&#10004;</td>
-                    <td>&#10004;</td>
-                    <td>&#10004;</td>
-                    <td>&#10004;</td>
-                    <td>&#10006;</td>
-                    <td>&#10004;</td>
-                    <td>&#10006;</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">CarGurus</th>
-                    <td>&#10004;</td>
-                    <td>&#10004;</td>
-                    <td>&#10004;</td>
-                    <td>&#10004;</td>
-                    <td>&#10004;</td>
-                    <td>&#10004;</td>
-                    <td>&#10004;</td>
-                    <td>&#10004;</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Edmunds</th>
-                    <td>&#10004;</td>
-                    <td>&#10004;</td>
-                    <td>&#10004;</td>
-                    <td>&#10004;</td>
-                    <td>&#10004;</td>
-                    <td>&#10004;</td>
-                    <td>&#10004;</td>
-                    <td>&#10006;</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">CarsDirect</th>
-                    <td>&#10004;</td>
-                    <td>&#10004;</td>
-                    <td>&#10006;</td>
-                    <td>&#10004;</td>
-                    <td>&#10004;</td>
-                    <td>&#10006;</td>
-                    <td>&#10004;</td>
-                    <td>&#10004;</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Carvana</th>
-                    <td>&#10004;</td>
-                    <td>&#10006;</td>
-                    <td>&#10006;</td>
-                    <td>&#10006;</td>
-                    <td>&#10004;</td>
-                    <td>&#10006;</td>
-                    <td>&#10004;</td>
-                    <td>&#10004;</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Carsaver</th>
-                    <td>&#10004;</td>
-                    <td>&#10004;</td>
-                    <td>&#10004;</td>
-                    <td>&#10004;</td>
-                    <td>&#10004;</td>
-                    <td>&#10004;</td>
-                    <td>&#10004;</td>
-                    <td>&#10004;</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
           </div>
         </section>
 
-
-
-
-        <section className="user-persona text-left">
-          <h1 className="display-4 mt-5">User Persona</h1>
-          <p className="">
-            Through my research, I created an user persona to understand users’ expectations, goals, and frustrations, and maintain a sense of empathy throughout the design process.
-                </p>
-          <p className="">
-            <b>Let’s Meet Jose Ortiz Hernandez </b>
-            From Mexico, Moved to the US 10 years ago. Father of 3 kids, Construction Technician. His oldest son just got DL and need a car. He also needs to change his truck for work.
-                </p>
-          <div className='d-flex flex-row'>
-            <div className='p-3 border border-secondary'>
-              <p><b>Age:</b> 38</p>
-              <p><b>Occupation:</b> Construction Technician</p>
-              <p><b>Status:</b> Married, has 3 kids</p>
-              <p><b>Location:</b> Nashville</p>
-              <img className="img-fluid rounded w-50" src="https://image.freepik.com/free-photo/pointing-sketch_1098-14323.jpg" alt=""></img>
+        <section id="section9">
+          <div className='row'>
+            <div className='col-12'>
+              <h1 className="sec9-title display-4">User Persona</h1>
             </div>
-            <div>
-              <ul className="list-group">
-                <ul className="list-group mb-5">
-                  <li className='list-group-item bg-light font-weight-bold'>Goals:</li>
-                  <li className='list-group-item'>Find a reliable and affordable car for his son as a birthday present</li>
-                  <li className='list-group-item'>Manage expenses and save more money to make a better life for his kids</li>
-                </ul>
-              </ul>
-              <ul className="list-group mt-5">
-                <ul className="list-group">
-                  <li className='list-group-item bg-light font-weight-bold'>Frustrations:</li>
-                  <li className='list-group-item'>Unable to manage life costs as expected</li>
-                  <li className='list-group-item'>Very busy at work and have little time for family</li>
-                </ul>
-              </ul>
 
-            </div>
-            <div>
-              <ul className="list-group">
-                <ul className="list-group mb-2">
-                  <li className='list-group-item bg-light font-weight-bold'>He is:</li>
-                  <li className='list-group-item'>Go getter</li>
-                  <li className='list-group-item'>Outdoor activator</li>
-                  <li className='list-group-item'>Kids-first</li>
-                  <li className='list-group-item'>Planner</li>
-                </ul>
-              </ul>
-              <ul className="list-group mt-2">
-                <ul className="list-group">
-                  <li className='list-group-item bg-light font-weight-bold'>Techs:</li>
-                  <li className='list-group-item'>Cell phone user</li>
-                  <li className='list-group-item'>New internet user</li>
-                  <li className='list-group-item'>Basic computer knowledge</li>
-                </ul>
-              </ul>
+            <div className="sec9-par">
+              <div className='col-12'>
+                <p>
+                  Through my research, I created an user persona to understand users’ expectations, goals, and frustrations, and maintain a sense of empathy throughout the design process.
+                </p>
+                <p>
+                  <b>Let’s Meet Jose Ortiz Hernandez </b>
+                  From Mexico, Moved to the US 10 years ago. Father of 3 kids, Construction Technician. His oldest son just got DL and need a car. He also needs to change his truck for work.
+                </p>
+              </div>
+
+              <div className='row shadow-lg p-5'>
+                <div className='col-md-4'>
+                  <img className="img-fluid rounded" src="https://image.freepik.com/free-photo/pointing-sketch_1098-14323.jpg" alt=""></img>
+                  <div className='mt-3'>
+                    <p><b>Age:</b> 38</p>
+                    <p><b>Occupation:</b> Construction Technician</p>
+                    <p><b>Status:</b> Married, has 3 kids</p>
+                    <p><b>Location:</b> Nashville</p>
+                  </div>
+                </div>
+                <div className='col-md-4'>
+                  <ul className="list-group">
+                    <ul className="list-group mb-2">
+                      <li className='list-group-item bg-light font-weight-bold'>Goals:</li>
+                      <li className='list-group-item'>Find a reliable and affordable car for his son as a birthday present</li>
+                      <li className='list-group-item'>Manage expenses and save more money to make a better life for his kids</li>
+                    </ul>
+                  </ul>
+                  <ul className="list-group mt-2">
+                    <ul className="list-group">
+                      <li className='list-group-item bg-light font-weight-bold'>Frustrations:</li>
+                      <li className='list-group-item'>Unable to manage life costs as expected</li>
+                      <li className='list-group-item'>Very busy at work and have little time for family</li>
+                    </ul>
+                  </ul>
+                </div>
+                <div className='col-md-4'>
+                  <ul className="list-group">
+                    <ul className="list-group mb-2">
+                      <li className='list-group-item bg-light font-weight-bold'>He is:</li>
+                      <li className='list-group-item'>Go getter</li>
+                      <li className='list-group-item'>Outdoor activator</li>
+                      <li className='list-group-item'>Kids-first</li>
+                      <li className='list-group-item'>Planner</li>
+                    </ul>
+                  </ul>
+                  <ul className="list-group mt-2">
+                    <ul className="list-group">
+                      <li className='list-group-item bg-light font-weight-bold'>Techs:</li>
+                      <li className='list-group-item'>Cell phone user</li>
+                      <li className='list-group-item'>New internet user</li>
+                      <li className='list-group-item'>Basic computer knowledge</li>
+                    </ul>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
-          <hr />
-        </section>
+        </section >
 
         <section className="row text-left">
           <h1 className="col-sm display-4 mt-5">Journey Map</h1>
