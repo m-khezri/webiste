@@ -32,7 +32,7 @@ class AffcarsCaseStudy extends React.Component {
   render() {
 
     return (
-      <div className="container affcars-main-container">
+      <div className="container">
         <div>
           <div className="d-flex pt-2 ml-1 justify-content-left">
             <Link className="proj-link nav-link" to="/"><i className="fas fa-home mr-2"></i>Home</Link>
@@ -40,14 +40,14 @@ class AffcarsCaseStudy extends React.Component {
           </div>
         </div>
 
+        <div className='col-sm-12 my-5'>
+          <h3 className="my-5 font-weight-bolder text-center"> Online Used Cars Affiliate website. I named it ‘Affcars’</h3>
+        </div>
 
-        <section id="section1">
+        <section id="section1" className='shadow-lg rounded'>
           <div className='row'>
-            <div className='col-sm-12 my-5'>
-              <h3 className="my-5 font-weight-bolder text-center"> Online Used Cars Affiliate website. I named it ‘Affcars’</h3>
-            </div>
             <div className='col-sm-12'>
-              <h1 className="sec1-title display-4">Project Overview</h1>
+              <h1 className="sec-title display-4">Project Overview</h1>
             </div>
 
             <div className='sec1-par col-sm-6'>
@@ -62,10 +62,10 @@ class AffcarsCaseStudy extends React.Component {
           </div>
         </section>
 
-        <section id="section2">
+        <section id="section2" className='shadow-lg rounded'>
           <div className='row'>
             <div className='col-sm-12'>
-              <h1 className="sec2-title display-4">My Role</h1>
+              <h1 className="sec-title display-4">My Role</h1>
             </div>
 
             <div className="sec2-par col-sm-6">
@@ -82,7 +82,6 @@ class AffcarsCaseStudy extends React.Component {
                 <li>Wireframing</li>
                 <li>Prototyping</li>
                 <li>Testing</li>
-                <li>Coding</li>
                 <li>Again testing, improving, testing, testing...</li>
               </ul>
             </div>
@@ -92,10 +91,10 @@ class AffcarsCaseStudy extends React.Component {
           </div>
         </section>
 
-        <section id="section3">
+        <section id="section3" className='shadow-lg rounded'>
           <div className='row'>
             <div className='col-sm-12'>
-              <h1 className="sec3-title display-4">Problem Statement</h1>
+              <h1 className="sec-title display-4">Problem Statement</h1>
             </div>
 
             <div className="sec3-par col-sm-6">
@@ -110,10 +109,10 @@ class AffcarsCaseStudy extends React.Component {
           </div>
         </section>
 
-        <section id="section4">
+        <section id="section4" className='shadow-lg rounded'>
           <div className='row'>
             <div className='col-sm-12'>
-              <h1 className="sec4-title display-4">Challenges</h1>
+              <h1 className="sec-title display-4">Challenges</h1>
             </div>
 
             <div className="sec4-par col-sm-12">
@@ -127,10 +126,10 @@ class AffcarsCaseStudy extends React.Component {
           </div>
         </section>
 
-        <section id="section5">
+        <section id="section5" className='shadow-lg rounded'>
           <div className='row'>
             <div className='col-sm-12'>
-              <h1 className="sec5-title display-4">Key Questions</h1>
+              <h1 className="sec-title display-4">Key Questions</h1>
             </div>
 
 
@@ -177,14 +176,14 @@ class AffcarsCaseStudy extends React.Component {
         </section>
 
 
-        <section id="section6">
+        <section id="section6" className='shadow-lg rounded'>
           <div className='row'>
             <div className='col-12'>
-              <h1 className="sec6-title display-4">Interview and opinion polling with customers</h1>
+              <h1 className="sec-title display-4">Interview and opinion polling with customers</h1>
             </div>
 
             <div className="sec6-par col-md-6">
-              <ul className="list-group  shadow-lg">
+              <ul className="list-group">
                 <li className='list-group-item text-light bg-dark'>Here is the result:</li>
                 <li className='list-group-item'>%45 Change their car between 2-5 years</li>
                 <li className='list-group-item'>%57 find their car through family/friends %26 walk-in car lots and less than %5 looked for online</li>
@@ -211,10 +210,10 @@ class AffcarsCaseStudy extends React.Component {
           </div>
         </section>
 
-        <section id="section7">
+        <section id="section7" className='shadow-lg rounded'>
           <div className='row'>
             <div className='col-sm-12'>
-              <h1 className="sec7-title display-4">Interview with dealership owners</h1>
+              <h1 className="sec-title display-4">Interview with dealership owners</h1>
             </div>
 
             <div className="sec7-par col-sm-6">
@@ -252,10 +251,10 @@ class AffcarsCaseStudy extends React.Component {
           </div>
         </section>
 
-        <section id="section8">
+        <section id="section8" className='shadow-lg rounded'>
           <div className='row'>
             <div className='col-12'>
-              <h1 className="sec8-title display-4">Competitors</h1>
+              <h1 className="sec-title display-4">Competitors</h1>
             </div>
 
             <div className="sec8-par col">
@@ -295,7 +294,7 @@ class AffcarsCaseStudy extends React.Component {
                   <li className='Answer list-group-item'>Carsaver lists certified dealerships’ inventory and refer customers to dealers. They work with Walmart and provide lifetime warranty for engine, transmission and drivetrain. They charge dealers $350 as success service fee.</li>
                 </ul>
                 <div className='sec8-table mt-5 table-responsive'>
-                  <table className="table table-bordered m-auto bg-light">
+                  <table className="table table-bordered m-auto">
                     <thead>
                       <tr className='text-center'>
                         <th scope="col info"></th>
@@ -415,10 +414,10 @@ class AffcarsCaseStudy extends React.Component {
           </div>
         </section>
 
-        <section id="section9">
+        <section id="section9" className='shadow-lg rounded'>
           <div className='row'>
             <div className='col-12'>
-              <h1 className="sec9-title display-4">User Persona</h1>
+              <h1 className="sec-title display-4">User Persona</h1>
             </div>
 
             <div className="sec9-par">
@@ -432,7 +431,7 @@ class AffcarsCaseStudy extends React.Component {
                 </p>
               </div>
 
-              <div className='row shadow-lg p-5'>
+              <div className='row p-5'>
                 <div className='col-md-4'>
                   <img className="img-fluid rounded" src="https://image.freepik.com/free-photo/pointing-sketch_1098-14323.jpg" alt=""></img>
                   <div className='mt-3'>
@@ -482,75 +481,86 @@ class AffcarsCaseStudy extends React.Component {
           </div>
         </section >
 
-        <section className="row text-left">
-          <h1 className="col-sm display-4 mt-5">Journey Map</h1>
-          <div>
-            <p className='col-sm'>
-              Customers can get a voucher and take it to the dealer and get discount. After purchasing a car, the buyer will upload the contract detail on the website then we will review the price and charge the dealer and pay a discount to the buyer through an online payment service.                  </p>
+
+        <section id="section10" className='shadow-lg rounded'>
+          <div className='row'>
+            <div className='col-12'>
+              <h1 className="sec-title display-4">Journey Map</h1>
+            </div>
+
+            <div className="sec10-par col">
+              <div className='col-12'>
+                <p className='col-sm'>
+                  Customers can get a voucher and take it to the dealer and get discount. After purchasing a car, the buyer will upload the contract detail on the website then we will review the price and charge the dealer and pay a discount to the buyer through an online payment service.
+               </p>
+              </div>
+
+              <div className='sec10-table mt-5 table-responsive'>
+                <table className="table table-bordered m-auto">
+                  <thead>
+                    <tr className='text-center'>
+                      <th scope="col info">Activity</th>
+                      <th scope="col">Decide to buy a new car</th>
+                      <th scope="col">Not sure how and where buy the car</th>
+                      <th scope="col">Looking for a car or dealer</th>
+                      <th scope="col">Select the car</th>
+                      <th scope="col">Signing the contract</th>
+                      <th scope="col">Make the down payment and fees</th>
+                      <th scope="col">Delivered the car</th>
+
+                    </tr>
+                  </thead>
+                  <tbody className='text-center'>
+                    <tr>
+                      <th scope="row">Touch points</th>
+                      <td></td>
+                      <td>Affcars website</td>
+                      <td>Affcars website</td>
+                      <td>Affcars website</td>
+                      <td></td>
+                      <td></td>
+                      <td>Receive the cash-back discount</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Emotions</th>
+                      <td className='display-5'><span role="img" aria-label=''>&#128522;</span></td>
+                      <td className='display-5'><span role="img" aria-label=''>&#129300;</span></td>
+                      <td className='display-5'><span role="img" aria-label=''>&#128533;</span></td>
+                      <td className='display-5'><span role="img" aria-label=''>&#128525;</span></td>
+                      <td className='display-5'><span role="img" aria-label=''>&#128522;</span></td>
+                      <td className='display-5'><span role="img" aria-label=''>&#128519;</span></td>
+                      <td className='display-5'><span role="img" aria-label=''>&#129303;</span></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Equipment and Rsources</th>
+                      <td></td>
+                      <td>Laptop / smartphone</td>
+                      <td>Laptop / smartphone</td>
+                      <td>Laptop / smartphone</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Moment of Truth</th>
+                      <td></td>
+                      <td>Found Affcars website</td>
+                      <td></td>
+                      <td>Found the best discount on the website</td>
+                      <td></td>
+                      <td></td>
+                      <td>Refer the website to friends</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
           </div>
-
-          <div className='mt-5 mx-auto table-responsive'>
-            <table className="table table-bordered">
-              <thead>
-                <tr>
-                  <th scope="col info">Activity</th>
-                  <th scope="col">Decide to buy a new car</th>
-                  <th scope="col">Not sure how and where buy the car</th>
-                  <th scope="col">Looking for a car or dealer</th>
-                  <th scope="col">Select the car</th>
-                  <th scope="col">Signing the contract</th>
-                  <th scope="col">Make the down payment and fees</th>
-                  <th scope="col">Delivered the car</th>
-
-                </tr>
-              </thead>
-              <tbody className='text-center'>
-                <tr>
-                  <th scope="row">Touch points</th>
-                  <td></td>
-                  <td>Affcars website</td>
-                  <td>Affcars website</td>
-                  <td>Affcars website</td>
-                  <td></td>
-                  <td></td>
-                  <td>Receive the cash-back discount</td>
-                </tr>
-                <tr>
-                  <th scope="row">Emotions</th>
-                  <td className='display-5'><span role="img" aria-label=''>&#128522;</span></td>
-                  <td className='display-5'><span role="img" aria-label=''>&#129300;</span></td>
-                  <td className='display-5'><span role="img" aria-label=''>&#128533;</span></td>
-                  <td className='display-5'><span role="img" aria-label=''>&#128525;</span></td>
-                  <td className='display-5'><span role="img" aria-label=''>&#128522;</span></td>
-                  <td className='display-5'><span role="img" aria-label=''>&#128519;</span></td>
-                  <td className='display-5'><span role="img" aria-label=''>&#129303;</span></td>
-                </tr>
-                <tr>
-                  <th scope="row">Equipment and Rsources</th>
-                  <td></td>
-                  <td>Laptop / smartphone</td>
-                  <td>Laptop / smartphone</td>
-                  <td>Laptop / smartphone</td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-
-                </tr>
-                <tr>
-                  <th scope="row">Moment of Truth</th>
-                  <td></td>
-                  <td>Found Affcars website</td>
-                  <td></td>
-                  <td>Found the best discount on the website</td>
-                  <td></td>
-                  <td></td>
-                  <td>Refer the website to friends</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          <hr />
         </section>
+
+
+
+
 
 
         <section className="sketching text-left">
