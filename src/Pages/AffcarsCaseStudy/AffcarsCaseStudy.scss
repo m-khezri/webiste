@@ -2,59 +2,34 @@ div{
   // border: 1px dotted green;
 }
 
+.container{
+margin: 0;
+padding: 0;
+}
 
 h1{
   color: coral;
 }
 
-#section1{
-        h3{
-          font-size: 3em;
-        }
+.sec-title{
+  margin: 10% 0;
+  text-align: center; 
+}
 
-        .sec1-title{
-          padding: 1% 10%;
-        }
+#section1, #section2, #section3, #section4, #section9{
+  margin: 5% 0;
+  padding: 3%;
         .sec1-par{
           font-size: 1em;
           color:#546e7a;
         }
 }
 
-#section2{
-      .sec2-title{
-        padding: 1% 10%;
-      }
-      .sec2-par{
-        font-size: 1em;
-        color:#546e7a;
-      }
-}
 
-#section3{
-      .sec3-title{
-        padding: 1% 10%;
-      }
-      .sec3-par{
-        font-size: 1em;
-        color:#546e7a;
-      }
-}
-
-#section4{
-      .sec4-title{
-        padding: 1% 10%;
-      }
-      .sec4-par{
-        font-size: 1em;
-        color:#546e7a;
-      }
-}
 
 #section5{
-      .sec5-title{
-        padding: 1% 10%;
-      }
+  margin: 5% 0;
+  padding: 3%;
       .sec5-par{
         color:#546e7a;
       }
@@ -63,16 +38,10 @@ h1{
       }
 }
 
-#section6{
-          h3{
-            font-size: 3em;
-          }
-  
-          .sec6-title{
-            padding: 1% 10%;
-          }
+#section6, #section7{
+  margin: 5% 0;
+  padding: 3%;
           .sec6-par{
-        
             font-size: 1em;
             color:#546e7a;
           }
@@ -82,35 +51,11 @@ h1{
           }
   }
 
-  #section7{
-    padding-bottom: 3%;
-            h3{
-              font-size: 3em;
-            }
-    
-            .sec7-title{
-              padding: 1% 10%;
-            }
-            .sec7-par{
-
-              font-size: 1em;
-              color:#546e7a;
-            }
-  
-            .sec7-pic{
-              max-width: 600px;
-            }
-    }
 
     #section8{
-      
-      h3{
-                font-size: 3em;
-              }
-      
-              .sec8-title{
-                padding: 1% 10%;
-              }
+      margin: 5% 0;
+      padding: 3%;
+             
               .sec8-par{
                 font-size: 1em;
                 color:#546e7a;
@@ -121,7 +66,7 @@ h1{
               }
 
               .sec8-table{
-                font-size: 0.8em;
+                font-size: 0.5em;
                 margin: 2%;
                 width: 100%;
                 td{
@@ -131,21 +76,24 @@ h1{
       }
 
 
-      #section9{
-        
-                h3{
-                  font-size: 3em;
-                }
-        
-                .sec9-title{
-                  padding: 1% 10%;
-                  
-                }
-                .sec9-par{
-                  font-size: 1em;
-                  color:#546e7a;
-                }
-        }
+        #section10{
+          margin: 5% 0;
+          padding: 3%;
+               
+                  .sec10-par{
+                    font-size: 1em;
+                    color:#546e7a;
+                  }
+                  .sec10-table{
+                    font-size: 0.5em;
+                    margin: 2%;
+                    width: 100%;
+                    
+                    td{
+                      text-align: center;
+                    }
+                  }
+          }
 
 
 .project-overview{
