@@ -116,10 +116,10 @@ class AffcarsCaseStudy extends React.Component {
             </div>
 
             <div className="sec4-par col-sm-12">
-              <ul className="ml-3">Buyers:
+              <ul>Buyers:
                 <li>The target users are not really internet users, some of them really don’t use the internet to buy a car, they prefer to walk in car lots to see the cars and buy a car with shut eyes. Some of them are immigrants that really don’t know English. </li>
               </ul>
-              <ul className="ml-3">Sellers:
+              <ul>Sellers:
                 <li>They don’t clarify the real car price, they really don’t like to let the customers know about the (hidden) fees and real final price. They can play with price and fees and change them in the middle of a contract to recover the amount of discount they have already given to the buyer. If we make them clarify the information for customers, they might refuse to list their inventory on the website </li>
               </ul>
             </div>
@@ -132,46 +132,43 @@ class AffcarsCaseStudy extends React.Component {
               <h1 className="sec-title display-4">Key Questions</h1>
             </div>
 
+            <ul className="list-group col-sm-4">
+              <li className='list-group-item  font-weight-bold'>What’s worth doing?</li>
+              <li className=' list-group-item'>Help car dealers sell more cars and help customers to find more affordable cars</li>
+            </ul>
+            <ul className="list-group col-sm-4">
+              <li className='list-group-item font-weight-bold'>What are we creating?</li>
+              <li className=' list-group-item'> We are creating a website that dealers can add their inventory and specify a discount for each car then we will do online marketing to connect customers to dealers. Customers can download a voucher and take it to the dealer and get a discount.</li>
+            </ul>
+            <ul className="list-group mb-3 col-sm-4">
+              <li className='list-group-item font-weight-bold'>What value does it provide?</li>
+              <li className=' list-group-item'> The value is that it makes an easier way for customers to find a car and it will help them to cover part of their down payment or tax; on the other hand, it helps dealers to boost their sales.</li>
+            </ul>
+            <ul className="list-group mb-3 col-sm-4">
+              <li className='list-group-item font-weight-bold'>Who are our users?</li>
+              <li className=' list-group-item'> People who have poor or fair credit or individuals who have a hard time paying down payment for cars or finding a reliable car or anyone who is interested in discounts. Dealers, on the hand, can boost their sales</li>
+            </ul>
+            <ul className="list-group mb-3 col-sm-4">
+              <li className='list-group-item font-weight-bold'>What do they expect?</li>
+              <li className=' list-group-item'> They expect to get help for part of down payment and find a reliable car</li>
+            </ul>
+            <ul className="list-group mb-3 col-sm-4">
+              <li className='list-group-item font-weight-bold'>Why do these things matter to them?</li>
+              <li className=' list-group-item'> Because most of them have trouble for paying down payment, on the other hand, dealers never pay a penny unless they sale a car.</li>
+            </ul>
+            <ul className="list-group mb-3 col-sm-4">
+              <li className='list-group-item font-weight-bold'>Why will people visit/use/buy from us?</li>
+              <li className=' list-group-item'>We show all the car lots inventory with great filtering and best discount so they have a chance to buy a less expensive car rather than walk-in car lots</li>
+            </ul>
+            <ul className="list-group mb-3 col-sm-4">
+              <li className='list-group-item font-weight-bold'>How will we measure success?</li>
+              <li className=' list-group-item'> We will try to drive more traffic to the website by online marketing so we will create powerful tools to measure the number of sold cars through the website. We will design great tools for dealers to monitor their sales through our website.</li>
+            </ul>
+            <ul className="list-group mb-3 col-sm-4">
+              <li className='list-group-item font-weight-bold'>How does this website fit into your overall strategy?</li>
+              <li className=' list-group-item'>Everything depends on the number of our visitors and how many people are interested to buy a car through this website. We will work hard to contract with more dealers to enrich our inventory then visitors will have tons of options. Our strategy is getting the best discount and provide it for buyers. We want to make it easier for individuals who have trouble paying for a car for any reason.</li>
+            </ul>
 
-            <div className="sec5-par row">
-              <ul className="list-group mb-3 col-sm-4">
-                <li className='list-group-item bg-dark text-light font-weight-bold'>What’s worth doing?</li>
-                <li className='Answer list-group-item'>Help car dealers sell more cars and help customers to find more affordable cars</li>
-              </ul>
-              <ul className="list-group mb-3 col-sm-4">
-                <li className='list-group-item bg-dark text-light font-weight-bold'>What are we creating?</li>
-                <li className='Answer list-group-item'> We are creating a website that dealers can add their inventory and specify a discount for each car then we will do online marketing to connect customers to dealers. Customers can download a voucher and take it to the dealer and get a discount.</li>
-              </ul>
-              <ul className="list-group mb-3 col-sm-4">
-                <li className='list-group-item bg-dark text-light font-weight-bold'>What value does it provide?</li>
-                <li className='Answer list-group-item'> The value is that it makes an easier way for customers to find a car and it will help them to cover part of their down payment or tax; on the other hand, it helps dealers to boost their sales.</li>
-              </ul>
-              <ul className="list-group mb-3 col-sm-4">
-                <li className='list-group-item bg-dark text-light font-weight-bold'>Who are our users?</li>
-                <li className='Answer list-group-item'> People who have poor or fair credit or individuals who have a hard time paying down payment for cars or finding a reliable car or anyone who is interested in discounts. Dealers, on the hand, can boost their sales</li>
-              </ul>
-              <ul className="list-group mb-3 col-sm-4">
-                <li className='list-group-item bg-dark text-light font-weight-bold'>What do they expect?</li>
-                <li className='Answer list-group-item'> They expect to get help for part of down payment and find a reliable car</li>
-              </ul>
-              <ul className="list-group mb-3 col-sm-4">
-                <li className='list-group-item bg-dark text-light font-weight-bold'>Why do these things matter to them?</li>
-                <li className='Answer list-group-item'> Because most of them have trouble for paying down payment, on the other hand, dealers never pay a penny unless they sale a car.</li>
-              </ul>
-              <ul className="list-group mb-3 col-sm-4">
-                <li className='list-group-item bg-dark text-light font-weight-bold'>Why will people visit/use/buy from us?</li>
-                <li className='Answer list-group-item'>We show all the car lots inventory with great filtering and best discount so they have a chance to buy a less expensive car rather than walk-in car lots</li>
-              </ul>
-              <ul className="list-group mb-3 col-sm-4">
-                <li className='list-group-item bg-dark text-light font-weight-bold'>How will we measure success?</li>
-                <li className='Answer list-group-item'> We will try to drive more traffic to the website by online marketing so we will create powerful tools to measure the number of sold cars through the website. We will design great tools for dealers to monitor their sales through our website.</li>
-              </ul>
-              <ul className="list-group mb-3 col-sm-4">
-                <li className='list-group-item bg-dark text-light font-weight-bold'>How does this website fit into your overall strategy?</li>
-                <li className='Answer list-group-item'>Everything depends on the number of our visitors and how many people are interested to buy a car through this website. We will work hard to contract with more dealers to enrich our inventory then visitors will have tons of options. Our strategy is getting the best discount and provide it for buyers. We want to make it easier for individuals who have trouble paying for a car for any reason.</li>
-              </ul>
-
-            </div>
           </div>
         </section>
 
@@ -201,7 +198,7 @@ class AffcarsCaseStudy extends React.Component {
               </ul>
             </div>
             <div className='sec6-pic col-md-6 mx-auto my-auto'>
-              <img className="img-fluid rounded mb-3" src="https://image.freepik.com/free-photo/hands-with-blue-pen-application-form-students-taking-exams-writing-examination_4236-1679.jpg" alt=""></img>
+              <img className="img-fluid rounded my-3" src="https://image.freepik.com/free-photo/hands-with-blue-pen-application-form-students-taking-exams-writing-examination_4236-1679.jpg" alt=""></img>
               <p>
                 I did opinion polling with a couple of customers who already bought a used car from dealers, I also discuss about their creteria, concerns and expectations when they need a new used car.
                 They were a combination of Hispanic people, African Americans, Asians and White Americans.
@@ -257,152 +254,148 @@ class AffcarsCaseStudy extends React.Component {
               <h1 className="sec-title display-4">Competitors</h1>
             </div>
 
-            <div className="sec8-par col">
-              <p>
-                The big websites that have been around for a long time are as follow:</p>
-              <div className='row'>
-                <ul className="list-group col-6 mb-2">
-                  <li className='list-group-item bg-light font-weight-bold'>CarsforSale</li>
-                  <li className='Answer list-group-item'>Carsforsale.com is an online automotive listing platform that connects buyers with sellers of vehicles. The company, headquartered in Sioux Falls, South Dakota, offers a product line to automotive dealers that includes Carsforsale.com vehicle listings, dealership websites, inventory distribution, and lead management.</li>
-                </ul>
-                <ul className="list-group col-6 mb-2">
-                  <li className='list-group-item bg-light font-weight-bold'>Truecar</li>
-                  <li className='Answer list-group-item'>TrueCar, Inc. is an automotive pricing and information website for new and used car buyers and dealers. TrueCar is paid by dealerships so they can obtain potential buyers' contact information.</li>
-                </ul>
-                <ul className="list-group col-6 mb-2">
-                  <li className='list-group-item bg-light font-weight-bold'>Autotrader</li>
-                  <li className='Answer list-group-item'>Autotrader.com, Inc. is an online marketplace founded in 1997, which functions as an online marketplace for car purchasers and sellers. It aggregates new, used, and certified second-hand cars from dealers and private sellers</li>
-                </ul>
-                <ul className="list-group col-6 mb-2">
-                  <li className='list-group-item bg-light font-weight-bold'>CarGurus</li>
-                  <li className='Answer list-group-item'>CarGurus is a Cambridge, Massachusetts-based automotive research and shopping website that assists users in comparing local listings for used and new cars, and contacting sellers. Listing cars are free but they charge dealers $99 per sold car</li>
-                </ul>
-                <ul className="list-group col-6 mb-2">
-                  <li className='list-group-item bg-light font-weight-bold'>Edmunds</li>
-                  <li className='Answer list-group-item'>Edmunds.com Inc. is an American online resource for automotive information. The company is headquartered in Santa Monica, California, and maintains an office in downtown Detroit, Michigan. Edmunds is privately held, with the Steinlauf family holding a majority stake.</li>
-                </ul>
-                <ul className="list-group col-6 mb-2">
-                  <li className='list-group-item bg-light font-weight-bold'>CarsDirect</li>
-                  <li className='Answer list-group-item'>CarsDirect is an American online automotive research portal and car buying service based in El Segundo, California that allows consumers to research, price, purchase, insure and finance a vehicle online. The company also provides lead generation and referral services to auto dealers</li>
-                </ul>
-                <ul className="list-group col-6 mb-2">
-                  <li className='list-group-item bg-light font-weight-bold'>Carvana</li>
-                  <li className='Answer list-group-item'>Carvana is an online used car retailer and technology business based in Tempe, Arizona</li>
-                </ul>
-                <ul className="list-group col-6 mb-2">
-                  <li className='list-group-item bg-light font-weight-bold'>Carsaver</li>
-                  <li className='Answer list-group-item'>Carsaver lists certified dealerships’ inventory and refer customers to dealers. They work with Walmart and provide lifetime warranty for engine, transmission and drivetrain. They charge dealers $350 as success service fee.</li>
-                </ul>
-                <div className='sec8-table mt-5 table-responsive'>
-                  <table className="table table-bordered m-auto">
-                    <thead>
-                      <tr className='text-center'>
-                        <th scope="col info"></th>
-                        <th scope="col">Search Tools</th>
-                        <th scope="col">Dealers Inventory Management</th>
-                        <th scope="col">Evaluate cars</th>
-                        <th scope="col">Connect buyers to sellers</th>
-                        <th scope="col">Cars information</th>
-                        <th scope="col">Affiliate program</th>
-                        <th scope="col">Used and New cars</th>
-                        <th scope="col">Financing</th>
+            <p className='mx-2'>
+              The big websites that have been around for a long time are as follow:
+              </p>
+            <ul className="list-group col-sm-6">
+              <li className='list-group-item bg-light font-weight-bold'>CarsforSale</li>
+              <li className='Answer list-group-item'>Carsforsale.com is an online automotive listing platform that connects buyers with sellers of vehicles. The company, headquartered in Sioux Falls, South Dakota, offers a product line to automotive dealers that includes Carsforsale.com vehicle listings, dealership websites, inventory distribution, and lead management.</li>
+            </ul>
+            <ul className="list-group col-sm-6">
+              <li className='list-group-item bg-light font-weight-bold'>Truecar</li>
+              <li className='Answer list-group-item'>TrueCar, Inc. is an automotive pricing and information website for new and used car buyers and dealers. TrueCar is paid by dealerships so they can obtain potential buyers' contact information.</li>
+            </ul>
+            <ul className="list-group col-sm-6">
+              <li className='list-group-item bg-light font-weight-bold'>Autotrader</li>
+              <li className='Answer list-group-item'>Autotrader.com, Inc. is an online marketplace founded in 1997, which functions as an online marketplace for car purchasers and sellers. It aggregates new, used, and certified second-hand cars from dealers and private sellers</li>
+            </ul>
+            <ul className="list-group col-sm-6">
+              <li className='list-group-item bg-light font-weight-bold'>CarGurus</li>
+              <li className='Answer list-group-item'>CarGurus is a Cambridge, Massachusetts-based automotive research and shopping website that assists users in comparing local listings for used and new cars, and contacting sellers. Listing cars are free but they charge dealers $99 per sold car</li>
+            </ul>
+            <ul className="list-group col-sm-6">
+              <li className='list-group-item bg-light font-weight-bold'>Edmunds</li>
+              <li className='Answer list-group-item'>Edmunds.com Inc. is an American online resource for automotive information. The company is headquartered in Santa Monica, California, and maintains an office in downtown Detroit, Michigan. Edmunds is privately held, with the Steinlauf family holding a majority stake.</li>
+            </ul>
+            <ul className="list-group col-sm-6">
+              <li className='list-group-item bg-light font-weight-bold'>CarsDirect</li>
+              <li className='Answer list-group-item'>CarsDirect is an American online automotive research portal and car buying service based in El Segundo, California that allows consumers to research, price, purchase, insure and finance a vehicle online. The company also provides lead generation and referral services to auto dealers</li>
+            </ul>
+            <ul className="list-group col-sm-6">
+              <li className='list-group-item bg-light font-weight-bold'>Carvana</li>
+              <li className='Answer list-group-item'>Carvana is an online used car retailer and technology business based in Tempe, Arizona</li>
+            </ul>
+            <ul className="list-group col-sm-6">
+              <li className='list-group-item bg-light font-weight-bold'>Carsaver</li>
+              <li className='Answer list-group-item'>Carsaver lists certified dealerships’ inventory and refer customers to dealers. They work with Walmart and provide lifetime warranty for engine, transmission and drivetrain. They charge dealers $350 as success service fee.</li>
+            </ul>
+            <div className='sec8-table mt-5 table-responsive'>
+              <table className="table table-bordered m-auto">
+                <thead>
+                  <tr className='text-center'>
+                    <th scope="col info"></th>
+                    <th scope="col">Search Tools</th>
+                    <th scope="col">Dealers Inventory Management</th>
+                    <th scope="col">Evaluate cars</th>
+                    <th scope="col">Connect buyers to sellers</th>
+                    <th scope="col">Cars information</th>
+                    <th scope="col">Affiliate program</th>
+                    <th scope="col">Used and New cars</th>
+                    <th scope="col">Financing</th>
 
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row">Carsforsale</th>
-                        <td>&#10004;</td>
-                        <td>&#10004;</td>
-                        <td>&#10006;</td>
-                        <td>&#10004;</td>
-                        <td>&#10004;</td>
-                        <td>&#10006;</td>
-                        <td>&#10004;</td>
-                        <td>&#10004;</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">TrueCars</th>
-                        <td>&#10004;</td>
-                        <td>&#10004;</td>
-                        <td>&#10004;</td>
-                        <td>&#10004;</td>
-                        <td>&#10004;</td>
-                        <td>&#10006;</td>
-                        <td>&#10004;</td>
-                        <td>&#10004;</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">AutoTrader</th>
-                        <td>&#10004;</td>
-                        <td>&#10004;</td>
-                        <td>&#10004;</td>
-                        <td>&#10004;</td>
-                        <td>&#10004;</td>
-                        <td>&#10006;</td>
-                        <td>&#10004;</td>
-                        <td>&#10006;</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">CarGurus</th>
-                        <td>&#10004;</td>
-                        <td>&#10004;</td>
-                        <td>&#10004;</td>
-                        <td>&#10004;</td>
-                        <td>&#10004;</td>
-                        <td>&#10004;</td>
-                        <td>&#10004;</td>
-                        <td>&#10004;</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">Edmunds</th>
-                        <td>&#10004;</td>
-                        <td>&#10004;</td>
-                        <td>&#10004;</td>
-                        <td>&#10004;</td>
-                        <td>&#10004;</td>
-                        <td>&#10004;</td>
-                        <td>&#10004;</td>
-                        <td>&#10006;</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">CarsDirect</th>
-                        <td>&#10004;</td>
-                        <td>&#10004;</td>
-                        <td>&#10006;</td>
-                        <td>&#10004;</td>
-                        <td>&#10004;</td>
-                        <td>&#10006;</td>
-                        <td>&#10004;</td>
-                        <td>&#10004;</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">Carvana</th>
-                        <td>&#10004;</td>
-                        <td>&#10006;</td>
-                        <td>&#10006;</td>
-                        <td>&#10006;</td>
-                        <td>&#10004;</td>
-                        <td>&#10006;</td>
-                        <td>&#10004;</td>
-                        <td>&#10004;</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">Carsaver</th>
-                        <td>&#10004;</td>
-                        <td>&#10004;</td>
-                        <td>&#10004;</td>
-                        <td>&#10004;</td>
-                        <td>&#10004;</td>
-                        <td>&#10004;</td>
-                        <td>&#10004;</td>
-                        <td>&#10004;</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-
-              </div>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Carsforsale</th>
+                    <td>&#10004;</td>
+                    <td>&#10004;</td>
+                    <td>&#10006;</td>
+                    <td>&#10004;</td>
+                    <td>&#10004;</td>
+                    <td>&#10006;</td>
+                    <td>&#10004;</td>
+                    <td>&#10004;</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">TrueCars</th>
+                    <td>&#10004;</td>
+                    <td>&#10004;</td>
+                    <td>&#10004;</td>
+                    <td>&#10004;</td>
+                    <td>&#10004;</td>
+                    <td>&#10006;</td>
+                    <td>&#10004;</td>
+                    <td>&#10004;</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">AutoTrader</th>
+                    <td>&#10004;</td>
+                    <td>&#10004;</td>
+                    <td>&#10004;</td>
+                    <td>&#10004;</td>
+                    <td>&#10004;</td>
+                    <td>&#10006;</td>
+                    <td>&#10004;</td>
+                    <td>&#10006;</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">CarGurus</th>
+                    <td>&#10004;</td>
+                    <td>&#10004;</td>
+                    <td>&#10004;</td>
+                    <td>&#10004;</td>
+                    <td>&#10004;</td>
+                    <td>&#10004;</td>
+                    <td>&#10004;</td>
+                    <td>&#10004;</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Edmunds</th>
+                    <td>&#10004;</td>
+                    <td>&#10004;</td>
+                    <td>&#10004;</td>
+                    <td>&#10004;</td>
+                    <td>&#10004;</td>
+                    <td>&#10004;</td>
+                    <td>&#10004;</td>
+                    <td>&#10006;</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">CarsDirect</th>
+                    <td>&#10004;</td>
+                    <td>&#10004;</td>
+                    <td>&#10006;</td>
+                    <td>&#10004;</td>
+                    <td>&#10004;</td>
+                    <td>&#10006;</td>
+                    <td>&#10004;</td>
+                    <td>&#10004;</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Carvana</th>
+                    <td>&#10004;</td>
+                    <td>&#10006;</td>
+                    <td>&#10006;</td>
+                    <td>&#10006;</td>
+                    <td>&#10004;</td>
+                    <td>&#10006;</td>
+                    <td>&#10004;</td>
+                    <td>&#10004;</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Carsaver</th>
+                    <td>&#10004;</td>
+                    <td>&#10004;</td>
+                    <td>&#10004;</td>
+                    <td>&#10004;</td>
+                    <td>&#10004;</td>
+                    <td>&#10004;</td>
+                    <td>&#10004;</td>
+                    <td>&#10004;</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
             <div className='sec8-pic col-sm-6 mx-auto my-auto'>
               <img className="img-fluid rounded mb-3" src="https://image.freepik.com/free-photo/group-business-people-ready-start-race-track_38335-103.jpg" alt=""></img>
