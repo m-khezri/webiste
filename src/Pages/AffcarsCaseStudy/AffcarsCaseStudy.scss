@@ -29,13 +29,15 @@ h1{
 
 #section5{
   margin: 5% 0;
-  padding: 3%;
-      .sec5-par{
-        color:#546e7a;
-      }
-      .Answer{
-        min-height: 160px;
-      }
+  padding: 5%;
+
+  ul{
+    padding: 1%;
+    margin: 0;
+    li:first-child{
+background-color: #dfe4ea;
+    }
+  }
 }
 
 #section6, #section7{
@@ -54,21 +56,24 @@ h1{
 
     #section8{
       margin: 5% 0;
-      padding: 3%;
+  padding: 5%;
+
+  ul{
+    padding: 1%;
+    margin: 0;
+    li:first-child{
+background-color: #dfe4ea;
+    }
+  }
              
-              .sec8-par{
-                font-size: 1em;
-                color:#546e7a;
-              }
-    
-              .sec8-pic{
+             .sec8-pic{
                 max-width: 600px;
               }
 
               .sec8-table{
                 font-size: 0.5em;
                 margin: 2%;
-                width: 100%;
+                width: 100
                 td{
                   text-align: center;
                 }
