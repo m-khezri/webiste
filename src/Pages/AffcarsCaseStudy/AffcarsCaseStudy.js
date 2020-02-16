@@ -25,6 +25,8 @@ import AddCar3 from '../../image/affcars/Wireframing/AddCar3.jpg';
 import AddCar4 from '../../image/affcars/Wireframing/AddCar4.jpg';
 import Mockup from '../../image/affcars/Wireframing/Mockup.jpg';
 import sec1pic from '../../image/affcars/Wireframing/sec1pic.jpg';
+import LogoDesign from '../../image/affcars/Wireframing/LogoDesign.jpg';
+
 
 
 class AffcarsCaseStudy extends React.Component {
@@ -552,48 +554,73 @@ class AffcarsCaseStudy extends React.Component {
         </section>
 
 
+        <section id="section12" className='shadow-lg rounded'>
+          <div className='row'>
+            <div className='col-12'>
+              <h1 className="sec-title display-4">User flow</h1>
+            </div>
 
-
-
-
-        <section className="sketching text-left">
-          <h1 className="display-4 mt-5">Sketching and Prototyping</h1>
-          <div className="d-flex flex-wrap">
-            <p>
-              After gathering all the information, I started prototyping and structure the information.
-              I was aware that I should design for people who are not really internet users so it must be very
-              clear, user friendly, well-organized and understanding for users. I really enjoyed this part of my job
-              because I gave it a lot of thought to make it simple and easy to use.
+            <div className="sec12-par col">
+              <div className='col-12'>
+                <p>
+                  In this step, I tried to figure out how users navigate through the website, I mean, how is it really going to work? so I illustrated all the routes from the beginning to the end.
              </p>
-            <img className="m-1 img-fluid rounded" src="https://media-exp1.licdn.com/dms/image/C4E22AQE0kQV-HJObVg/feedshare-shrink_2048_1536/0?e=1583971200&v=beta&t=G8st7yzJsMEeuKGfcJJmr9uCT4rHpqDoIVCti4IV3IM" alt=""></img>
+                <img className="img-fluid rounded" src={UserFlow} alt=''></img>
+              </div>
+            </div>
           </div>
-          <hr />
         </section>
 
-        <section className="sketching text-left">
-          <h1 className="display-4 mt-5">Logo Design</h1>
-          <div className="d-flex flex-wrap">
-            <p>
-              I designed a logo....
+        <section id="section13" className='shadow-lg rounded text-light'>
+          <div className='row'>
+            <div className='col-12'>
+              <h1 className="sec-title display-4">Logo design</h1>
+            </div>
+
+            <div className="sec13-par col">
+              <div className='col-12'>
+                <p>
+                  As far as I have been working as a graphic designer, I couldn't help designing a logo for my project.
+                  After Sketching a lot on paper, I ended up with this concept so I designed it in Adobe Illustrator.
+                  I believe it completely speaks for itself and describes the goal of this project. hands like cars are
+                  shaking hands which represents an agreement, contract, cooperation and affiliate marketing in the car industry.
              </p>
-            <img className="m-1 img-fluid rounded" src="https://media-exp1.licdn.com/dms/image/C4D22AQE_5JrEto4Pqw/feedshare-shrink_800/0?e=1583971200&v=beta&t=AXDRvn86Bk7FwVwWu6jV-p_XP3WEdIA47CskN5WDLug" alt=""></img>
+                <div className='text-center'>
+                  <img className="img-fluid rounded w-50" src={LogoDesign} alt=''></img>
+                </div>
+              </div>
+            </div>
           </div>
-          <hr />
         </section>
 
-        <section className="sketching text-left">
-          <h1 className="display-4 mt-5">Task Flow</h1>
-          <div className="d-flex flex-wrap">
-            <p>
-              I designed a logo....
+        <section id="section11" className='shadow-lg rounded'>
+          <div className='row'>
+            <div className='col-12'>
+              <h1 className="sec-title display-4">Sketch</h1>
+            </div>
+
+            <div className="sec11-par col">
+              <div className='col-12'>
+                <p>
+                  After gathering all the information, I started prototyping and structure the information.
+                  I was aware that I should design for people who are not really internet users so it must be very
+                  clear, user friendly, well-organized and understanding for users. I really enjoyed this part of my job
+                  because I gave it a lot of thought to make it simple and easy to use.
              </p>
-            <img className="img-fluid rounded" src={UserFlow} alt=''></img>
+                <img className="m-1 img-fluid rounded" src="https://media-exp1.licdn.com/dms/image/C4E22AQE0kQV-HJObVg/feedshare-shrink_2048_1536/0?e=1583971200&v=beta&t=G8st7yzJsMEeuKGfcJJmr9uCT4rHpqDoIVCti4IV3IM" alt=""></img>
+              </div>
+            </div>
           </div>
-          <hr />
         </section>
 
-        <section className="wireframing row text-light wireframing text-left p-5">
-          <h6 className="display-4 mt-5">Wireframing</h6>
+
+
+
+
+        <section id="section13" className="wireframing row text-light wireframing text-left p-5">
+          <div className='col-12'>
+            <h1 className="sec-title display-4">Wireframing</h1>
+          </div>
           <div className="col-md-12">
             <img className="img-fluid rounded" src={Wireframing} alt=''></img>
           </div>
@@ -605,7 +632,7 @@ class AffcarsCaseStudy extends React.Component {
              </p>
           </div>
           <div className="col-md-6">
-            <h1 className='text-warning display-4'>Home Page</h1>
+            <h2 className='text-warning display-4 my-5'>Home Page</h2>
             <ul>
               <li>
                 This is what I thought about the home page. It's pretty straight forward so users can search a spesific car or choose a desireable make and model. min/max price in their area.
@@ -629,7 +656,7 @@ class AffcarsCaseStudy extends React.Component {
 
         <section className="wireframing row text-light wireframing text-left p-5">
           <div className="col-md-6">
-            <h1 className='text-warning display-4'>Search Result </h1>
+            <h2 className='text-warning display-4 my-5'>Search Result </h2>
             <ul>
               <li>
                 Here is the search result page. In this page users can see the result of their search; however, on the left section, they are also able to change their search by changing variety of specifications provided on the left.
@@ -656,20 +683,14 @@ class AffcarsCaseStudy extends React.Component {
 
         <section className="wireframing row text-light wireframing text-left p-5">
           <div className="col-md-6">
-            <h1 className='text-warning display-4'>Product page </h1>
+            <h2 className='text-warning display-4 my-5'>Product page </h2>
             <ul>
               <li>
-                Here ...
+                Here is the product page where users can get more information about the car. on top of the page, you will see the car pictures. In the middle tables, there are all information about car make and model, estimate payment and down payment, statistics, social media, sale time span and car specs and features.
                 </li>
               <li>
-                <p>
-                  ...
-                </p>
-                <li>
-                  I....
+                The 'Check Availability'button will open a popup window and let the user ask an agent about car avaialability. Below that there is ' See Deal Detail' button that users can get more spesific details as well as the dealer information after signing up in the website.
                 </li>
-                <p>In...</p>
-              </li>
             </ul>
           </div>
           <div className="col-md-6">
@@ -680,7 +701,7 @@ class AffcarsCaseStudy extends React.Component {
 
         <section className="wireframing row text-light wireframing text-left p-5">
           <div className="col-md-6">
-            <h1 className='text-warning display-4'>Buyer Login</h1>
+            <h2 className='text-warning display-4 my-5'>Buyer Login</h2>
             <ul>
               <li>
                 Here ...
@@ -704,7 +725,7 @@ class AffcarsCaseStudy extends React.Component {
 
         <section className="wireframing row text-light wireframing text-left p-5">
           <div className="col-md-6">
-            <h1 className='text-warning display-4'>Deal Details and Test Drive</h1>
+            <h2 className='text-warning display-4 my-5'>Deal Details and Test Drive</h2>
             <ul>
               <li>
                 Here ...
@@ -728,7 +749,7 @@ class AffcarsCaseStudy extends React.Component {
 
         <section className="wireframing row text-light wireframing text-left p-5">
           <div className="col-md-6">
-            <h1 className='text-warning display-4'>Recieve the Voucher</h1>
+            <h2 className='text-warning display-4 my-5'>Recieve the Voucher</h2>
             <ul>
               <li>
                 Here ...
@@ -752,7 +773,7 @@ class AffcarsCaseStudy extends React.Component {
 
         <section className="wireframing row text-light wireframing text-left p-5">
           <div className="col-md-6">
-            <h1 className='text-warning display-4'>Buyer C-Panel</h1>
+            <h2 className='text-warning display-4 my-5'>Buyer C-Panel</h2>
             <ul>
               <li>
                 Here ...
@@ -776,7 +797,7 @@ class AffcarsCaseStudy extends React.Component {
 
         <section className="wireframing row text-light wireframing text-left p-5">
           <div className="col-md-6">
-            <h1 className='text-warning display-4'>Upload Documents</h1>
+            <h2 className='text-warning display-4 my-5'>Upload Documents</h2>
             <ul>
               <li>
                 Here ...
@@ -800,7 +821,7 @@ class AffcarsCaseStudy extends React.Component {
 
         <section className="wireframing row text-light wireframing text-left p-5">
           <div className="col-md-6">
-            <h1 className='text-warning display-4'>Create Alerts</h1>
+            <h2 className='text-warning display-4 my-5'>Create Alerts</h2>
             <ul>
               <li>
                 Here ...
@@ -824,7 +845,7 @@ class AffcarsCaseStudy extends React.Component {
 
         <section className="wireframing row text-light wireframing text-left p-5">
           <div className="col-md-6">
-            <h1 className='text-warning display-4'>Payment Setup</h1>
+            <h2 className='text-warning display-4 my-5'>Payment Setup</h2>
             <ul>
               <li>
                 Here ...
@@ -848,7 +869,7 @@ class AffcarsCaseStudy extends React.Component {
 
         <section className="wireframing row text-light wireframing text-left p-5">
           <div className="col-md-6">
-            <h1 className='text-warning display-4'>Dealer Login</h1>
+            <h2 className='text-warning display-4 my-5'>Dealer Login</h2>
             <ul>
               <li>
                 Here ...
@@ -897,7 +918,7 @@ class AffcarsCaseStudy extends React.Component {
 
         <section className="wireframing row text-light wireframing text-left p-5">
           <div className="col-md-6">
-            <h1 className='text-warning display-4'>Sold Inventory</h1>
+            <h2 className='text-warning display-4 my-5'>Sold Inventory</h2>
             <ul>
               <li>
                 Here ...
@@ -921,7 +942,7 @@ class AffcarsCaseStudy extends React.Component {
 
         <section className="wireframing row text-light wireframing text-left p-5">
           <div className="col-md-6">
-            <h1 className='text-warning display-4'>Reports and Stats</h1>
+            <h2 className='text-warning display-4 my-5'>Reports and Stats</h2>
             <ul>
               <li>
                 Here ...
@@ -945,7 +966,7 @@ class AffcarsCaseStudy extends React.Component {
 
         <section className="wireframing row text-light wireframing text-left p-5">
           <div className="col-md-6">
-            <h1 className='text-warning display-4'>Update Profile</h1>
+            <h2 className='text-warning display-4 my-5'>Update Profile</h2>
             <ul>
               <li>
                 Here ...
@@ -969,7 +990,7 @@ class AffcarsCaseStudy extends React.Component {
 
         <section className="wireframing row text-light wireframing text-left p-5">
           <div className="col-md-6">
-            <h1 className='text-warning display-4'>Payment Setup</h1>
+            <h2 className='text-warning display-4 my-5'>Payment Setup</h2>
             <ul>
               <li>
                 Here ...
@@ -993,7 +1014,7 @@ class AffcarsCaseStudy extends React.Component {
 
         <section className="wireframing row text-light wireframing text-left p-5">
           <div className="col-md-6">
-            <h1 className='text-warning display-4'>Add New car Step 1</h1>
+            <h2 className='text-warning display-4 my-5'>Add New car Step 1</h2>
             <ul>
               <li>
                 Here ...
@@ -1009,7 +1030,7 @@ class AffcarsCaseStudy extends React.Component {
 
         <section className="wireframing row text-light wireframing text-left p-5">
           <div className="col-md-6">
-            <h1 className='text-warning display-4'>Add New car Step 2</h1>
+            <h2 className='text-warning display-4 my-5'>Add New car Step 2</h2>
             <ul>
               <li>
                 Here ...
@@ -1025,7 +1046,7 @@ class AffcarsCaseStudy extends React.Component {
 
         <section className="wireframing row text-light wireframing text-left p-5">
           <div className="col-md-6">
-            <h1 className='text-warning display-4'>Add New car Step 3</h1>
+            <h2 className='text-warning display-4 my-5'>Add New car Step 3</h2>
             <ul>
               <li>
                 Here ...
@@ -1041,7 +1062,7 @@ class AffcarsCaseStudy extends React.Component {
 
         <section className="wireframing row text-light wireframing text-left p-5">
           <div className="col-md-6">
-            <h1 className='text-warning display-4'>Add New car Step 4</h1>
+            <h2 className='text-warning display-4 my-5'>Add New car Step 4</h2>
             <ul>
               <li>
                 Here ...
@@ -1056,7 +1077,7 @@ class AffcarsCaseStudy extends React.Component {
 
         <section className="wireframing row text-light wireframing text-left p-5">
           <div className="col-md">
-            <h1 className='text-warning display-4'>Color Theme</h1>
+            <h2 className='text-warning display-4 my-5'>Color Theme</h2>
 
           </div>
           <hr />
@@ -1064,7 +1085,7 @@ class AffcarsCaseStudy extends React.Component {
 
         <section className="wireframing row text-light wireframing text-left p-5">
           <div className="col-md-6">
-            <h1 className='text-warning display-4'>High Fidelity Mockup</h1>
+            <h2 className='text-warning display-4 my-5'>High Fidelity Mockup</h2>
             <ul>
               <li>
                 Here ...
@@ -1079,7 +1100,7 @@ class AffcarsCaseStudy extends React.Component {
 
         <section className="wireframing row text-light wireframing text-left p-5">
           <div className="col-md-6">
-            <h1 className='text-warning display-4'>Lesson I learned</h1>
+            <h2 className='text-warning display-4 my-5'>Lesson I learned</h2>
             <ul>
               <li>
                 Here ...
