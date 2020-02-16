@@ -7,6 +7,8 @@ import HomePage from '../../image/affcars/Wireframing/HomePage.jpg';
 import SearchResult from '../../image/affcars/Wireframing/SearchResult.jpg';
 import ProductPage from '../../image/affcars/Wireframing/ProductPage.jpg';
 import BuyerLogin from '../../image/affcars/Wireframing/BuyerLogin.jpg';
+import BuyerCPanelSaveCars from '../../image/affcars/Wireframing/BuyerCPanelSaveCars.jpg';
+import BuyerCPanelProfile from '../../image/affcars/Wireframing/BuyerCPanelProfile.jpg';
 import TestDrive from '../../image/affcars/Wireframing/TestDrive.jpg';
 import VoucherPage from '../../image/affcars/Wireframing/VoucherPage.jpg';
 import BuyerCPanel from '../../image/affcars/Wireframing/BuyerCPanel.jpg';
@@ -683,13 +685,13 @@ class AffcarsCaseStudy extends React.Component {
 
         <section className="wireframing row text-light wireframing text-left p-5">
           <div className="col-md-6">
-            <h2 className='text-warning display-4 my-5'>Product page </h2>
+            <h2 className='text-warning display-4 my-5'>Product Page </h2>
             <ul>
               <li>
                 Here is the product page where users can get more information about the car. on top of the page, you will see the car pictures. In the middle tables, there are all information about car make and model, estimate payment and down payment, statistics, social media, sale time span and car specs and features.
                 </li>
               <li>
-                The 'Check Availability'button will open a popup window and let the user ask an agent about car avaialability. Below that there is ' See Deal Detail' button that users can get more spesific details as well as the dealer information after signing up in the website.
+                The 'Check Availability'button will open a popup window and let the user ask an agent about car avaialability. Below that there is a ' See Deal Detail' button that users can get more spesific details as well as the dealer information after signing up in the website.
                 </li>
             </ul>
           </div>
@@ -704,16 +706,7 @@ class AffcarsCaseStudy extends React.Component {
             <h2 className='text-warning display-4 my-5'>Buyer Login</h2>
             <ul>
               <li>
-                Here ...
-                </li>
-              <li>
-                <p>
-                  ...
-                </p>
-                <li>
-                  I....
-                </li>
-                <p>In...</p>
+                Before users could get more information about the deal details they must create an account. As I was talking to some dealers, they usually don't like competitors know their prices and inventory so in order to prevent non-real buyers see the deal detail, users must create an account to proceed.
               </li>
             </ul>
           </div>
@@ -725,20 +718,12 @@ class AffcarsCaseStudy extends React.Component {
 
         <section className="wireframing row text-light wireframing text-left p-5">
           <div className="col-md-6">
-            <h2 className='text-warning display-4 my-5'>Deal Details and Test Drive</h2>
+            <h2 className='text-warning display-4 my-5'>Deal Details</h2>
             <ul>
               <li>
-                Here ...
+                The deal detail page is similar to the product page but the differences are dealer contact information and get the discount voucher. After users log in, they are able to see the accurate deal numbers as well as dealer information, working hours and dealer rate.
+  They can read and write a review for the dealer too. They also have access to this dealer inventory.Eventually, by clicking on the 'Make it Yours' button, they canget the discount voucher and book this car.
                 </li>
-              <li>
-                <p>
-                  ...
-                </p>
-                <li>
-                  I....
-                </li>
-                <p>In...</p>
-              </li>
             </ul>
           </div>
           <div className="col-md-6">
@@ -752,17 +737,8 @@ class AffcarsCaseStudy extends React.Component {
             <h2 className='text-warning display-4 my-5'>Recieve the Voucher</h2>
             <ul>
               <li>
-                Here ...
+                This is the voucher that contains all the information about the car,seller, buyer, and deal. Buyers can receive it in their e-mail.This voucher is only valid until 72 hours which means others are not able to request and buy this car at the same time. If buyer doesn't buy it within the next 72 hours, the car will be available for others on the market again.A copy of this voucher also will be sent to sellers so the seller is able to get some information about buyer before signing the contract.
                 </li>
-              <li>
-                <p>
-                  ...
-                </p>
-                <li>
-                  I....
-                </li>
-                <p>In...</p>
-              </li>
             </ul>
           </div>
           <div className="col-md-6">
@@ -776,17 +752,9 @@ class AffcarsCaseStudy extends React.Component {
             <h2 className='text-warning display-4 my-5'>Buyer C-Panel</h2>
             <ul>
               <li>
-                Here ...
+                Buying a car process and getting the voucher was explained. So in a few simple steps, buyers can find their cars, make an appointmnet and download the voucher. Now, I'm going to explain about the buyer and seller control panel. Let's start by buyer control panel, There are a couple of useful sections such as saved cars, upload documents, create alerts, profile, and payment setupthat I'll explain each.
                 </li>
-              <li>
-                <p>
-                  ...
-                </p>
-                <li>
-                  I....
-                </li>
-                <p>In...</p>
-              </li>
+
             </ul>
           </div>
           <div className="col-md-6">
@@ -797,19 +765,31 @@ class AffcarsCaseStudy extends React.Component {
 
         <section className="wireframing row text-light wireframing text-left p-5">
           <div className="col-md-6">
+            <h2 className='text-warning display-4 my-5'>Save Cars</h2>
+            <ul>
+              <li>
+                In this steps, as you see in the picture, buyers can manage the deales they have bookmarked. They are able to delete or go head and buy them.
+              </li>
+            </ul>
+          </div>
+          <div className="col-md-6">
+            <img className="img-fluid rounded" src={BuyerCPanelSaveCars} alt=''></img>
+          </div>
+          <hr />
+        </section>
+
+        <section className="wireframing row text-light wireframing text-left p-5">
+          <div className="col-md-6">
             <h2 className='text-warning display-4 my-5'>Upload Documents</h2>
             <ul>
               <li>
-                Here ...
-                </li>
+                This is the most important section. As a policy, buyers must upload the bill of sale or contract in order to get the discount. After they sign the contract and buy a car, they must upload the contract so their discount will be calculated based on the formula which buyer has defined for this car.
+              </li>
               <li>
-                <p>
-                  ...
-                </p>
-                <li>
-                  I....
-                </li>
-                <p>In...</p>
+                In the first section, buyer must enter the VIN number of the car and all the car and buyer information will be displayed on the page. Then, they can upload the documents in the box provided on the left side.
+              </li>
+              <li>
+                Support team will review the documents and process the discount to be deposited in their bank account.
               </li>
             </ul>
           </div>
@@ -824,17 +804,8 @@ class AffcarsCaseStudy extends React.Component {
             <h2 className='text-warning display-4 my-5'>Create Alerts</h2>
             <ul>
               <li>
-                Here ...
+                If someone is looking for a specific car, he/she can create an alert then he/she will be notified by email or text in case the car is available on the market around his/her area.
                 </li>
-              <li>
-                <p>
-                  ...
-                </p>
-                <li>
-                  I....
-                </li>
-                <p>In...</p>
-              </li>
             </ul>
           </div>
           <div className="col-md-6">
@@ -845,20 +816,26 @@ class AffcarsCaseStudy extends React.Component {
 
         <section className="wireframing row text-light wireframing text-left p-5">
           <div className="col-md-6">
+            <h2 className='text-warning display-4 my-5'>Profile</h2>
+            <ul>
+              <li>
+                In this section, users can update thir profile information and change their password.
+                </li>
+            </ul>
+          </div>
+          <div className="col-md-6">
+            <img className="img-fluid rounded" src={BuyerCPanelProfile} alt=''></img>
+          </div>
+          <hr />
+        </section>
+
+        <section className="wireframing row text-light wireframing text-left p-5">
+          <div className="col-md-6">
             <h2 className='text-warning display-4 my-5'>Payment Setup</h2>
             <ul>
               <li>
-                Here ...
+                In the payment section, users must enter their bank account informationto receive the discount. they can also see the deal information, if they have already bought a car.
                 </li>
-              <li>
-                <p>
-                  ...
-                </p>
-                <li>
-                  I....
-                </li>
-                <p>In...</p>
-              </li>
             </ul>
           </div>
           <div className="col-md-6">
@@ -872,17 +849,8 @@ class AffcarsCaseStudy extends React.Component {
             <h2 className='text-warning display-4 my-5'>Dealer Login</h2>
             <ul>
               <li>
-                Here ...
+                In the next sections, I'm going to explain the dealers'control panel and the features that are considered for them in this project. this is the account creation and login page as shown.
                 </li>
-              <li>
-                <p>
-                  ...
-                </p>
-                <li>
-                  I....
-                </li>
-                <p>In...</p>
-              </li>
             </ul>
           </div>
           <div className="col-md-6">
@@ -894,20 +862,12 @@ class AffcarsCaseStudy extends React.Component {
 
         <section className="wireframing row text-light wireframing text-left p-5">
           <div className="col-md-6">
-            <h1 className='text-warning display-4'>Dealer Control Panel</h1>
+            <h1 className='text-warning display-4'>Active Inventory</h1>
             <ul>
               <li>
-                Here ...
+                In the active inventory section, sellers can see all their active inventory, edit or delete the cars from the marketplace.
+                After they list a new car, it will be shown here. Each card has some primary information about the car such as picture, price, discount, make, model mileage. stock number, number of days the car was on the market and number view.
                 </li>
-              <li>
-                <p>
-                  ...
-                </p>
-                <li>
-                  I....
-                </li>
-                <p>In...</p>
-              </li>
             </ul>
           </div>
           <div className="col-md-6">
@@ -921,17 +881,8 @@ class AffcarsCaseStudy extends React.Component {
             <h2 className='text-warning display-4 my-5'>Sold Inventory</h2>
             <ul>
               <li>
-                Here ...
+                In the sold inventory section as is obviues, sellers will see a quick report about the car they have sold. Like active inventory section, they can filter the result by some components provided in navbar above.
                 </li>
-              <li>
-                <p>
-                  ...
-                </p>
-                <li>
-                  I....
-                </li>
-                <p>In...</p>
-              </li>
             </ul>
           </div>
           <div className="col-md-6">
@@ -945,17 +896,8 @@ class AffcarsCaseStudy extends React.Component {
             <h2 className='text-warning display-4 my-5'>Reports and Stats</h2>
             <ul>
               <li>
-                Here ...
+                Reports and stats section is going to provide complete tools and data for sellers in order to see their activity in the market and analysis the value of the car compared to competitors in the market.
                 </li>
-              <li>
-                <p>
-                  ...
-                </p>
-                <li>
-                  I....
-                </li>
-                <p>In...</p>
-              </li>
             </ul>
           </div>
           <div className="col-md-6">
@@ -969,16 +911,8 @@ class AffcarsCaseStudy extends React.Component {
             <h2 className='text-warning display-4 my-5'>Update Profile</h2>
             <ul>
               <li>
-                Here ...
-                </li>
-              <li>
-                <p>
-                  ...
-                </p>
-                <li>
-                  I....
-                </li>
-                <p>In...</p>
+                Needless to say, sellers also are able to update their profile and reset password in this section.
+                they can upload and assign a logo so it will be shown on their information on the market as well.
               </li>
             </ul>
           </div>
@@ -993,17 +927,8 @@ class AffcarsCaseStudy extends React.Component {
             <h2 className='text-warning display-4 my-5'>Payment Setup</h2>
             <ul>
               <li>
-                Here ...
+                Sellers are asked to provide their credit card information so discounts could be transferred to buyers' account. They will be charged the amount of discount they have assigned to each car after they sell a car.
                 </li>
-              <li>
-                <p>
-                  ...
-                </p>
-                <li>
-                  I....
-                </li>
-                <p>In...</p>
-              </li>
             </ul>
           </div>
           <div className="col-md-6">
@@ -1017,7 +942,16 @@ class AffcarsCaseStudy extends React.Component {
             <h2 className='text-warning display-4 my-5'>Add New car Step 1</h2>
             <ul>
               <li>
-                Here ...
+                Adding a new car is designed into four sections so make it easier for the seller to list their car. I tried to make it as easier as possible to list their car faster.
+                </li>
+              <li>
+                Through the 'Add New car' button on top left side of the page, sellers can start listing.
+                </li>
+              <li>
+                A progress bar also designed on the top of the page to show the four steps.
+                </li>
+              <li>
+                sellers can add a new car by inserting the VIN number of the car so the webiste will decode the information or they can list manually by selecting Make, Model, Year, and trim of the car. Needless to say that listing through VIN number is more accurate and faster.
                 </li>
             </ul>
           </div>
@@ -1033,7 +967,7 @@ class AffcarsCaseStudy extends React.Component {
             <h2 className='text-warning display-4 my-5'>Add New car Step 2</h2>
             <ul>
               <li>
-                Here ...
+                In the second step, after all the information was decoded by the VIN number, seller can add photos.
                 </li>
             </ul>
           </div>
@@ -1049,7 +983,7 @@ class AffcarsCaseStudy extends React.Component {
             <h2 className='text-warning display-4 my-5'>Add New car Step 3</h2>
             <ul>
               <li>
-                Here ...
+                In the third step, sellers should provide more information about the car such as mileage, color, interior fabric and description (advertising message)
                 </li>
             </ul>
           </div>
@@ -1065,7 +999,10 @@ class AffcarsCaseStudy extends React.Component {
             <h2 className='text-warning display-4 my-5'>Add New car Step 4</h2>
             <ul>
               <li>
-                Here ...
+                And the last step and the most important one. In this section, sellers should define the discount amount, car price, down payment and sale time frame if they are interested.
+                </li>
+              <li>
+                They can define that the car is going to be sold in cash or financing. Then they can assign a discount based on a percentage of car value or down payment.
                 </li>
             </ul>
           </div>
