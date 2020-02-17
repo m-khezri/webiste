@@ -51,7 +51,7 @@ class AffcarsCaseStudy extends React.Component {
         <section id="section1" className='shadow-lg rounded'>
           <div className='row'>
             <div className='col-sm-12'>
-              <h1 className="sec-title display-4">Project Overview</h1>
+              <h2 className="sec-title ">Project Overview</h2>
             </div>
 
             <div className='sec1-par col-sm-6'>
@@ -69,7 +69,7 @@ class AffcarsCaseStudy extends React.Component {
         <section id="section2" className='shadow-lg rounded'>
           <div className='row'>
             <div className='col-sm-12'>
-              <h1 className="sec-title display-4">My Role</h1>
+              <h2 className="sec-title ">My Role</h2>
             </div>
 
             <div className="sec2-par col-sm-6">
@@ -98,7 +98,7 @@ class AffcarsCaseStudy extends React.Component {
         <section id="section3" className='shadow-lg rounded'>
           <div className='row'>
             <div className='col-sm-12'>
-              <h1 className="sec-title display-4">Problem Statement</h1>
+              <h2 className="sec-title ">Problem Statement</h2>
             </div>
 
             <div className="sec3-par col-sm-6">
@@ -116,7 +116,7 @@ class AffcarsCaseStudy extends React.Component {
         <section id="section4" className='shadow-lg rounded'>
           <div className='row'>
             <div className='col-sm-12'>
-              <h1 className="sec-title display-4">Challenges</h1>
+              <h2 className="sec-title ">Challenges</h2>
             </div>
 
             <div className="sec4-par col-sm-12">
@@ -133,7 +133,7 @@ class AffcarsCaseStudy extends React.Component {
         <section id="section5" className='shadow-lg rounded'>
           <div className='row'>
             <div className='col-sm-12'>
-              <h1 className="sec-title display-4">Key Questions</h1>
+              <h2 className="sec-title ">Key Questions</h2>
             </div>
 
             <ul className="list-group col-sm-4">
@@ -180,7 +180,7 @@ class AffcarsCaseStudy extends React.Component {
         <section id="section6" className='shadow-lg rounded'>
           <div className='row'>
             <div className='col-12'>
-              <h1 className="sec-title display-4">Interview and opinion polling with customers</h1>
+              <h2 className="sec-title ">Interview and opinion polling with customers</h2>
             </div>
 
             <div className="sec6-par col-md-6">
@@ -214,7 +214,7 @@ class AffcarsCaseStudy extends React.Component {
         <section id="section7" className='shadow-lg rounded'>
           <div className='row'>
             <div className='col-sm-12'>
-              <h1 className="sec-title display-4">Interview with dealership owners</h1>
+              <h2 className="sec-title ">Interview with dealership owners</h2>
             </div>
 
             <div className="sec7-par col-sm-6">
@@ -255,7 +255,7 @@ class AffcarsCaseStudy extends React.Component {
         <section id="section8" className='shadow-lg rounded'>
           <div className='row'>
             <div className='col-12'>
-              <h1 className="sec-title display-4">Competitors</h1>
+              <h2 className="sec-title ">Competitors</h2>
             </div>
 
             <p className='mx-2'>
@@ -414,7 +414,7 @@ class AffcarsCaseStudy extends React.Component {
         <section id="section9" className='shadow-lg rounded'>
           <div className='row'>
             <div className='col-12'>
-              <h1 className="sec-title display-4">User Persona</h1>
+              <h2 className="sec-title ">User Persona</h2>
             </div>
 
             <div className="sec9-par">
@@ -482,7 +482,7 @@ class AffcarsCaseStudy extends React.Component {
         <section id="section10" className='shadow-lg rounded'>
           <div className='row'>
             <div className='col-12'>
-              <h1 className="sec-title display-4">Journey Map</h1>
+              <h2 className="sec-title ">Journey Map</h2>
             </div>
 
             <div className="sec10-par col">
@@ -559,7 +559,7 @@ class AffcarsCaseStudy extends React.Component {
         <section id="section12" className='shadow-lg rounded'>
           <div className='row'>
             <div className='col-12'>
-              <h1 className="sec-title display-4">User flow</h1>
+              <h2 className="sec-title ">User flow</h2>
             </div>
 
             <div className="sec12-par col">
@@ -576,7 +576,7 @@ class AffcarsCaseStudy extends React.Component {
         <section id="section13" className='shadow-lg rounded text-light'>
           <div className='row'>
             <div className='col-12'>
-              <h1 className="sec-title display-4">Logo design</h1>
+              <h2 className="sec-title ">Logo design</h2>
             </div>
 
             <div className="sec13-par col">
@@ -598,7 +598,7 @@ class AffcarsCaseStudy extends React.Component {
         <section id="section11" className='shadow-lg rounded'>
           <div className='row'>
             <div className='col-12'>
-              <h1 className="sec-title display-4">Sketch</h1>
+              <h2 className="sec-title ">Sketch</h2>
             </div>
 
             <div className="sec11-par col">
@@ -615,13 +615,9 @@ class AffcarsCaseStudy extends React.Component {
           </div>
         </section>
 
-
-
-
-
-        <section id="section13" className="wireframing row text-light wireframing text-left p-5">
+        <section id="section13" className="wireframing row text-light wireframing text-left p-2">
           <div className='col-12'>
-            <h1 className="sec-title display-4">Wireframing</h1>
+            <h2 className="sec-title ">Wireframing</h2>
           </div>
           <div className="col-md-12">
             <img className="img-fluid rounded" src={Wireframing} alt=''></img>
@@ -634,7 +630,7 @@ class AffcarsCaseStudy extends React.Component {
              </p>
           </div>
           <div className="col-md-6">
-            <h2 className='text-warning display-4 my-5'>Home Page</h2>
+            <h2 className='  my-5'>Home Page</h2>
             <ul>
               <li>
                 This is what I thought about the home page. It's pretty straight forward so users can search a spesific car or choose a desireable make and model. min/max price in their area.
@@ -656,9 +652,9 @@ class AffcarsCaseStudy extends React.Component {
           <hr />
         </section>
 
-        <section className="wireframing row text-light wireframing text-left p-5">
+        <section className="wireframing row text-light wireframing text-left p-2">
           <div className="col-md-6">
-            <h2 className='text-warning display-4 my-5'>Search Result </h2>
+            <h2 className='  my-5'>Search Result </h2>
             <ul>
               <li>
                 Here is the search result page. In this page users can see the result of their search; however, on the left section, they are also able to change their search by changing variety of specifications provided on the left.
@@ -683,9 +679,9 @@ class AffcarsCaseStudy extends React.Component {
           <hr />
         </section>
 
-        <section className="wireframing row text-light wireframing text-left p-5">
+        <section className="wireframing row text-light wireframing text-left p-2">
           <div className="col-md-6">
-            <h2 className='text-warning display-4 my-5'>Product Page </h2>
+            <h2 className='  my-5'>Product Page </h2>
             <ul>
               <li>
                 Here is the product page where users can get more information about the car. on top of the page, you will see the car pictures. In the middle tables, there are all information about car make and model, estimate payment and down payment, statistics, social media, sale time span and car specs and features.
@@ -701,9 +697,9 @@ class AffcarsCaseStudy extends React.Component {
           <hr />
         </section>
 
-        <section className="wireframing row text-light wireframing text-left p-5">
+        <section className="wireframing row text-light wireframing text-left p-2">
           <div className="col-md-6">
-            <h2 className='text-warning display-4 my-5'>Buyer Login</h2>
+            <h2 className='  my-5'>Buyer Login</h2>
             <ul>
               <li>
                 Before users could get more information about the deal details they must create an account. As I was talking to some dealers, they usually don't like competitors know their prices and inventory so in order to prevent non-real buyers see the deal detail, users must create an account to proceed.
@@ -716,9 +712,9 @@ class AffcarsCaseStudy extends React.Component {
           <hr />
         </section>
 
-        <section className="wireframing row text-light wireframing text-left p-5">
+        <section className="wireframing row text-light wireframing text-left p-2">
           <div className="col-md-6">
-            <h2 className='text-warning display-4 my-5'>Deal Details</h2>
+            <h2 className='  my-5'>Deal Details</h2>
             <ul>
               <li>
                 The deal detail page is similar to the product page but the differences are dealer contact information and get the discount voucher. After users log in, they are able to see the accurate deal numbers as well as dealer information, working hours and dealer rate.
@@ -732,9 +728,9 @@ class AffcarsCaseStudy extends React.Component {
           <hr />
         </section>
 
-        <section className="wireframing row text-light wireframing text-left p-5">
+        <section className="wireframing row text-light wireframing text-left p-2">
           <div className="col-md-6">
-            <h2 className='text-warning display-4 my-5'>Recieve the Voucher</h2>
+            <h2 className='  my-5'>Recieve the Voucher</h2>
             <ul>
               <li>
                 This is the voucher that contains all the information about the car,seller, buyer, and deal. Buyers can receive it in their e-mail.This voucher is only valid until 72 hours which means others are not able to request and buy this car at the same time. If buyer doesn't buy it within the next 72 hours, the car will be available for others on the market again.A copy of this voucher also will be sent to sellers so the seller is able to get some information about buyer before signing the contract.
@@ -747,9 +743,9 @@ class AffcarsCaseStudy extends React.Component {
           <hr />
         </section>
 
-        <section className="wireframing row text-light wireframing text-left p-5">
+        <section className="wireframing row text-light wireframing text-left p-2">
           <div className="col-md-6">
-            <h2 className='text-warning display-4 my-5'>Buyer C-Panel</h2>
+            <h2 className='  my-5'>Buyer C-Panel</h2>
             <ul>
               <li>
                 Buying a car process and getting the voucher was explained. So in a few simple steps, buyers can find their cars, make an appointmnet and download the voucher. Now, I'm going to explain about the buyer and seller control panel. Let's start by buyer control panel, There are a couple of useful sections such as saved cars, upload documents, create alerts, profile, and payment setupthat I'll explain each.
@@ -763,9 +759,9 @@ class AffcarsCaseStudy extends React.Component {
           <hr />
         </section>
 
-        <section className="wireframing row text-light wireframing text-left p-5">
+        <section className="wireframing row text-light wireframing text-left p-2">
           <div className="col-md-6">
-            <h2 className='text-warning display-4 my-5'>Save Cars</h2>
+            <h2 className='  my-5'>Save Cars</h2>
             <ul>
               <li>
                 In this steps, as you see in the picture, buyers can manage the deales they have bookmarked. They are able to delete or go head and buy them.
@@ -778,9 +774,9 @@ class AffcarsCaseStudy extends React.Component {
           <hr />
         </section>
 
-        <section className="wireframing row text-light wireframing text-left p-5">
+        <section className="wireframing row text-light wireframing text-left p-2">
           <div className="col-md-6">
-            <h2 className='text-warning display-4 my-5'>Upload Documents</h2>
+            <h2 className='  my-5'>Upload Documents</h2>
             <ul>
               <li>
                 This is the most important section. As a policy, buyers must upload the bill of sale or contract in order to get the discount. After they sign the contract and buy a car, they must upload the contract so their discount will be calculated based on the formula which buyer has defined for this car.
@@ -799,9 +795,9 @@ class AffcarsCaseStudy extends React.Component {
           <hr />
         </section>
 
-        <section className="wireframing row text-light wireframing text-left p-5">
+        <section className="wireframing row text-light wireframing text-left p-2">
           <div className="col-md-6">
-            <h2 className='text-warning display-4 my-5'>Create Alerts</h2>
+            <h2 className='  my-5'>Create Alerts</h2>
             <ul>
               <li>
                 If someone is looking for a specific car, he/she can create an alert then he/she will be notified by email or text in case the car is available on the market around his/her area.
@@ -814,9 +810,9 @@ class AffcarsCaseStudy extends React.Component {
           <hr />
         </section>
 
-        <section className="wireframing row text-light wireframing text-left p-5">
+        <section className="wireframing row text-light wireframing text-left p-2">
           <div className="col-md-6">
-            <h2 className='text-warning display-4 my-5'>Profile</h2>
+            <h2 className='  my-5'>Profile</h2>
             <ul>
               <li>
                 In this section, users can update thir profile information and change their password.
@@ -829,9 +825,9 @@ class AffcarsCaseStudy extends React.Component {
           <hr />
         </section>
 
-        <section className="wireframing row text-light wireframing text-left p-5">
+        <section className="wireframing row text-light wireframing text-left p-2">
           <div className="col-md-6">
-            <h2 className='text-warning display-4 my-5'>Payment Setup</h2>
+            <h2 className='  my-5'>Payment Setup</h2>
             <ul>
               <li>
                 In the payment section, users must enter their bank account informationto receive the discount. they can also see the deal information, if they have already bought a car.
@@ -844,9 +840,9 @@ class AffcarsCaseStudy extends React.Component {
           <hr />
         </section>
 
-        <section className="wireframing row text-light wireframing text-left p-5">
+        <section className="wireframing row text-light wireframing text-left p-2">
           <div className="col-md-6">
-            <h2 className='text-warning display-4 my-5'>Dealer Login</h2>
+            <h2 className='  my-5'>Dealer Login</h2>
             <ul>
               <li>
                 In the next sections, I'm going to explain the dealers'control panel and the features that are considered for them in this project. this is the account creation and login page as shown.
@@ -860,9 +856,9 @@ class AffcarsCaseStudy extends React.Component {
         </section>
 
 
-        <section className="wireframing row text-light wireframing text-left p-5">
+        <section className="wireframing row text-light wireframing text-left p-2">
           <div className="col-md-6">
-            <h1 className='text-warning display-4'>Active Inventory</h1>
+            <h2 className=' '>Active Inventory</h2>
             <ul>
               <li>
                 In the active inventory section, sellers can see all their active inventory, edit or delete the cars from the marketplace.
@@ -876,9 +872,9 @@ class AffcarsCaseStudy extends React.Component {
           <hr />
         </section>
 
-        <section className="wireframing row text-light wireframing text-left p-5">
+        <section className="wireframing row text-light wireframing text-left p-2">
           <div className="col-md-6">
-            <h2 className='text-warning display-4 my-5'>Sold Inventory</h2>
+            <h2 className='  my-5'>Sold Inventory</h2>
             <ul>
               <li>
                 In the sold inventory section as is obviues, sellers will see a quick report about the car they have sold. Like active inventory section, they can filter the result by some components provided in navbar above.
@@ -891,9 +887,9 @@ class AffcarsCaseStudy extends React.Component {
           <hr />
         </section>
 
-        <section className="wireframing row text-light wireframing text-left p-5">
+        <section className="wireframing row text-light wireframing text-left p-2">
           <div className="col-md-6">
-            <h2 className='text-warning display-4 my-5'>Reports and Stats</h2>
+            <h2 className='  my-5'>Reports and Stats</h2>
             <ul>
               <li>
                 Reports and stats section is going to provide complete tools and data for sellers in order to see their activity in the market and analysis the value of the car compared to competitors in the market.
@@ -906,9 +902,9 @@ class AffcarsCaseStudy extends React.Component {
           <hr />
         </section>
 
-        <section className="wireframing row text-light wireframing text-left p-5">
+        <section className="wireframing row text-light wireframing text-left p-2">
           <div className="col-md-6">
-            <h2 className='text-warning display-4 my-5'>Update Profile</h2>
+            <h2 className='  my-5'>Update Profile</h2>
             <ul>
               <li>
                 Needless to say, sellers also are able to update their profile and reset password in this section.
@@ -922,9 +918,9 @@ class AffcarsCaseStudy extends React.Component {
           <hr />
         </section>
 
-        <section className="wireframing row text-light wireframing text-left p-5">
+        <section className="wireframing row text-light wireframing text-left p-2">
           <div className="col-md-6">
-            <h2 className='text-warning display-4 my-5'>Payment Setup</h2>
+            <h2 className='  my-5'>Payment Setup</h2>
             <ul>
               <li>
                 Sellers are asked to provide their credit card information so discounts could be transferred to buyers' account. They will be charged the amount of discount they have assigned to each car after they sell a car.
@@ -937,9 +933,9 @@ class AffcarsCaseStudy extends React.Component {
           <hr />
         </section>
 
-        <section className="wireframing row text-light wireframing text-left p-5">
+        <section className="wireframing row text-light wireframing text-left p-2">
           <div className="col-md-6">
-            <h2 className='text-warning display-4 my-5'>Add New car Step 1</h2>
+            <h2 className='  my-5'>Add New car Step 1</h2>
             <ul>
               <li>
                 Adding a new car is designed into four sections so make it easier for the seller to list their car. I tried to make it as easier as possible to list their car faster.
@@ -962,9 +958,9 @@ class AffcarsCaseStudy extends React.Component {
         </section>
 
 
-        <section className="wireframing row text-light wireframing text-left p-5">
+        <section className="wireframing row text-light wireframing text-left p-2">
           <div className="col-md-6">
-            <h2 className='text-warning display-4 my-5'>Add New car Step 2</h2>
+            <h2 className='  my-5'>Add New car Step 2</h2>
             <ul>
               <li>
                 In the second step, after all the information was decoded by the VIN number, seller can add photos.
@@ -978,9 +974,9 @@ class AffcarsCaseStudy extends React.Component {
         </section>
 
 
-        <section className="wireframing row text-light wireframing text-left p-5">
+        <section className="wireframing row text-light wireframing text-left p-2">
           <div className="col-md-6">
-            <h2 className='text-warning display-4 my-5'>Add New car Step 3</h2>
+            <h2 className='  my-5'>Add New car Step 3</h2>
             <ul>
               <li>
                 In the third step, sellers should provide more information about the car such as mileage, color, interior fabric and description (advertising message)
@@ -994,9 +990,9 @@ class AffcarsCaseStudy extends React.Component {
         </section>
 
 
-        <section className="wireframing row text-light wireframing text-left p-5">
+        <section className="wireframing row text-light wireframing text-left p-2">
           <div className="col-md-6">
-            <h2 className='text-warning display-4 my-5'>Add New car Step 4</h2>
+            <h2 className='  my-5'>Add New car Step 4</h2>
             <ul>
               <li>
                 And the last step and the most important one. In this section, sellers should define the discount amount, car price, down payment and sale time frame if they are interested.
@@ -1012,22 +1008,46 @@ class AffcarsCaseStudy extends React.Component {
           <hr />
         </section>
 
-        <section className="wireframing row text-light wireframing text-left p-5">
-          <div className="col-md">
-            <h2 className='text-warning display-4 my-5'>Color Theme</h2>
+        <section className="wireframing row text-light wireframing text-left p-2">
+          <div className="col">
+            <h2 className='my-5'>Usability test</h2>
+            <div className='row px-5'>
+              <p className='mt-5'>
+                Feel free to usability testing and find ot how does it work. <em>(Optimized for desktop view)</em>
+              </p>
+
+              <iframe title='livedemo' width="1920" height="405" src="https://xd.adobe.com/embed/7486639b-9526-477e-610d-2bdff91bd4f5-02b7/" frameborder="0" allowfullscreen></iframe>
+
+
+            </div>
+          </div>
+        </section>
+
+
+        <section className="wireframing row text-light wireframing text-left p-2">
+          <div className="col">
+            <h2 className='my-5'>Color Theme</h2>
+            <div className='row px-5'>
+              <div className='color1 col'>#263238</div>
+              <div className='color2 col text-dark'>#ECEFF1</div>
+              <div className='color3 col'>#D93D4A</div>
+              <p className='mt-5'>
+                These are three colors I considered for visual design of the website. Dark gray and light gray are used for background and red color is the accent color.
+              </p>
+            </div>
+
 
           </div>
           <hr />
         </section>
 
-        <section className="wireframing row text-light wireframing text-left p-5">
-          <div className="col-md-6">
-            <h2 className='text-warning display-4 my-5'>High Fidelity Mockup</h2>
-            <ul>
-              <li>
-                Here ...
-                </li>
-            </ul>
+        <section className="wireframing row text-light wireframing text-left p-2">
+          <div className="col">
+            <h2 className='  my-5'>High Fidelity Mockup</h2>
+            <p>
+              This is the high fidelity visual design of the website that created with Figma. For this project I used Figma rather than Adobe XD to discover and learn more. I really enjoyed
+              working with Figma. It was very easy to use, fast, and enjoyable.
+                </p>
           </div>
           <div className="col-md-12">
             <img className="img-fluid rounded" src={Mockup} alt=''></img>
@@ -1035,14 +1055,22 @@ class AffcarsCaseStudy extends React.Component {
           <hr />
         </section>
 
-        <section className="wireframing row text-light wireframing text-left p-5">
-          <div className="col-md-6">
-            <h2 className='text-warning display-4 my-5'>Lesson I learned</h2>
-            <ul>
-              <li>
-                Here ...
-                </li>
-            </ul>
+        <section className="wireframing row text-light wireframing text-left p-2">
+          <div className="col">
+            <h2 className='  my-5'>Lesson I learned</h2>
+            <p>
+              It was like a real project for me. I spent lots of time on each corner of this project. Talking and interviewing with buyers and sellers taught me how to organize my questions and design an effective opinion polling. It really improved my communication skills too. I learned how to apply their points of view in my design process. This project also improved my sketchingskills. I changed the sketches several times before start designing the wireframe.
+              </p>
+            <p>
+              I learned how competitors work in the car industry. which features and tools they provided for customers. How's their business model.
+                          </p>
+            <p>
+              I improved my skills using Adobe Xd for wireframing and using Figma for visual design.
+            </p>
+            <p>
+              I practiced the UX design process: Discover > Define > Design > Usability testing > Develop > Coding.
+            </p>
+
           </div>
           <hr />
         </section>

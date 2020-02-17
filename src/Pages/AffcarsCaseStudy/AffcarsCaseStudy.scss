@@ -7,8 +7,9 @@ margin: 0;
 padding: 0;
 }
 
-h1{
-  color: coral;
+h2{
+  color: #f6b93b;
+  font-size: 0.5em;
 }
 
 .sec-title{
@@ -17,7 +18,7 @@ h1{
 }
 
 #section1, #section2, #section3, #section4, #section9, #section11, #section12, #section13{
-  margin: 5% 0;
+  margin: 10% 0;
   padding: 3%;
         .sec1-par{
           font-size: 1em;
@@ -28,7 +29,7 @@ h1{
 
 
 #section5{
-  margin: 5% 0;
+  margin: 10% 0;
   padding: 5%;
 
   ul{
@@ -41,7 +42,7 @@ background-color: #dfe4ea;
 }
 
 #section6, #section7{
-  margin: 5% 0;
+  margin: 10% 0;
   padding: 3%;
           .sec6-par{
             font-size: 1em;
@@ -55,11 +56,10 @@ background-color: #dfe4ea;
 
 
     #section8{
-      margin: 5% 0;
+      margin: 10% 0;
   padding: 5%;
 
   ul{
-    padding: 1%;
     margin: 0;
     li:first-child{
 background-color: #dfe4ea;
@@ -82,7 +82,7 @@ background-color: #dfe4ea;
 
 
         #section10{
-          margin: 5% 0;
+          margin: 10% 0;
           padding: 3%;
                
                   .sec10-par{
@@ -101,6 +101,8 @@ background-color: #dfe4ea;
           }
 
           #section13{
+            margin: 10% 0;
+            padding: 3%;
             background-color: #000;
                    }
 
@@ -126,3 +128,22 @@ width: 48%;
   background-color: #0a3d62;
 }
 
+.color1{
+  text-align: center;
+  padding: 10%;
+  height: auto;
+  background-color: #263238;
+}
+
+.color2{
+  text-align: center;
+  padding: 10%;
+  height: auto;
+  background-color: #ECEFF1;
+}
+.color3{
+  text-align: center;
+  padding: 10%;
+  height: auto;
+  background-color: #D93D4A;
+}
