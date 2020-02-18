@@ -29,8 +29,6 @@ import Mockup from '../../image/affcars/Wireframing/Mockup.jpg';
 import sec1pic from '../../image/affcars/Wireframing/sec1pic.jpg';
 import LogoDesign from '../../image/affcars/Wireframing/LogoDesign.jpg';
 
-
-
 class AffcarsCaseStudy extends React.Component {
 
   render() {
