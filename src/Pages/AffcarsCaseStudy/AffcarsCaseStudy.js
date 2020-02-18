@@ -1013,10 +1013,9 @@ class AffcarsCaseStudy extends React.Component {
               <p className='mt-5'>
                 Feel free to usability testing and find ot how does it work. <em>(Optimized for desktop view)</em>
               </p>
-
-              <iframe title='livedemo' width="1920" height="405" src="https://xd.adobe.com/embed/7486639b-9526-477e-610d-2bdff91bd4f5-02b7/" frameborder="0" allowfullscreen></iframe>
-
-
+              <p>
+                <Link className="display-4 text-decoration-none" target='_blank' to="/projects/DemoAffcar/demoAffcar">Live Demo</Link>
+              </p>
             </div>
           </div>
         </section>
