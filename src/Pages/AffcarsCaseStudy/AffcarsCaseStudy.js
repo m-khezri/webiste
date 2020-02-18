@@ -1013,9 +1013,10 @@ class AffcarsCaseStudy extends React.Component {
               <p className='mt-5'>
                 Feel free to usability testing and find ot how does it work. <em>(Optimized for desktop view)</em>
               </p>
-              <Link className="display-4 text-decoration-none" target='_blank' to="/projects/RhinoCaseStudy/demoAffcar">Live Demo</Link>
 
-
+              <p>
+                <Link className="display-4 text-decoration-none" target='_blank' to="/projects/DemoAffcar/demoAffcar">Live Demo</Link>
+              </p>
 
             </div>
           </div>

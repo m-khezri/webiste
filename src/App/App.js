@@ -19,7 +19,7 @@ class App extends React.Component {
           <Route path="/projects/RhinoCaseStudy" exact component={RhinoCaseStudy} />
           <Route path="/projects/AffcarsCaseStudy" exact component={AffarsCaseStudy} />
           <Route path="/projects/RhinoCaseStudy/demo" exact component={Demo} />
-          <Route path="/projects/RhinoCaseStudy/demo" exact component={DemoAffcar} />
+          <Route path="/projects/DemoAffcar/demoAffcar" exact component={DemoAffcar} />
 
         </div>
       </Router>
