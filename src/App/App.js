@@ -6,6 +6,8 @@ import Projects from '../Pages/Projects/Projects';
 import RhinoCaseStudy from '../Pages/RhinoCaseStudy/RhinoCaseStudy';
 import AffarsCaseStudy from '../Pages/AffcarsCaseStudy/AffcarsCaseStudy';
 import Demo from '../Pages/Demo/Demo';
+import DemoAffcar from '../Pages/Demo/DemoAffcar';
+
 
 class App extends React.Component {
   render() {
@@ -17,6 +19,8 @@ class App extends React.Component {
           <Route path="/projects/RhinoCaseStudy" exact component={RhinoCaseStudy} />
           <Route path="/projects/AffcarsCaseStudy" exact component={AffarsCaseStudy} />
           <Route path="/projects/RhinoCaseStudy/demo" exact component={Demo} />
+          <Route path="/projects/RhinoCaseStudy/demo" exact component={DemoAffcar} />
+
         </div>
       </Router>
     );
