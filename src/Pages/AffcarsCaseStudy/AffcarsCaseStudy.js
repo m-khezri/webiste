@@ -1011,13 +1011,11 @@ class AffcarsCaseStudy extends React.Component {
             <h2 className='my-5'>Usability test</h2>
             <div className='row px-5'>
               <p className='mt-5'>
-                Feel free to usability testing and find ot how does it work. <em>(Optimized for desktop view)</em>
+                Feel free to usability testing and find o how does it work.
               </p>
-
-              <p>
-                <Link className="display-4 text-decoration-none" target='_blank' to="/projects/DemoAffcar/demoAffcar">Live Demo</Link>
-              </p>
-
+            </div>
+            <div className='text-center text-fa-underline'>
+              <Link className="display-4 text-decoration-none" target='_blank' to="/projects/DemoAffcar/demoAffcar">Live Demo</Link>
             </div>
           </div>
         </section>
