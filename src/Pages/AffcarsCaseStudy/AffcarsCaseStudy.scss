@@ -1,10 +1,49 @@
-div{
-  // border: 1px dotted green;
+// div{
+//   border: 1px dotted yellow;
+// }
+
+.videoContainer{
+position: relative;
 }
 
-.container{
-margin: 0;
-padding: 0;
+.navLink{
+  position: absolute;
+  left: 0;
+  top: 5%;
+  width: 100%;
+  text-align: center;
+  padding: 0 33%;
+
+}
+
+.title{
+  position: absolute;
+  left: 0;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+  opacity: 0.8;
+  font-family: Helvetica;
+  color: #fff;
+
+
+.title-affcar{
+  font-size: 6em;
+}
+.title-desc{
+  font-size: 3em;
+}
+
+.title-note{
+  font-size: 2em;
+}
+
+}
+
+#affVideo{
+  width: 100%;
+  height: auto;
+  z-index: -1;
 }
 
 h2{
@@ -13,7 +52,6 @@ h2{
 }
 
 .sec-title{
-  margin: 10% 0;
   text-align: center; 
 }
 
@@ -25,7 +63,6 @@ h2{
           color:#546e7a;
         }
 }
-
 
 
 #section5{
@@ -147,3 +184,27 @@ width: 48%;
   height: auto;
   background-color: #D93D4A;
 }
+
+
+
+  @media screen and (max-width: 375px) {
+  
+    .title-affcar{
+      font-size: 2em !important;
+    }
+    .title-desc{
+      font-size: 1em !important;
+    }
+    
+    .title-note{
+      font-size: 0.8em !important;
+    }
+    .navLink{
+      font-size: 0.8em;
+      padding: 0 1%;
+      
+      
+    }
+
+    }
+
