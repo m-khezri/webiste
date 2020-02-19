@@ -1,7 +1,7 @@
 
 .project-container{
   color: #455a64;
-  padding: 2% 5%;
+  padding: 2% 20%;
   height: 100vh;
 }
 
@@ -16,7 +16,8 @@
   background-color: #fff;
   width: 20%;
   min-width: 350px;
-  margin-top: 5px;
+  margin-top: 10%;
+  margin-bottom: 10%;
   position: relative;
 }
 .project4{
@@ -74,44 +75,4 @@
       }
 
 
-@media screen and (max-width: 1024px) {
-  .front-end-container{
-    width: 100%;
-    margin: 0%;
-  }
-
-  .project-container{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    // background-color: #e8eaf6;
-    color: #455a64;
-  }
-
-  .projects {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 0 !important;
-    margin: 0 !important;
-  }
-  
-  .project1,.project2,.project3,.project4 {
-    background-color: #ede7f6;
-    width: 40%;
-    height: auto;
-    margin: 3%;
-  }
-
-  .bg-proj{
-    background-color: #b39ddb;
-  }
-  
-.footer{
-  bottom: 0;
-  right: 0;
-  left:0;
-  padding: 2%;
-}
-
-}
+// 

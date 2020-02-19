@@ -63,7 +63,7 @@ class AboutMe extends React.Component {
             <a className="resume mx-3" href={resume}><i className="fas fa-file-download mr-2"></i>Get Resume</a>
           </RubberBand>
           <RubberBand delay='4000'>
-            <Link className="resume nav-link mx-3" to="/projects"><i className="fas fa-project-diagram mr-2"></i>Projects</Link>
+            <Link className="resume nav-link mx-3" to="/projects"><i className="fas fa-project-diagram mr-2"></i>Portfolio</Link>
           </RubberBand>
         </div>
       </div>
