@@ -24,7 +24,7 @@ class AboutMe extends React.Component {
             <Fade bottom delay='800'>
               <div className='text-center'>
                 <h1 className="myName display-4">Mohammad Khezri</h1>
-                <h5 className="title">UX/UI Designer / Front-End Developer</h5>
+                <h5 className="myTitle">UX/UI Designer / Front-End Developer</h5>
               </div>
             </Fade>
             <Fade bottom delay='400'>
