@@ -63,9 +63,9 @@ class AffcarsCaseStudy extends React.Component {
 
                 <div className='sec1-par col-sm-6'>
                   <p>
-                    This is my personal UX/UI project focusing on used car affiliate marketing helping people to buy more reliable cars with the best cash-back discount.
+                    This is my personal UX/UI project focusing on car affiliate marketing helping people to buy more reliable cars with the best cash-back discount.
                     In this project, dealers can add their inventory and assign discounts for each car then customers will be able to find the cars with the best price and discount.
-              The goal is increasing traffic to car dealers to boost their sales and help buyers to get a more affordable and reliable car.</p>
+              The goal is increasing traffic to car dealerships in order to boost their sales and help buyers to get a more affordable and reliable car.</p>
                 </div>
                 <div className='sec1-pic col-sm-6 m-0'>
                   <img className="img-fluid rounded" src={sec1pic} alt=''></img>
@@ -85,7 +85,7 @@ class AffcarsCaseStudy extends React.Component {
                   <ul>I worked on this case study from ground up. I was responsible for:
             <li>Defining the problem</li>
                     <li>Researching,</li>
-                    <li>Interview with people and polling</li>
+                    <li>Interview with people and opinion polling</li>
                     <li>Analysis the data</li>
                     <li>Research about the market</li>
                     <li>Research about competitors</li>
@@ -94,7 +94,7 @@ class AffcarsCaseStudy extends React.Component {
                     <li>Sketching the app</li>
                     <li>Wireframing</li>
                     <li>Prototyping</li>
-                    <li>Testing</li>
+                    <li>Usability testing</li>
                     <li>Again testing, improving, testing, testing...</li>
                   </ul>
                 </div>
@@ -114,7 +114,9 @@ class AffcarsCaseStudy extends React.Component {
 
                 <div className="sec3-par col-sm-6">
                   <p>
-                    How might we create a website that users can easily search, filter and narrow their filtering to reach a car that they need with the best cash-back discount People with bad credit, low budget for down-payment, people who can’t buy a car from main dealers or anyone who in particular looking for a car with real discount have this chance to save some money for part of down payment or tax. As I researched the problem is most of these people really don’t know that they can buy a cheaper car.
+                    How might we create a website that users can easily search, filter and narrow their search to reach a car that they need with the best cash-back discount People with bad credit,
+                    low budget for down-payment, people who can’t buy a car from main dealers or anyone who in particular looking for a car with real discount have this chance to save some money
+                    for part of down payment or tax. As I researched the problem is most of these people really don’t know that they can buy a cheaper car.
                     The real problem is a lack of buyers' awareness. I’m trying to solve this problem by giving more awareness to these people by providing the right tools to help them buy a car through awareness.
               </p>
                 </div>
@@ -157,7 +159,7 @@ class AffcarsCaseStudy extends React.Component {
                 </ul>
                 <ul className="list-group col-12">
                   <li className='list-group-item font-weight-bold'>What are we creating?</li>
-                  <li className=' list-group-item'> We are creating a website that dealers can add their inventory and specify a discount for each car then we will do online marketing to connect customers to dealers. Customers can download a voucher and take it to the dealer and get a discount.</li>
+                  <li className=' list-group-item'> I am designing a website that dealers can add their inventory and specify a discount for each car then we will do online marketing to connect customers to dealers. Customers can download a voucher and take it to the dealer and get a discount.</li>
                 </ul>
                 <ul className="list-group mb-3 col-12">
                   <li className='list-group-item font-weight-bold'>What value does it provide?</li>
@@ -176,16 +178,16 @@ class AffcarsCaseStudy extends React.Component {
                   <li className=' list-group-item'> Because most of them have trouble for paying down payment, on the other hand, dealers never pay a penny unless they sale a car.</li>
                 </ul>
                 <ul className="list-group mb-3 col-12">
-                  <li className='list-group-item font-weight-bold'>Why will people visit/use/buy from us?</li>
-                  <li className=' list-group-item'>We show all the car lots inventory with great filtering and best discount so they have a chance to buy a less expensive car rather than walk-in car lots</li>
+                  <li className='list-group-item font-weight-bold'>Why should people visit/use/buy through this website?</li>
+                  <li className=' list-group-item'>I'll design and provide a great filtering and search features and the best discount so they have a chance to buy a less expensive car rather than walk-in car lots</li>
                 </ul>
                 <ul className="list-group mb-3 col-12">
-                  <li className='list-group-item font-weight-bold'>How will we measure success?</li>
-                  <li className=' list-group-item'> We will try to drive more traffic to the website by online marketing so we will create powerful tools to measure the number of sold cars through the website. We will design great tools for dealers to monitor their sales through our website.</li>
+                  <li className='list-group-item font-weight-bold'>How do I measure success?</li>
+                  <li className=' list-group-item'> I will try to drive more traffic to the website by online marketing so we will create powerful tools to measure the number of sold cars through the website. We will design great tools for dealers to monitor their sales through our website.</li>
                 </ul>
                 <ul className="list-group mb-3 col-12">
                   <li className='list-group-item font-weight-bold'>How does this website fit into your overall strategy?</li>
-                  <li className=' list-group-item'>Everything depends on the number of our visitors and how many people are interested to buy a car through this website. We will work hard to contract with more dealers to enrich our inventory then visitors will have tons of options. Our strategy is getting the best discount and provide it for buyers. We want to make it easier for individuals who have trouble paying for a car for any reason.</li>
+                  <li className=' list-group-item'>Everything depends on the number of a website visitors and how many people are interested to buy a car through this website. This website is going to encourage dealers to list their inventory then visitors will have tons of options. The strategy is getting the best discount and provide it for buyers. I want to make it easier for individuals who have trouble paying for a car for any reason.</li>
                 </ul>
 
               </div>
@@ -240,13 +242,13 @@ class AffcarsCaseStudy extends React.Component {
                   <ul className="list-group">
                     <li className='list-group-item bg-dark text-light'>Here is the result:</li>
                     <li className='list-group-item font-weight-bold'>The first person:</li>
-                    <li className='list-group-item '>It’s a good idea but I don’t think our customers really need $100 - $500 discount for buying a car, Your website has few visitors so the chance of selling cars through your website is not a lot; however, it could be a chance for us to get more customers. Moreover, we are not going to pay anything to you unless you refer to a customer. Regarding the discount, we prefer to determine the discount amount based on the down payment, not the total price.</li>
+                    <li className='list-group-item '>It’s a good idea but I don’t think our customers really need $100 - $500 discount for buying a car, the website should have lots of visitors so the chance of selling cars through this website is not a lot; however, it could be a chance for us to get more customers. Moreover, we are not going to pay anything unless we get a customer. Regarding the discount, we prefer to determine the discount amount based on the down payment, not the total price.</li>
                     <li className='list-group-item font-weight-bold'>The second person:</li>
                     <li className='list-group-item'>We usually pay $200 for a referral. You should do great online marketing to send customers; however, we have our own customers and most of them are Hispanic who usually don’t use the internet for buying a car.</li>
                     <li className='list-group-item font-weight-bold'>The third person:</li>
                     <li className='list-group-item'>Well, I think you should work with big dealers who sell a lot of cars every day, in this case, this online business will make sense. I think it’s too hard to work with some used dealers because they have a lot of hidden fees and they will change an item in a time of contract to cover the discount they paid, besides, used cars, in particular, don’t have a stable price </li>
                     <li className='list-group-item font-weight-bold'>The forth person</li>
-                    <li className='list-group-item'>I believe there are some big websites in this industry that work very well and you’ll have to invest millions of dollars to grow this online business, I believe all the games have already been played and you are not solving a real problem. Our type of customers don’t care about $100 - $500 discount, on the contrary, I think richer buyers are more interested in a discount so I think you should work with big and new car dealerships. They also have their own cash-back discount. I believe you can make such a website for a hobby to test the waters not a real business and we can list our inventory on the website and it could be an additional way to get more customers. Currently, we have own network to get customers and it’s working well. In addition, in the used cars industry, there’s always a $1000 to $1300 margin to play with a price.</li>
+                    <li className='list-group-item'>I believe there are some big websites in this industry that work very well and such this website should invest millions of dollars to grow and compete with others. I believe all the games have already been played and it doesn't really solve a real problem. Our type of customers don’t care about $100 - $500 discount, on the contrary, I think richer buyers are more interested in a discount so I think you should work with big and new car dealerships. They also have their own cash-back discount. Although, we can list our inventory on this website and it could be an additional way to get more customers. Currently, we have own network to get customers and it’s working well. In addition, in the used cars industry, there’s always a $1000 to $1300 margin to play with a price so I don't say this idea is %100 useless.</li>
                   </ul>
                 </div>
                 <div className='sec7-pic col-sm-6 mx-auto my-auto'>
@@ -280,7 +282,8 @@ class AffcarsCaseStudy extends React.Component {
                 </div>
 
                 <p className='mx-2'>
-                  The big websites that have been around for a long time are as follow:
+                  The big websites that have been around for a long time are as follow. I studied the way they connect customers to dealers and how do they charge car dealerships.
+                  They provide plenty of awesome tools and features that make it easy for people to buy a car.
               </p>
                 <ul className="list-group col-12 my-2">
                   <li className='list-group-item bg-light font-weight-bold'>CarsforSale</li>
@@ -1089,7 +1092,7 @@ class AffcarsCaseStudy extends React.Component {
                 <h2 className='sec-titlemy-5'>Usability test</h2>
                 <div className='row px-5'>
                   <p className='mt-5'>
-                    Feel free to usability testing and find o how does it work.
+                    Feel free to usability testing. This is a clickable live demo that you can review how buyers can get a discount voucher. You can also browse buyer and sellers control panel.
               </p>
                 </div>
                 <div className='text-center text-fa-underline'>
@@ -1138,18 +1141,11 @@ class AffcarsCaseStudy extends React.Component {
               <div className="col">
                 <h2 className='sec-title  my-5'>Lesson I learned</h2>
                 <p>
-                  It was like a real project for me. I spent lots of time on each corner of this project. Talking and interviewing with buyers and sellers taught me how to organize my questions and design an effective opinion polling. It really improved my communication skills too. I learned how to apply their points of view in my design process. This project also improved my sketchingskills. I changed the sketches several times before start designing the wireframe.
-              </p>
-                <p>
+                  It was like a real project for me. I spent lots of time on this project. Talking and interviewing with buyers and sellers taught me how to organize my questions and design an effective opinion polling. It really improved my communication skills too. I learned how to apply their points of view in my design process. This project also improved my sketchingskills. I changed the sketches several times before start designing the wireframe.
                   I learned how competitors work in the car industry. which features and tools they provided for customers. How's their business model.
-                          </p>
-                <p>
                   I improved my skills using Adobe Xd for wireframing and using Figma for visual design.
-            </p>
-                <p>
                   I practiced the UX design process: Discover > Define > Design > Usability testing > Develop > Coding.
-            </p>
-
+              </p>
               </div>
               <hr />
             </section>

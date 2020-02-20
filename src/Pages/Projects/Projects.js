@@ -16,15 +16,15 @@ class Projects extends React.Component {
 
         <div className="projects">
 
-          <div className="project1 shadow">
+          <div className="project1 shadow-lg">
             <div className="bg-proj">
-              <h6 className="p-2">Rhino splits</h6>
+              <h6 className="proj-title">Rhino splits</h6>
             </div>
             <div className="text-left p-3">
               <div className="img-holder">
                 <img className="rhino-pic w-100" src="https://github.com/m-khezri/rhino-splits/raw/master/src/images/01.JPG" alt=""></img>
               </div>
-              <h6 className="mt-5">Rhino Splits is my Front-End capstopne
+              <h6 className="mt-1">Rhino Splits is my Front-End capstopne
                  projects at NSS. This is online payment
                      simulator that incorporates the following features:</h6>
               <div className='p-4'>
@@ -53,15 +53,15 @@ class Projects extends React.Component {
           </div>
 
 
-          <div className="project4 shadow">
+          <div className="project4 shadow-lg">
             <div className="bg-projux">
-              <h6 className="p-2">Rhino splits (UI/UX Case Study)</h6>
+              <h6 className="proj-title">Rhino splits (UI/UX Case Study)</h6>
             </div>
             <div className="text-left p-3">
               <div className="img-holder">
                 <img className="rhino-pic w-100" src="https://github.com/m-khezri/rhino-splits/raw/master/src/images/01.JPG" alt=""></img>
               </div>
-              <h6 className="mt-5">Rhino Splits is my UX/UI case study
+              <h6 className="mt-1">Rhino Splits is my UX/UI case study
                  projects at NSS. This is online payment
                      simulator that incorporates the following features:</h6>
               <div className='p-4'>
@@ -90,16 +90,16 @@ class Projects extends React.Component {
           </div>
 
 
-          <div className="project4 shadow">
+          <div className="project4 shadow-lg">
             <div className="bg-projux">
-              <h6 className="p-2">Affcars (UI/UX Case Study)</h6>
+              <h6 className="proj-title">Affcars (UI/UX Case Study)</h6>
             </div>
             <div className="text-left p-3">
               <div className="img-holder">
                 <img className="rhino-pic w-100" src={affcars_header} alt=''></img>
 
               </div>
-              <h6 className="mt-5">Affcars is my personal project to
+              <h6 className="mt-1">Affcars is my personal project to
                 simplify selling and buying cars that incorporates the following features:</h6>
               <div className='p-4'>
                 <ul>

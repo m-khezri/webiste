@@ -1,7 +1,7 @@
 
 .project-container{
   color: #455a64;
-  padding: 2% 20%;
+  padding: 1% 5%;
   height: 100vh;
 }
 
@@ -11,13 +11,12 @@
   justify-content: space-around;
 }
 
-
 .project1,.project2,.project3,.project4 {
   background-color: #fff;
   width: 20%;
   min-width: 350px;
-  margin-top: 10%;
-  margin-bottom: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
   position: relative;
 }
 .project4{
@@ -48,8 +47,10 @@
 .proj-title{
   font-size: 1.2em;
   font-family: Helvetica;
-  text-align: left;
-  padding: 20px;
+  text-align: center;
+  padding-top: 4%;
+  margin: 0;
+  font-weight: 600;
 }
 
 .footer{
